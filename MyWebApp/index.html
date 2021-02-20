@@ -14,56 +14,48 @@
     <script src="js/leaflet.js"></script>
     <script src="js/main.js"></script>
     <script src="js/nnWells.js"></script>
+    <style>
+        body {
+            padding: 30px;
+        }
+    </style>
 
 </head>
 
 <body>
-    <!--Fixed position website title with counter of data records displayed-->
-    <div class="fixed-top">
-        <!-- <div class="col-xs-12 dc-data-count dc-chart" id="data-count">  -->
-        <h2>Unregulated Wells on Navajo Nation
-            <!--<small>
-                    <span class="filter-count">1954</span> selected out of <span class="total-count">1954</span> records
-                    <a id="all" href="#">Reset All</a> 
-                </small> -->
-        </h2>
-    </div>
-    <!--Map frame-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="col-xs-9 box-padding">
-                    <div id="map"></div>
-                </div>
-                <div class="col-xs-3 box-padding">
-                    <h4>Donut plots</h4>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Plots-->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-xs-6">
-                <div class="col-xs-6">
-                    <h4>Histogram 1</h4><br>
-                    <h4>Histogram 3</h4>
-                </div>
-                <div class="col-xs-6">
-                    <h4>Histogram 2</h4><br>
-                    <h4>Histogram 4</h4>
-                </div>
-                <!--Histogram 2 & 4-->
-            </div>
-            <div class="col-xs-6">
-                <h4>Correlogram</h4>
-            </div>
-            <!--Correlogram-->
-        </div>
-    </div>
-    <!--Data table-->
-    <div class="col-md-12"></div>
-
+    <h2 style="text-align: center; color:blue;">Introduction of Navajo Nation Water Quality Web App </h2>
+    <p style="font-style: italic; font-weight: 600;"> Nearly 30% of households in the Navajo Nation (NN), a sovereign
+        Indigenous nation in the Southwestern United States, lack access to running water from regulated public water
+        systems (PWS). Water hauling from unregulated water sources is common in this region and may present a
+        disproportionate burden of exposure to harmful toxicants like uranium and arsenic. Research shows that wells in
+        closer proximity to one of the more than 500 abandoned uranium mines (AUMs) on the NN have higher counts of
+        uranium and arsenic that exceed the federally mandated maximum contaminant level (MCL) for each, 10 ppb and 30
+        ppm, respectively. One of the main challenges in addressing this problem is the lack of available information to
+        water users and decision-makers in the NN about which wells are unsafe. Researchers at the University of New
+        Mexico METALS Superfund Research Program (SRP) have compiled a database of water quality measurements from 1101
+        wells within the reservation using data from the U.S. Geological Survey (USGS), Church Rock Uranium Monitoring
+        Project (CRUMP), Navajo Nation Environmental Protection Agency (NNEPA), U.S. Centers for Disease Control (CDC),
+        Tolani Lake Enterprises, Northern Arizona University (NAU), U.S. Army Corps of Engineers (ACOE), and other
+        researchers. To date, none of these compiled data have been disseminated publicly and in a format that
+        facilitates easy interpretation.</p>
+    <p style="font-style: italic; font-weight: 600;"> The aim of this project, therefore, is to produce an interactive
+        web mapping tool that allows users to make informed inferences and decisions about the quality of unregulated
+        water sources on the NN. Bearing in mind principles of usability and utility in a web map interface and design
+        (Nielsen 1995; Robinson et al. 2005; Roth and Harrower 2008), we will adopt three recommendations by Roth and
+        Harrower (2008). </p>
+    <p style="font-style: italic; font-weight: 600;">First, we will provide avenues for data analytics that respond to
+        specific needs and wants of various people – this may be water users looking to understand the quality of their
+        specific water source, applied or data scientists who are interested in interactions of analytes across a
+        geographic area, or policy-makers looking to identify needs of specific communities within the study area.
+        Second, we will ensure map browsing flexibility by enabling pan, zoom, and filter options. Finally, we will
+        avoid a minimalist design, thereby making the functions of the interface clearly defined and easy to use. </p>
+    <p style="font-style: italic; font-weight: 600;">This web map will also begin to address the CARE (collective
+        benefit, the authority to control, responsibility, and ethics) principle of Indigenous data sovereignty, which
+        acknowledges the tensions between recent calls for data sharing that may be at odds with Indigenous rights and
+        interests. This app may serve to initiate a process of compiling disparate water quality datasets into a usable
+        format that addresses the right and need of the Navajo people to understand some of the mechanisms that
+        determine their health (Carroll, Rodriguez-Lonebear, and Martinez 2019; Walter et al. 2021).
+    </p>
 </body>
 
 </html>
