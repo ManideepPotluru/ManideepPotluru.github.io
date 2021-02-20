@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Navajo Nation Water Quality</title>
+    <meta charset="UTF-8">
+    <!--Stylesheets-->
+    <link rel="stylesheet" type="text/css" href="css/dc.css">
+    <link rel="stylesheet" type="text/css" href="css/leaflet.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--Scripts-->
+    <script src="js/leaflet.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/nnWells.js"></script>
+
+</head>
+
+<body>
+    <!--Fixed position website title with counter of data records displayed-->
+    <div class="fixed-top">
+        <!-- <div class="col-xs-12 dc-data-count dc-chart" id="data-count">  -->
+        <h2>Unregulated Wells on Navajo Nation
+            <!--<small>
+                    <span class="filter-count">1954</span> selected out of <span class="total-count">1954</span> records
+                    <a id="all" href="#">Reset All</a> 
+                </small> -->
+        </h2>
+    </div>
+    <!--Map frame-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="col-xs-9 box-padding">
+                    <div id="map"></div>
+                </div>
+                <div class="col-xs-3 box-padding">
+                    <h4>Donut plots</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Plots-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-6">
+                <div class="col-xs-6">
+                    <h4>Histogram 1</h4><br>
+                    <h4>Histogram 3</h4>
+                </div>
+                <div class="col-xs-6">
+                    <h4>Histogram 2</h4><br>
+                    <h4>Histogram 4</h4>
+                </div>
+                <!--Histogram 2 & 4-->
+            </div>
+            <div class="col-xs-6">
+                <h4>Correlogram</h4>
+            </div>
+            <!--Correlogram-->
+        </div>
+    </div>
+    <!--Data table-->
+    <div class="col-md-12"></div>
+
+</body>
+
+</html>

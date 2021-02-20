@@ -1,0 +1,31 @@
+/* main.css: Add and override styles */
+.fixed-top {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background: #99CCCC;
+    box-shadow: 0px 4px 10px #adacac
+  }
+
+.container-fluid {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.pie-chart {
+  height: 150px;
+}
+
+.box-padding {
+  padding-top: 15px
+}
+
+text {
+  font-size: 16px;
+}
+
+#map {
+  height: 600px;
+}
+

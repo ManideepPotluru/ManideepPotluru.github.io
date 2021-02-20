@@ -1,38 +1,221 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"/>
-    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
-    <title> GEOG 585L -- My First Map </title>
+    <meta charset=“utf-8”>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Manideep Potluru - HOME</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="JS_CSS_downloaded_libraries/leaflet/leaflet.css" />
+    <link rel="stylesheet" href="JS_CSS_downloaded_libraries/bootstrap-4.4.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="myCSS_styleFiles/scrolling-nav.css">
+    <!-- Scripts -->
+    <script src="js/myMain.js"></script>
+    <script src="JS_CSS_downloaded_libraries/leaflet/leaflet.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="JS_CSS_downloaded_libraries/jquery-3.4.1.min.js"></script>
+    <script src="JS_CSS_downloaded_libraries/bootstrap-4.4.1-dist/js/bootstrap.min.js"></script>
+
 </head>
-<body>
-    <p>
-        My first map will appear here:
-    </p>
-    <div id="mapId" style="height:400px; width:600px"></div>
-    <script>
 
-        // Bandelier Hall East lat/long: 35.0843 N, 106.6241 W
-        //create a map variable "mymap" that points to the map placed in the mapID <div>
-        //zoom the view on Bandelier Hall East building at a 17 zoon level
-        var mymap = L.map('mapId').setView([35.0843, -106.6241], 17);
-        
-        // create a variable named "osm" that is used to hold OpenStreetMap tile layer
-        var osm = new L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
-        
-        // add the OpenStreetMap tile layer (i.e., the variable osm you defined above) to the map
-        osm.addTo(mymap);
+<body id="page-top">
 
-        // add a marker on the tile layer
-        var marker = L.marker([35.0843, -106.6241]).addTo(mymap);
-        
-        // add a popup
-        // Popups are usually used when you want to attach some information to a particular object on a map
-        marker.bindPopup("<b>Hello world!</b> <br><i>Bandelier Hall East <i> <br>University of New Mexico").openPopup();
-        // <b> tag used to bold text 
-        // <br> tag for newline
-        // <i> tag for italic text 
-        
-    </script>
-</body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-blue fixed-top" id="mainNav" style="background-color: black;">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                MP 
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#workexp">Work Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#webApp">Web-App</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact_me">Contact Info</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="" style="background-color:rgb(110, 253, 229); font-family:cursive; font-style: italic; font-weight:900;">
+        <div class="container text-center">
+            <h1>Manideep Potluru</h1>
+            <h2>Graduate Student in Computer Science</h2>
+            <h2>University of New Mexico</h3>
+            <p class="lead" style="font-style: italic;font-weight: 600;"></p>
+        </div>
+    </header>
+    <section id="education" class="" style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h3>Education</h3>
+                    <p class="lead" style="font-style: italic;font-weight: 600;">Master of Science in Computer Science - <a href="http://www.unm.edu/">University of New Mexico</a></p>
+                    <p>Graduating December 2021</p>
+                    <img src="images/farris_UNM.jpg" alt="UNM Computer Science" style="height: 400px; width: 700px ;">
+                    <p>Courses: Machine Learning | Artificial Intelligence | Data Structures and Algorithms | Computer Networks | Database Management Systems | Internet Mapping | Cloud Computing</p>
+                    <br>
+                    <p class="lead"style="font-style: italic;font-weight: 600;">Bachelor of Technology in Information Technology - <a href="https://bvrit.ac.in/">B V Raju Institute of Technology</a></p>
+                    <p>Graduated in May 2019</p>
+                    <img src="images/BVRIT.jpg" alt="B V Raju Institute of technology" style="height: 400px; width: 700px ;">
+                    <p>Completed a total of 194 credit hours of undergraduate course including: Data Strusctures using C | C++ | Java | Web Technologies | Neural Networks | Digital Logic Design </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="workexp" style="background-color: whitesmoke;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h3>My Work Experience</h3>
+                    <p class="lead"style="font-style: italic;font-weight: 600;">Worked as a Web Developer Intern at Delta Technologies and Management Services Pvt Ltd </p>
+                    <p>02/19/2019 - 05/18/2019</p>
+                    <ul>
+                        <li>Our team was working to develop a Travel Agent Website for an Australian client.</li>
+                        <li>Had the chance of working with web technologies like HTML, CSS, JavaScript, PHP, jquery.</li>
+                        <li>Helped the admin team with various software installations/troubleshooting for newer Interns.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests" class="" style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Interests</h2>
+                    <p class="lead"style="font-style: italic;font-weight: 600;"></p>
+                    <p>I am very fascinated by the question of earth's existence so am entralled by cosmological theories. I also am interested in the study of religion and myths(Especially Greek and Norse) and in playing chess, soccer. </p>
+                    <div id="interestCarousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#interestCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#interestCarousel" data-slide-to="1"></li>
+                            <li data-target="#interestCarousel" data-slide-to="2"></li>
+                            <li data-target="#interestCarousel" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner" style="height: 400px;">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="images/Cosmology.jpg" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <!-- <a class="" href="http://spark.spit.ac.in/geekonic-cosmology/"style="font-size:smaller; color: black;" >
+                                        Source: http://spark.spit.ac.in/geekonic-cosmology/
+                                    </a> -->
+                                    <p style="font-size: xx-large; color: black;">Cosmology</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style=" height :400px;">
+                                <img class="d-block w-100" src="images/mythology_image2.jpg" alt="Second slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <!-- <a class="" href="https://greeking.me/blog/greek-history-culture/item/204-ancient-greek-mythology"style="font-size:smaller; color: black; text-align: left">
+                                        Source: https://greeking.me/blog/greek-history-culture/item/204-ancient-greek-mythology
+                                    </a> -->
+                                    <p style="color:black; font-size: xx-large;">Mythology</p> 
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="height: 400px;">
+                                <img class="d-block w-100" src="images/Chese Image.jpg" alt="Third slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <!-- <a class="" href="https://https://joemorrison.medium.com/i-played-chess-every-day-for-a-year-32de0d38ad54/"style="font-size:smaller; color: black;">
+                                        Source: https://joemorrison.medium.com/i-played-chess-every-day-for-a-year-32de0d38ad54
+                                    </a> -->
+                                    <p style="color:black; font-size: xx-large;">Chess</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item" style="height: 400px;">
+                                <img class="d-block w-100" src="images/Soccer Image.jpg" alt="Fourth slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <!-- <a class="" href="https://https://www.bloomberg.com/news/articles/2019-07-30/spain-s-la-liga-without-u-k-broadcaster-as-season-start-looms/" style="font-size: smaller; color: black;">
+                                        Source: https://www.bloomberg.com/news/articles/2019-07-30/spain-s-la-liga-without-u-k-broadcaster-as-season-start-looms/ 
+                                    </a> -->
+                                    <p style="font-size: xx-large; color:black;">Soccer</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#interestCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#interestCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="webApp" style="background-color: whitesmoke;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>Nation Nation Water Quality Web Map will be added here after completion</h2>
+                    
+                    <a href="MyWebApp/index.html"  class="center">
+                        <img src="images/Web Map Design.PNG" alt="webAppImg" style="height: 500px;">
+                        Navajo Nation Water Quality Web Map
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact_me" style="background-color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2>My Contact Info</h2>
+                    <p class="lead" style="font-style: italic;font-weight: 600;">Manideep Potluru</p>
+                    <p style="font-weight: 600;">Email me at &#9993; :mpotluru@unm.edu</p>
+                    <p style="font-weight: 600;">Call me at &#9990;: 505-730-4064</p>
+                </div>
+                <div class="col-lg-8 mx-auto" style="font-weight: 600;">
+                    <a href="https://www.linkedin.com/in/manideep-potluru/">Manideep Potluru- linkedin profile</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="py-5" style="background-color: rgba(0, 0, 0, 0.952);">
+        <div class="container">
+            <p class="m-0 text-center text-white">
+                Made with the help of  
+                <a class="m-0 text-center"
+                    href="https://www.w3schools.com/bootstrap/bootstrap_theme_me.asp">www.w3school.com</a>
+
+            </p>
+        </div>
+        <!-- /.container -->
+    </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="JS_CSS_downloaded_libraries/jquery/jquery.min.js"></script>
+    <script src="JS_CSS_downloaded_libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="JS_CSS_downloaded_libraries/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+    <!-- javascript for adding linked in badge -->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
 </html>

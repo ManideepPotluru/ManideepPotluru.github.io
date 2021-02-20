@@ -1,0 +1,14 @@
+Navajo Nation Water Quality Interactive Web Map
+
+Manideep Potluru, Daniel Beene
+
+Abstract - February 10, 2021
+
+This web map leverages D3.js, dc.js, and Crossfilter.js to interpret, access, and visualize a comprehensive database of 
+water quality at unregulated water sources on the Navajo Nation between the years 1933 and 2020. The Navajo Nation is 
+home to multiple environmental contaminants stemming from a legacy of uranium mining and other resource extraction. This 
+problem is compounded because roughly 20% of Navajo residents rely on unregulated water sources for daily consumption and 
+use. The UNM METALS Superfund Research Program has compiled a water quality database using data from the Navajo EPA, USEPA, 
+US Army Corps of Engineers, and the States of New Mexico, Arizona, and Utah. As of yet, there has not been any robust 
+mechanism to disseminate and visualize this dataset. The web map platform will allow users to select contaminants of 
+interest and will display graphics of data distributions and quality that are responsive to the extent of the map frame.
