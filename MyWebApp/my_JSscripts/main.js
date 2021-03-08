@@ -123,6 +123,7 @@ window.onload = function () {
         //data table declare
         var dataTable = dc.dataTable('#data-table');
 
+        // Default histograms
         caCountChart
             .width(250)
             .height(250)
@@ -133,7 +134,7 @@ window.onload = function () {
             .elasticY(false)
             .centerBar(true)
             .barPadding(3)
-            .xAxisLabel('Calcium')
+            // .xAxisLabel('Calcium')
             .yAxisLabel('Count')
             .margins({ top: 10, right: 20, bottom: 50, left: 50 });
         caCountChart.xAxis().tickValues([0, 200, 400, 600, 800, 1000]);
@@ -149,7 +150,7 @@ window.onload = function () {
             .elasticY(false)
             .centerBar(true)
             .barPadding(3)
-            .xAxisLabel('Uranium')
+            // .xAxisLabel('Uranium')
             .yAxisLabel('Count')
             .margins({ top: 10, right: 20, bottom: 50, left: 50 });
         uCountChart.xAxis().tickValues([0, 200, 400, 600]);
@@ -166,7 +167,7 @@ window.onload = function () {
             .elasticY(false)
             .centerBar(true)
             .barPadding(3)
-            .xAxisLabel('Arsenic')
+            // .xAxisLabel('Arsenic')
             .yAxisLabel('Count')
             .margins({ top: 10, right: 20, bottom: 50, left: 50 });
         as_CountChart.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
@@ -181,7 +182,7 @@ window.onload = function () {
             .elasticY(false)
             .centerBar(true)
             .barPadding(3)
-            .xAxisLabel('Radium_Total')
+            // .xAxisLabel('Radium_Total')
             .yAxisLabel('Count')
             .margins({ top: 10, right: 20, bottom: 50, left: 50 });
         ra_TotalCountChart.xAxis().tickValues([0.2, 0.4, 0.6, 0.8, 1]);
@@ -318,7 +319,7 @@ window.onload = function () {
     // Scatterplot matrix
     // Event handler for d3 version
 
-    function graphicviz(scatterplot) {
+    function graphicviz() {
         require.config({
             paths: {
                 d3: "JS_CSS_downladed_libraries/d3.v4.min"
@@ -328,8 +329,8 @@ window.onload = function () {
         require(["d3"], function (d3) {
             // Sample taken from https://www.d3-graph-gallery.com/graph/correlogram_scatter.html
             // Chart dimensions
-            var marginWhole = { top: 10, right: 10, bottom: 10, left: 10 },
-                sizeWhole = 500 - marginWhole.left - marginWhole.right
+            var marginWhole = { top: 10, right: 10, bottom: 10, left: 40 },
+                sizeWhole = 585 - marginWhole.left - marginWhole.right
 
             // Create SVG area
             var svg = d3.select("#scatterplot")
@@ -382,7 +383,7 @@ window.onload = function () {
                         yextent = d3.extent(data, function (d) { return +d[var2] })
                         var y = d3.scaleLinear()
                             .domain(yextent).nice()
-                            .range([size - 2 * mar, 0]);
+                            .range([size - 2 * mar, 10]);
 
                         // Add a 'g' at the right position
                         var tmp = svg
@@ -392,7 +393,13 @@ window.onload = function () {
                         // Add X and Y axis in tmp
                         tmp.append("g")
                             .attr("transform", "translate(" + 0 + "," + (size - mar * 2) + ")")
-                            .call(d3.axisBottom(x).ticks(3));
+                            .call(d3.axisBottom(x).ticks(3))
+                            .selectAll("text")
+                            .style("text-anchor", "end")
+                            .attr("dx", "-.8em")
+                            .attr("dy", ".15em")
+                            .attr("transform", "rotate(-30)");
+
                         tmp.append("g")
                             .call(d3.axisLeft(y).ticks(3));
 
@@ -404,12 +411,12 @@ window.onload = function () {
                             .append("circle")
                             .attr("cx", function (d) { return x(+d[var1]) })
                             .attr("cy", function (d) { return y(+d[var2]) })
-                            .attr("r", 3)
-                            .attr("fill", function (d) { return color(d.wellUse) })
+                            .attr("r", 2.5)
+                            .attr("fill", function (d) {
+                                return color(d.wellUse)
+                            })
                     }
                 }
-
-
 
                 // Add variable names on diagonal
 
@@ -423,17 +430,12 @@ window.onload = function () {
                             .append('g')
                             .attr("transform", "translate(" + position(var1) + "," + position(var2) + ")")
                             .append('text')
-                            .attr("x", size / 2)
-                            .attr("y", size / 2)
+                            .attr("x", size / 3.75)
+                            .attr("y", size / 1.7)
                             .text(var1)
-                            .attr("text-anchor", "middle")
-
                     }
                 }
-
-
             })
-
         });
     }
 
@@ -590,13 +592,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Arsenic')
+                // .xAxisLabel('Arsenic')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram1.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram1.yAxis().tickValues([0, 10, 20, 30]);
-
-            dataTable1 = d.properties.As_;
         }
         else if (input1 == "Ba") {
 
@@ -610,13 +610,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Barium')
+                // .xAxisLabel('Barium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram1.xAxis().tickValues([0, 300, 600, 900, 1200, 1500]);
             histogram1.yAxis().tickValues([0, 10, 20, 30]);
-
-            dataTable1 = d.properties.Ba;
         }
         else if (input1 == "Ca") {
 
@@ -630,13 +628,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(20)
-                .xAxisLabel('Calcium')
+                // .xAxisLabel('Calcium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram1.xAxis().tickValues([0, 200, 400, 600, 800, 1000]);
             histogram1.yAxis().tickValues([0, 3, 6, 9, 12]);
-
-            dataTable1 = d.properties.Ca;
         }
         else if (input1 == "Cl_") {
 
@@ -650,13 +646,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Clorine')
+                // .xAxisLabel('Clorine')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram1.xAxis().tickValues([0, 10000, 20000, 30000, 40000]);
             histogram1.yAxis().tickValues([0, 1, 2, 3]);
-
-            dataTable1 = d.properties.Cl_;
         }
         else if (input1 == "Cr") {
 
@@ -670,13 +664,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Chromium')
+                // .xAxisLabel('Chromium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram1.xAxis().tickValues([0, 10, 20, 30]);
             histogram1.yAxis().tickValues([0, 5, 10, 15, 20]);
-
-            dataTable1 = d.properties.Cr;
         }
         else if (input1 == "GrossAlpha_U_Nat") {
 
@@ -690,13 +682,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('GrossAlpha_U_Nat')
+                // .xAxisLabel('GrossAlpha_U_Nat')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram1.xAxis().tickValues([0, 200, 400, 600, 800]);
             histogram1.yAxis().tickValues([0, 1, 2]);
-
-            dataTable1 = d.properties.GrossAlpha_U_Nat;
         }
         else if (input1 == "Nitrate") {
 
@@ -710,13 +700,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Nitrate')
+                // .xAxisLabel('Nitrate')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram1.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram1.yAxis().tickValues([0, 1, 2, 3]);
-
-            dataTable1 = d.properties.Nitrate;
         }
         else if (input1 == "Pb") {
 
@@ -730,13 +718,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Lead')
+                // .xAxisLabel('Lead')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram1.xAxis().tickValues([0, 100, 200, 300]);
             histogram1.yAxis().tickValues([0, 5, 10, 15]);
-
-            dataTable1 = d.properties.Pb;
         }
         else if (input1 == "Ra_Total") {
 
@@ -749,12 +735,12 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Ra_Total')
+                // .xAxisLabel('Ra_Total')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram1.xAxis().tickValues([0.2, 0.4, 0.6, 0.8, 1]);
 
-            dataTable1 = d.properties.Ra_Total;
+
         }
         else if (input1 == "Se") {
 
@@ -768,13 +754,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Selenium')
+                // .xAxisLabel('Selenium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram1.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram1.yAxis().tickValues([0, 5, 10, 15, 20]);
-
-            dataTable1 = d.properties.Se;
         }
         else if (input1 == "U") {
 
@@ -788,13 +772,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Uranium')
+                // .xAxisLabel('Uranium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram1.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram1.yAxis().tickValues([0, 5, 10, 15, 20]);
-
-            dataTable1 = d.properties.U;
         }
 
         else if (input1 == "None") {
@@ -810,13 +792,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('None')
+                // .xAxisLabel('None')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram1.xAxis().tickValues([0, 0, 0, 0, 0, 0]);
             histogram1.yAxis().tickValues([0, 0, 0, 0]);
-
-            dataTable1 = d.properties.None;
         }
 
         if (input2 == "As_") {
@@ -830,13 +810,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Arsenic')
+                // .xAxisLabel('Arsenic')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram2.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram2.yAxis().tickValues([0, 10, 20, 30]);
-
-            dataTable2 = d.properties.As_;
         }
         else if (input2 == "Ba") {
 
@@ -850,13 +828,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Barium')
+                // .xAxisLabel('Barium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram2.xAxis().tickValues([0, 300, 600, 900, 1200, 1500]);
             histogram2.yAxis().tickValues([0, 10, 20, 30]);
-
-            dataTable2 = d.properties.Ba;
         }
         else if (input2 == "Ca") {
 
@@ -870,13 +846,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(20)
-                .xAxisLabel('Calcium')
+                // .xAxisLabel('Calcium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram2.xAxis().tickValues([0, 200, 400, 600, 800, 1000]);
             histogram2.yAxis().tickValues([0, 3, 6, 9, 12]);
-
-            dataTable2 = d.properties.Ca;
         }
         else if (input2 == "Cl_") {
 
@@ -890,13 +864,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Clorine')
+                // .xAxisLabel('Clorine')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram2.xAxis().tickValues([0, 10000, 20000, 30000, 40000]);
             histogram2.yAxis().tickValues([0, 1, 2, 3]);
-
-            dataTable2 = d.properties.Cl_;
         }
         else if (input2 == "Cr") {
 
@@ -910,13 +882,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Chromium')
+                // .xAxisLabel('Chromium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram2.xAxis().tickValues([0, 10, 20, 30]);
             histogram2.yAxis().tickValues([0, 5, 10, 15, 20]);
-
-            dataTable2 = d.properties.Cr;
         }
         else if (input2 == "GrossAlpha_U_Nat") {
 
@@ -930,13 +900,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('GrossAlpha_U_Nat')
+                // .xAxisLabel('GrossAlpha_U_Nat')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram2.xAxis().tickValues([0, 200, 400, 600, 800]);
             histogram2.yAxis().tickValues([0, 1, 2]);
-
-            dataTable2 = d.properties.GrossAlpha_U_Nat;
         }
         else if (input2 == "Nitrate") {
 
@@ -950,13 +918,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Nitrate')
+                // .xAxisLabel('Nitrate')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram2.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram2.yAxis().tickValues([0, 1, 2, 3]);
-
-            dataTable2 = d.properties.Nitrate;
         }
         else if (input2 == "Pb") {
 
@@ -970,13 +936,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Lead')
+                // .xAxisLabel('Lead')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram2.xAxis().tickValues([0, 100, 200, 300]);
             histogram2.yAxis().tickValues([0, 5, 10, 15]);
-
-            dataTable2 = d.properties.Pb;
         }
         else if (input2 == "Ra_Total") {
 
@@ -989,12 +953,10 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Ra_Total')
+                // .xAxisLabel('Ra_Total')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram2.xAxis().tickValues([0.2, 0.4, 0.6, 0.8, 1]);
-
-            dataTable2 = d.properties.Ra_Total;
         }
         else if (input2 == "Se") {
 
@@ -1008,13 +970,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Selenium')
+                // .xAxisLabel('Selenium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram2.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram2.yAxis().tickValues([0, 5, 10, 15, 20]);
-
-            dataTable2 = d.properties.Se;
         }
         else if (input2 == "U") {
 
@@ -1028,13 +988,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Uranium')
+                // .xAxisLabel('Uranium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram2.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram2.yAxis().tickValues([0, 5, 10, 15, 20]);
-
-            dataTable2 = d.properties.U;
         }
 
         else if (input2 == "None") {
@@ -1049,13 +1007,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('None')
+                // .xAxisLabel('None')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram2.xAxis().tickValues([0, 0, 0, 0, 0, 0]);
             histogram2.yAxis().tickValues([0, 0, 0, 0]);
-
-            dataTable2 = d.properties.None;
         }
 
         if (input3 == "As_") {
@@ -1070,13 +1026,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Arsenic')
+                // .xAxisLabel('Arsenic')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram3.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram3.yAxis().tickValues([0, 10, 20, 30]);
-
-            dataTable3 = d.properties.As_;
         }
         else if (input3 == "Ba") {
 
@@ -1090,13 +1044,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Barium')
+                // .xAxisLabel('Barium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram3.xAxis().tickValues([0, 300, 600, 900, 1200, 1500]);
             histogram3.yAxis().tickValues([0, 10, 20, 30]);
-
-            dataTable3 = d.properties.Ba;
         }
         else if (input3 == "Ca") {
 
@@ -1110,13 +1062,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(20)
-                .xAxisLabel('Calcium')
+                // .xAxisLabel('Calcium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram3.xAxis().tickValues([0, 200, 400, 600, 800, 1000]);
             histogram3.yAxis().tickValues([0, 3, 6, 9, 12]);
-
-            dataTable3 = d.properties.Ca;
         }
         else if (input3 == "Cl_") {
 
@@ -1130,13 +1080,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Clorine')
+                // .xAxisLabel('Clorine')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram3.xAxis().tickValues([0, 10000, 20000, 30000, 40000]);
             histogram3.yAxis().tickValues([0, 1, 2, 3]);
-
-            dataTable3 = d.properties.Cl_;
         }
         else if (input3 == "Cr") {
 
@@ -1150,13 +1098,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Chromium')
+                // .xAxisLabel('Chromium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram3.xAxis().tickValues([0, 10, 20, 30]);
             histogram3.yAxis().tickValues([0, 5, 10, 15, 20]);
-
-            dataTable3 = d.properties.Cr;
         }
         else if (input3 == "GrossAlpha_U_Nat") {
 
@@ -1170,13 +1116,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('GrossAlpha_U_Nat')
+                // .xAxisLabel('GrossAlpha_U_Nat')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram3.xAxis().tickValues([0, 200, 400, 600, 800]);
             histogram3.yAxis().tickValues([0, 1, 2]);
-
-            dataTable3 = d.properties.GrossAlpha_U_Nat;
         }
         else if (input3 == "Nitrate") {
 
@@ -1190,13 +1134,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Nitrate')
+                // .xAxisLabel('Nitrate')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram3.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram3.yAxis().tickValues([0, 1, 2, 3]);
-
-            dataTable3 = d.properties.Nitrate;
         }
         else if (input3 == "Pb") {
 
@@ -1210,13 +1152,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Lead')
+                // .xAxisLabel('Lead')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram3.xAxis().tickValues([0, 100, 200, 300]);
             histogram3.yAxis().tickValues([0, 5, 10, 15]);
-
-            dataTable3 = d.properties.Pb;
         }
         else if (input3 == "Ra_Total") {
 
@@ -1229,12 +1169,10 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Ra_Total')
+                // .xAxisLabel('Ra_Total')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram3.xAxis().tickValues([0.2, 0.4, 0.6, 0.8, 1]);
-
-            dataTable3 = d.properties.Ra_Total;
         }
         else if (input3 == "Se") {
 
@@ -1248,13 +1186,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Selenium')
+                // .xAxisLabel('Selenium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram3.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram3.yAxis().tickValues([0, 5, 10, 15, 20]);
-
-            dataTable3 = d.properties.Se;
         }
         else if (input3 == "U") {
 
@@ -1268,13 +1204,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Uranium')
+                // .xAxisLabel('Uranium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram3.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram3.yAxis().tickValues([0, 5, 10, 15, 20]);
-
-            dataTable3 = d.properties.U;
         }
 
         else if (input3 == "None") {
@@ -1289,13 +1223,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('None')
+                // .xAxisLabel('None')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram3.xAxis().tickValues([0, 0, 0, 0, 0, 0]);
             histogram3.yAxis().tickValues([0, 0, 0, 0]);
-
-            dataTable3 = d.properties.None;
         }
 
         if (input4 == "As_") {
@@ -1310,13 +1242,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Arsenic')
+                // .xAxisLabel('Arsenic')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram4.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram4.yAxis().tickValues([0, 10, 20, 30]);
-
-            dataTable4 = d.properties.As_;
         }
         else if (input4 == "Ba") {
 
@@ -1330,13 +1260,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Barium')
+                // .xAxisLabel('Barium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram4.xAxis().tickValues([0, 300, 600, 900, 1200, 1500]);
             histogram4.yAxis().tickValues([0, 10, 20, 30]);
-
-            dataTable4 = d.properties.Ba;
         }
         else if (input4 == "Ca") {
 
@@ -1350,13 +1278,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(20)
-                .xAxisLabel('Calcium')
+                // .xAxisLabel('Calcium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram4.xAxis().tickValues([0, 200, 400, 600, 800, 1000]);
             histogram4.yAxis().tickValues([0, 3, 6, 9, 12]);
-
-            dataTable4 = d.properties.Ca;
 
         }
         else if (input4 == "Cl_") {
@@ -1371,13 +1297,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Clorine')
+                // .xAxisLabel('Clorine')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram4.xAxis().tickValues([0, 10000, 20000, 30000, 40000]);
             histogram4.yAxis().tickValues([0, 1, 2, 3]);
-
-            dataTable4 = d.properties.Cl_;
         }
         else if (input4 == "Cr") {
 
@@ -1391,13 +1315,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Chromium')
+                // .xAxisLabel('Chromium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram4.xAxis().tickValues([0, 10, 20, 30]);
             histogram4.yAxis().tickValues([0, 5, 10, 15, 20]);
-
-            dataTable4 = d.properties.Cr;
         }
         else if (input4 == "GrossAlpha_U_Nat") {
 
@@ -1411,13 +1333,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('GrossAlpha_U_Nat')
+                // .xAxisLabel('GrossAlpha_U_Nat')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram4.xAxis().tickValues([0, 200, 400, 600, 800]);
             histogram4.yAxis().tickValues([0, 1, 2]);
-
-            dataTable4 = d.properties.GrossAlpha_U_Nat;
         }
         else if (input4 == "Nitrate") {
 
@@ -1431,13 +1351,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Nitrate')
+                // .xAxisLabel('Nitrate')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram4.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram4.yAxis().tickValues([0, 1, 2, 3]);
-
-            dataTable4 = d.properties.Nitrate;
         }
         else if (input4 == "Pb") {
 
@@ -1451,13 +1369,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Lead')
+                // .xAxisLabel('Lead')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram4.xAxis().tickValues([0, 100, 200, 300]);
             histogram4.yAxis().tickValues([0, 5, 10, 15]);
-
-            dataTable4 = d.properties.Pb;
         }
         else if (input4 == "Ra_Total") {
 
@@ -1470,12 +1386,10 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Ra_Total')
+                // .xAxisLabel('Ra_Total')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram4.xAxis().tickValues([0.2, 0.4, 0.6, 0.8, 1]);
-
-            dataTable4 = d.properties.Ra_Total;
         }
         else if (input4 == "Se") {
 
@@ -1489,13 +1403,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Selenium')
+                // .xAxisLabel('Selenium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram4.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram4.yAxis().tickValues([0, 5, 10, 15, 20]);
-
-            dataTable4 = d.properties.Se;
         }
         else if (input4 == "U") {
 
@@ -1509,13 +1421,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('Uranium')
+                // .xAxisLabel('Uranium')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram4.xAxis().tickValues([0, 50, 100, 150, 200, 250]);
             histogram4.yAxis().tickValues([0, 5, 10, 15, 20]);
-
-            dataTable4 = d.properties.U;
         }
 
         else if (input4 == "None") {
@@ -1530,13 +1440,11 @@ function selectAnalyte() {
                 .elasticY(false)
                 .centerBar(true)
                 .barPadding(3)
-                .xAxisLabel('None')
+                // .xAxisLabel('None')
                 .yAxisLabel('Count')
                 .margins({ top: 10, right: 20, bottom: 50, left: 50 });
             histogram4.xAxis().tickValues([0, 0, 0, 0, 0, 0]);
             histogram4.yAxis().tickValues([0, 0, 0, 0]);
-
-            dataTable4 = d.properties.None;
         }
 
         dc.renderAll();
