@@ -115,7 +115,7 @@ window.onload = function () {
             .dimension(CaDim)
             .group(countPerCa)
             .x(d3.scale.linear().domain([0, 976]))
-            .x(d3.scale.linear().range([0,90]))
+            // .x(d3.scale.linear().range([0,90]))
             .y(d3.scale.linear().domain([0, 13]))
             .elasticY(false)
             .centerBar(true)
