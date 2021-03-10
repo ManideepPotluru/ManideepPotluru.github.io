@@ -1,5 +1,5 @@
-var nvWells= {
-  "type": "FeatureCollection",
+var nvWells = {
+    "type": "FeatureCollection",
     "name": "nnWells",
     "crs": {
         "type": "name",
@@ -88,6 +88,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
+                "None": null, 
                 "U": null,
                 "lat": 37.147,
                 "long": -109.856
@@ -180,7 +181,7 @@ var nvWells= {
                 "Temperature": 15.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.275,
                 "long": -109.526
             },
@@ -272,7 +273,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": 0.5,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.279,
                 "long": -109.566
             },
@@ -364,7 +365,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.283,
                 "long": -109.554
             },
@@ -456,7 +457,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.281,
                 "long": -109.568
             },
@@ -548,7 +549,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.284,
                 "long": -109.545
             },
@@ -640,7 +641,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.04,
+                "None": null, "U": 0.04,
                 "lat": 37.284,
                 "long": -109.542
             },
@@ -732,7 +733,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": 0.2,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.283,
                 "long": -109.556
             },
@@ -824,7 +825,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.283,
                 "long": -109.53
             },
@@ -916,7 +917,7 @@ var nvWells= {
                 "Temperature": 18.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.287,
                 "long": -109.563
             },
@@ -1008,7 +1009,7 @@ var nvWells= {
                 "Temperature": 17.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.287,
                 "long": -109.54
             },
@@ -1100,7 +1101,7 @@ var nvWells= {
                 "Temperature": 15.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.286,
                 "long": -109.554
             },
@@ -1192,7 +1193,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.292,
                 "long": -109.534
             },
@@ -1284,7 +1285,7 @@ var nvWells= {
                 "Temperature": 18.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.3,
                 "long": -109.568
             },
@@ -1376,7 +1377,7 @@ var nvWells= {
                 "Temperature": 18.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.288,
                 "long": -109.549
             },
@@ -1468,7 +1469,7 @@ var nvWells= {
                 "Temperature": 19.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.288,
                 "long": -109.551
             },
@@ -1560,7 +1561,7 @@ var nvWells= {
                 "Temperature": 17.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.449,
                 "long": -109.167
             },
@@ -1652,7 +1653,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.44,
                 "long": -109.181
             },
@@ -1744,7 +1745,7 @@ var nvWells= {
                 "Temperature": 20.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.442,
                 "long": -109.143
             },
@@ -1836,7 +1837,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.622876379,
+                "None": null, "U": 4.622876379,
                 "lat": 36.038,
                 "long": -111.208
             },
@@ -1928,7 +1929,7 @@ var nvWells= {
                 "Temperature": 25.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 3.4731343283582099,
+                "None": null, "U": 3.4731343283582099,
                 "lat": 36.106,
                 "long": -111.199
             },
@@ -2020,7 +2021,7 @@ var nvWells= {
                 "Temperature": 29.0,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 5.2686567164179099,
+                "None": null, "U": 5.2686567164179099,
                 "lat": 36.106,
                 "long": -111.22
             },
@@ -2112,7 +2113,7 @@ var nvWells= {
                 "Temperature": 29.0,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 6.7343283582089501,
+                "None": null, "U": 6.7343283582089501,
                 "lat": 36.105,
                 "long": -111.171
             },
@@ -2204,7 +2205,7 @@ var nvWells= {
                 "Temperature": 22.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 5.0835820895522401,
+                "None": null, "U": 5.0835820895522401,
                 "lat": 36.105,
                 "long": -111.21
             },
@@ -2296,7 +2297,7 @@ var nvWells= {
                 "Temperature": 11.0,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 5.2238805970149196,
+                "None": null, "U": 5.2238805970149196,
                 "lat": 36.003,
                 "long": -111.243
             },
@@ -2388,7 +2389,7 @@ var nvWells= {
                 "Temperature": 31.7,
                 "Tl": 4.8,
                 "Turbidity": null,
-                "U": 6.2522388059701504,
+                "None": null, "U": 6.2522388059701504,
                 "lat": 36.109,
                 "long": -111.224
             },
@@ -2480,7 +2481,7 @@ var nvWells= {
                 "Temperature": 15.6,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 19.701492537313399,
+                "None": null, "U": 19.701492537313399,
                 "lat": 36.031,
                 "long": -111.255
             },
@@ -2572,7 +2573,7 @@ var nvWells= {
                 "Temperature": 28.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 7.9776119402985097,
+                "None": null, "U": 7.9776119402985097,
                 "lat": 35.52,
                 "long": -110.35
             },
@@ -2664,7 +2665,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.077,
                 "long": -108.504
             },
@@ -2756,7 +2757,7 @@ var nvWells= {
                 "Temperature": 29.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 9.958087285,
+                "None": null, "U": 9.958087285,
                 "lat": 35.548,
                 "long": -110.291
             },
@@ -2848,7 +2849,7 @@ var nvWells= {
                 "Temperature": 25.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.755,
                 "long": -111.368
             },
@@ -2940,7 +2941,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 9.1044776119403004,
+                "None": null, "U": 9.1044776119403004,
                 "lat": 35.214,
                 "long": -109.338
             },
@@ -3032,7 +3033,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 10.4477611940298,
+                "None": null, "U": 10.4477611940298,
                 "lat": 35.125,
                 "long": -109.54
             },
@@ -3124,7 +3125,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.527,
                 "long": -108.592
             },
@@ -3216,7 +3217,7 @@ var nvWells= {
                 "Temperature": 28.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.528,
                 "long": -108.652
             },
@@ -3308,7 +3309,7 @@ var nvWells= {
                 "Temperature": 11.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.529,
                 "long": -108.6
             },
@@ -3400,7 +3401,7 @@ var nvWells= {
                 "Temperature": 11.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.529,
                 "long": -108.699
             },
@@ -3492,7 +3493,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.528,
                 "long": -108.652
             },
@@ -3584,7 +3585,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.528,
                 "long": -108.597
             },
@@ -3676,7 +3677,7 @@ var nvWells= {
                 "Temperature": 19.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.529,
                 "long": -108.73
             },
@@ -3768,7 +3769,7 @@ var nvWells= {
                 "Temperature": 18.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.529,
                 "long": -108.708
             },
@@ -3860,7 +3861,7 @@ var nvWells= {
                 "Temperature": 24.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.529,
                 "long": -108.746
             },
@@ -3952,7 +3953,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.531,
                 "long": -108.719
             },
@@ -4044,7 +4045,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.531,
                 "long": -108.719
             },
@@ -4136,7 +4137,7 @@ var nvWells= {
                 "Temperature": 15.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.531,
                 "long": -108.717
             },
@@ -4228,7 +4229,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.533,
                 "long": -108.696
             },
@@ -4320,7 +4321,7 @@ var nvWells= {
                 "Temperature": 15.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.533,
                 "long": -108.703
             },
@@ -4412,7 +4413,7 @@ var nvWells= {
                 "Temperature": 6.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.531,
                 "long": -108.723
             },
@@ -4504,7 +4505,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.534,
                 "long": -108.707
             },
@@ -4596,7 +4597,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.535,
                 "long": -108.713
             },
@@ -4688,7 +4689,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.534,
                 "long": -108.707
             },
@@ -4780,7 +4781,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.534,
                 "long": -108.705
             },
@@ -4872,7 +4873,7 @@ var nvWells= {
                 "Temperature": 15.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.538,
                 "long": -108.708
             },
@@ -4964,7 +4965,7 @@ var nvWells= {
                 "Temperature": 26.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.536,
                 "long": -108.642
             },
@@ -5056,7 +5057,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.537,
                 "long": -108.636
             },
@@ -5148,7 +5149,7 @@ var nvWells= {
                 "Temperature": 15.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.578,
                 "long": -108.718
             },
@@ -5240,7 +5241,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.495,
                 "long": -108.574
             },
@@ -5332,7 +5333,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.498,
                 "long": -108.706
             },
@@ -5424,7 +5425,7 @@ var nvWells= {
                 "Temperature": 9.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.517,
                 "long": -108.696
             },
@@ -5516,7 +5517,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.525,
                 "long": -108.593
             },
@@ -5608,7 +5609,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.51,
+                "None": null, "U": 0.51,
                 "lat": 35.947,
                 "long": -110.8
             },
@@ -5700,7 +5701,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 45.99,
+                "None": null, "U": 45.99,
                 "lat": 35.923,
                 "long": -110.661
             },
@@ -5792,7 +5793,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.33,
+                "None": null, "U": 0.33,
                 "lat": 36.001,
                 "long": -110.462
             },
@@ -5884,7 +5885,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 28.66558554,
+                "None": null, "U": 28.66558554,
                 "lat": 35.838,
                 "long": -110.384
             },
@@ -5976,7 +5977,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.268698764,
+                "None": null, "U": 4.268698764,
                 "lat": 35.844,
                 "long": -110.529
             },
@@ -6068,7 +6069,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.689323971,
+                "None": null, "U": 0.689323971,
                 "lat": 35.804,
                 "long": -110.531
             },
@@ -6160,7 +6161,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": 0.05,
                 "Turbidity": 2.7,
-                "U": 0.0,
+                "None": null, "U": 0.0,
                 "lat": 34.981,
                 "long": -109.798
             },
@@ -6252,7 +6253,7 @@ var nvWells= {
                 "Temperature": 18.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 34.982,
                 "long": -109.808
             },
@@ -6344,7 +6345,7 @@ var nvWells= {
                 "Temperature": 15.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.029,
                 "long": -109.939
             },
@@ -6436,7 +6437,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.035,
                 "long": -109.825
             },
@@ -6528,7 +6529,7 @@ var nvWells= {
                 "Temperature": 17.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.003,
                 "long": -109.903
             },
@@ -6620,7 +6621,7 @@ var nvWells= {
                 "Temperature": 17.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.02,
                 "long": -109.73
             },
@@ -6712,7 +6713,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.043,
                 "long": -109.698
             },
@@ -6804,7 +6805,7 @@ var nvWells= {
                 "Temperature": 15.5,
                 "Tl": null,
                 "Turbidity": 0.5,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.061,
                 "long": -109.647
             },
@@ -6896,7 +6897,7 @@ var nvWells= {
                 "Temperature": 15.5,
                 "Tl": null,
                 "Turbidity": 19.0,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.081,
                 "long": -109.643
             },
@@ -6988,7 +6989,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.082,
                 "long": -109.632
             },
@@ -7080,7 +7081,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.074,
                 "long": -109.579
             },
@@ -7172,7 +7173,7 @@ var nvWells= {
                 "Temperature": 15.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.076,
                 "long": -109.823
             },
@@ -7264,7 +7265,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.091,
                 "long": -109.605
             },
@@ -7356,7 +7357,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.114,
                 "long": -109.585
             },
@@ -7448,7 +7449,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.083,
                 "long": -109.573
             },
@@ -7540,7 +7541,7 @@ var nvWells= {
                 "Temperature": 17.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.116,
                 "long": -109.412
             },
@@ -7632,7 +7633,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.166,
                 "long": -109.485
             },
@@ -7724,7 +7725,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.188,
                 "long": -109.437
             },
@@ -7816,7 +7817,7 @@ var nvWells= {
                 "Temperature": 15.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.14,
                 "long": -109.334
             },
@@ -7908,7 +7909,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": 0.2,
-                "U": 16.0,
+                "None": null, "U": 16.0,
                 "lat": 35.189,
                 "long": -109.432
             },
@@ -8000,7 +8001,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.189,
                 "long": -109.445
             },
@@ -8092,7 +8093,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.197,
                 "long": -109.436
             },
@@ -8184,7 +8185,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.197,
                 "long": -109.436
             },
@@ -8276,7 +8277,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.203,
                 "long": -109.379
             },
@@ -8368,7 +8369,7 @@ var nvWells= {
                 "Temperature": 11.5,
                 "Tl": null,
                 "Turbidity": 0.2,
-                "U": 8.0,
+                "None": null, "U": 8.0,
                 "lat": 35.207,
                 "long": -109.341
             },
@@ -8460,7 +8461,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": 1.4,
-                "U": 23.0,
+                "None": null, "U": 23.0,
                 "lat": 35.198,
                 "long": -109.405
             },
@@ -8552,7 +8553,7 @@ var nvWells= {
                 "Temperature": 15.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.201,
                 "long": -109.391
             },
@@ -8644,7 +8645,7 @@ var nvWells= {
                 "Temperature": 16.8,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.215,
                 "long": -109.338
             },
@@ -8736,7 +8737,7 @@ var nvWells= {
                 "Temperature": 13.0,
                 "Tl": null,
                 "Turbidity": 0.15,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.215,
                 "long": -109.33
             },
@@ -8828,7 +8829,7 @@ var nvWells= {
                 "Temperature": 12.8,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.208,
                 "long": -109.331
             },
@@ -8920,7 +8921,7 @@ var nvWells= {
                 "Temperature": 14.0,
                 "Tl": null,
                 "Turbidity": 0.9,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.211,
                 "long": -109.326
             },
@@ -9012,7 +9013,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.216,
                 "long": -109.334
             },
@@ -9104,7 +9105,7 @@ var nvWells= {
                 "Temperature": 15.0,
                 "Tl": null,
                 "Turbidity": 1.3,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.217,
                 "long": -109.334
             },
@@ -9196,7 +9197,7 @@ var nvWells= {
                 "Temperature": 9.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.376,
                 "long": -108.512
             },
@@ -9288,7 +9289,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 34.62362031,
+                "None": null, "U": 34.62362031,
                 "lat": 35.928,
                 "long": -110.674
             },
@@ -9380,7 +9381,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.24001496,
+                "None": null, "U": 1.24001496,
                 "lat": 35.802,
                 "long": -110.425
             },
@@ -9472,7 +9473,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 12.75782687,
+                "None": null, "U": 12.75782687,
                 "lat": 35.794,
                 "long": -110.506
             },
@@ -9564,7 +9565,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 18.25810382,
+                "None": null, "U": 18.25810382,
                 "lat": 35.811,
                 "long": -110.529
             },
@@ -9656,7 +9657,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 19.93875167,
+                "None": null, "U": 19.93875167,
                 "lat": 35.811,
                 "long": -110.529
             },
@@ -9748,7 +9749,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 8.543389499,
+                "None": null, "U": 8.543389499,
                 "lat": 35.815,
                 "long": -110.205
             },
@@ -9840,7 +9841,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.10250866,
+                "None": null, "U": 3.10250866,
                 "lat": 36.106,
                 "long": -111.232
             },
@@ -9932,7 +9933,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 16.17839981,
+                "None": null, "U": 16.17839981,
                 "lat": 35.831,
                 "long": -110.389
             },
@@ -10024,7 +10025,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 8.050661345,
+                "None": null, "U": 8.050661345,
                 "lat": 35.711,
                 "long": -111.313
             },
@@ -10116,7 +10117,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.250615741,
+                "None": null, "U": 1.250615741,
                 "lat": 36.146,
                 "long": -111.21
             },
@@ -10208,7 +10209,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 24.59382274,
+                "None": null, "U": 24.59382274,
                 "lat": 35.807,
                 "long": -110.533
             },
@@ -10300,7 +10301,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.810068464,
+                "None": null, "U": 4.810068464,
                 "lat": 36.119,
                 "long": -111.229
             },
@@ -10392,7 +10393,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.967840071,
+                "None": null, "U": 2.967840071,
                 "lat": 35.803,
                 "long": -110.444
             },
@@ -10484,7 +10485,7 @@ var nvWells= {
                 "Temperature": 16.6,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 64.179104477611901,
+                "None": null, "U": 64.179104477611901,
                 "lat": 35.21,
                 "long": -109.324
             },
@@ -10576,7 +10577,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.14925373134328401,
+                "None": null, "U": 0.14925373134328401,
                 "lat": 34.987,
                 "long": -109.561
             },
@@ -10668,7 +10669,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 8.8059701492537297,
+                "None": null, "U": 8.8059701492537297,
                 "lat": 35.091,
                 "long": -109.605
             },
@@ -10760,7 +10761,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.61194029850746301,
+                "None": null, "U": 0.61194029850746301,
                 "lat": 35.197,
                 "long": -109.438
             },
@@ -10852,7 +10853,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 6.2686567164179099,
+                "None": null, "U": 6.2686567164179099,
                 "lat": 35.022,
                 "long": -109.547
             },
@@ -10944,7 +10945,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 19.402985074626901,
+                "None": null, "U": 19.402985074626901,
                 "lat": 35.148,
                 "long": -109.557
             },
@@ -11036,7 +11037,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 31.343283582089601,
+                "None": null, "U": 31.343283582089601,
                 "lat": 35.199,
                 "long": -109.403
             },
@@ -11128,7 +11129,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 61.194029850746297,
+                "None": null, "U": 61.194029850746297,
                 "lat": 35.217,
                 "long": -109.334
             },
@@ -11220,7 +11221,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.7761194029850698,
+                "None": null, "U": 4.7761194029850698,
                 "lat": 35.197,
                 "long": -109.32
             },
@@ -11312,7 +11313,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 7.4626865671641802,
+                "None": null, "U": 7.4626865671641802,
                 "lat": 34.951,
                 "long": -109.505
             },
@@ -11404,7 +11405,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 20.8955223880597,
+                "None": null, "U": 20.8955223880597,
                 "lat": 35.207,
                 "long": -109.331
             },
@@ -11496,7 +11497,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 34.883,
                 "long": -109.559
             },
@@ -11588,7 +11589,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 34.947,
                 "long": -109.356
             },
@@ -11680,7 +11681,7 @@ var nvWells= {
                 "Temperature": 17.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 34.95,
                 "long": -109.506
             },
@@ -11772,7 +11773,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 34.936,
                 "long": -109.503
             },
@@ -11864,7 +11865,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 34.967,
                 "long": -110.008
             },
@@ -11956,7 +11957,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 34.966,
                 "long": -109.806
             },
@@ -12048,7 +12049,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 34.966,
                 "long": -110.008
             },
@@ -12140,7 +12141,7 @@ var nvWells= {
                 "Temperature": 15.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 34.973,
                 "long": -109.86
             },
@@ -12232,7 +12233,7 @@ var nvWells= {
                 "Temperature": 20.9,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 34.978,
                 "long": -109.824
             },
@@ -12324,7 +12325,7 @@ var nvWells= {
                 "Temperature": 18.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 34.971,
                 "long": -109.881
             },
@@ -12416,7 +12417,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 5.3731343283582103,
+                "None": null, "U": 5.3731343283582103,
                 "lat": 35.769,
                 "long": -111.407
             },
@@ -12508,7 +12509,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.233543266,
+                "None": null, "U": 3.233543266,
                 "lat": 35.767,
                 "long": -111.408
             },
@@ -12600,7 +12601,7 @@ var nvWells= {
                 "Temperature": 19.0,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 4.1641791044776104,
+                "None": null, "U": 4.1641791044776104,
                 "lat": 35.874,
                 "long": -111.414
             },
@@ -12692,7 +12693,7 @@ var nvWells= {
                 "Temperature": 17.6,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 2.8731343283582098,
+                "None": null, "U": 2.8731343283582098,
                 "lat": 35.87,
                 "long": -111.416
             },
@@ -12784,7 +12785,7 @@ var nvWells= {
                 "Temperature": 22.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 14.88370905,
+                "None": null, "U": 14.88370905,
                 "lat": 35.854,
                 "long": -111.45
             },
@@ -12876,7 +12877,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 18.4827539,
+                "None": null, "U": 18.4827539,
                 "lat": 35.862,
                 "long": -111.395
             },
@@ -12968,7 +12969,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 28.33307827,
+                "None": null, "U": 28.33307827,
                 "lat": 35.875,
                 "long": -111.413
             },
@@ -13060,7 +13061,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 18.1211079,
+                "None": null, "U": 18.1211079,
                 "lat": 35.862,
                 "long": -111.396
             },
@@ -13152,7 +13153,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.685934209,
+                "None": null, "U": 4.685934209,
                 "lat": 35.858,
                 "long": -111.484
             },
@@ -13244,7 +13245,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 63.04457147,
+                "None": null, "U": 63.04457147,
                 "lat": 35.755,
                 "long": -111.368
             },
@@ -13336,7 +13337,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.36,
                 "long": -108.029
             },
@@ -13428,7 +13429,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.36,
                 "long": -108.034
             },
@@ -13520,7 +13521,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.36,
                 "long": -108.036
             },
@@ -13612,7 +13613,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.36,
                 "long": -108.031
             },
@@ -13704,7 +13705,7 @@ var nvWells= {
                 "Temperature": 7.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.539,
                 "long": -108.667
             },
@@ -13796,7 +13797,7 @@ var nvWells= {
                 "Temperature": 8.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.539,
                 "long": -108.667
             },
@@ -13888,7 +13889,7 @@ var nvWells= {
                 "Temperature": 9.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.539,
                 "long": -108.667
             },
@@ -13980,7 +13981,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.22,
                 "long": -109.197
             },
@@ -14072,7 +14073,7 @@ var nvWells= {
                 "Temperature": 23.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.311,
                 "long": -109.275
             },
@@ -14164,7 +14165,7 @@ var nvWells= {
                 "Temperature": 23.1,
                 "Tl": null,
                 "Turbidity": 13.0,
-                "U": 6.0,
+                "None": null, "U": 6.0,
                 "lat": 37.259,
                 "long": -109.305
             },
@@ -14256,7 +14257,7 @@ var nvWells= {
                 "Temperature": 18.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.261,
                 "long": -109.306
             },
@@ -14348,7 +14349,7 @@ var nvWells= {
                 "Temperature": 18.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.177,
                 "long": -109.07
             },
@@ -14440,7 +14441,7 @@ var nvWells= {
                 "Temperature": 19.15,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.428,
                 "long": -109.194
             },
@@ -14532,7 +14533,7 @@ var nvWells= {
                 "Temperature": 20.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.328,
                 "long": -109.341
             },
@@ -14624,7 +14625,7 @@ var nvWells= {
                 "Temperature": 18.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.215,
                 "long": -109.185
             },
@@ -14716,7 +14717,7 @@ var nvWells= {
                 "Temperature": 18.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.297,
                 "long": -109.098
             },
@@ -14808,7 +14809,7 @@ var nvWells= {
                 "Temperature": 17.2,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.301,
                 "long": -109.066
             },
@@ -14900,7 +14901,7 @@ var nvWells= {
                 "Temperature": 20.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.341,
                 "long": -109.388
             },
@@ -14992,7 +14993,7 @@ var nvWells= {
                 "Temperature": 19.55,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.395,
+                "None": null, "U": 0.395,
                 "lat": 37.339,
                 "long": -109.386
             },
@@ -15084,7 +15085,7 @@ var nvWells= {
                 "Temperature": 19.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.297,
                 "long": -109.209
             },
@@ -15176,7 +15177,7 @@ var nvWells= {
                 "Temperature": 17.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.339,
                 "long": -109.132
             },
@@ -15268,7 +15269,7 @@ var nvWells= {
                 "Temperature": 21.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.371,
                 "long": -109.224
             },
@@ -15360,7 +15361,7 @@ var nvWells= {
                 "Temperature": 20.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.201,
                 "long": -109.091
             },
@@ -15452,7 +15453,7 @@ var nvWells= {
                 "Temperature": 19.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.229,
                 "long": -109.116
             },
@@ -15544,7 +15545,7 @@ var nvWells= {
                 "Temperature": 17.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.418,
                 "long": -109.332
             },
@@ -15636,7 +15637,7 @@ var nvWells= {
                 "Temperature": 19.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.249,
                 "long": -109.18
             },
@@ -15728,7 +15729,7 @@ var nvWells= {
                 "Temperature": 19.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.298,
                 "long": -109.081
             },
@@ -15820,7 +15821,7 @@ var nvWells= {
                 "Temperature": 21.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.312,
                 "long": -109.244
             },
@@ -15912,7 +15913,7 @@ var nvWells= {
                 "Temperature": 19.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.35,
                 "long": -109.076
             },
@@ -16004,7 +16005,7 @@ var nvWells= {
                 "Temperature": 21.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.283,
                 "long": -109.301
             },
@@ -16096,7 +16097,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.344,
                 "long": -109.201
             },
@@ -16188,7 +16189,7 @@ var nvWells= {
                 "Temperature": 19.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.2,
                 "long": -109.151
             },
@@ -16280,7 +16281,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.394,
                 "long": -109.228
             },
@@ -16372,7 +16373,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.218,
                 "long": -109.2
             },
@@ -16464,7 +16465,7 @@ var nvWells= {
                 "Temperature": 16.75,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.22,
                 "long": -109.202
             },
@@ -16556,7 +16557,7 @@ var nvWells= {
                 "Temperature": 19.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.328,
                 "long": -109.247
             },
@@ -16648,7 +16649,7 @@ var nvWells= {
                 "Temperature": 21.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.235,
                 "long": -109.117
             },
@@ -16740,7 +16741,7 @@ var nvWells= {
                 "Temperature": 16.9,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.428,
                 "long": -109.194
             },
@@ -16832,7 +16833,7 @@ var nvWells= {
                 "Temperature": 18.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.308,
                 "long": -109.298
             },
@@ -16924,7 +16925,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": 71.0,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.425,
                 "long": -107.881
             },
@@ -17016,7 +17017,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.433,
                 "long": -107.881
             },
@@ -17108,7 +17109,7 @@ var nvWells= {
                 "Temperature": 8.3,
                 "Tl": 1.0,
                 "Turbidity": 1.01,
-                "U": 54.0,
+                "None": null, "U": 54.0,
                 "lat": 35.377,
                 "long": -107.92
             },
@@ -17200,7 +17201,7 @@ var nvWells= {
                 "Temperature": 5.72,
                 "Tl": 1.0,
                 "Turbidity": 0.323,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.354,
                 "long": -107.975
             },
@@ -17292,7 +17293,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.302,
                 "long": -108.101
             },
@@ -17384,7 +17385,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.465,
                 "long": -107.997
             },
@@ -17476,7 +17477,7 @@ var nvWells= {
                 "Temperature": 3.9,
                 "Tl": 1.0,
                 "Turbidity": 44.6,
-                "U": 9.1,
+                "None": null, "U": 9.1,
                 "lat": 35.362,
                 "long": -108.039
             },
@@ -17568,7 +17569,7 @@ var nvWells= {
                 "Temperature": 6.9,
                 "Tl": 1.0,
                 "Turbidity": 19.7,
-                "U": 63.0,
+                "None": null, "U": 63.0,
                 "lat": 35.357,
                 "long": -107.937
             },
@@ -17660,7 +17661,7 @@ var nvWells= {
                 "Temperature": 4.38,
                 "Tl": 1.0,
                 "Turbidity": 1.57,
-                "U": 23.0,
+                "None": null, "U": 23.0,
                 "lat": 35.373,
                 "long": -108.092
             },
@@ -17752,7 +17753,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.798,
                 "long": -108.062
             },
@@ -17844,7 +17845,7 @@ var nvWells= {
                 "Temperature": 22.3,
                 "Tl": 1.0,
                 "Turbidity": 8.39,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.823,
                 "long": -108.066
             },
@@ -17936,7 +17937,7 @@ var nvWells= {
                 "Temperature": 21.9,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 10.525373134328399,
+                "None": null, "U": 10.525373134328399,
                 "lat": 36.774,
                 "long": -109.032
             },
@@ -18028,7 +18029,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.816832067,
+                "None": null, "U": 1.816832067,
                 "lat": 36.907,
                 "long": -108.958
             },
@@ -18120,7 +18121,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.781322579,
+                "None": null, "U": 0.781322579,
                 "lat": 36.901,
                 "long": -108.981
             },
@@ -18212,7 +18213,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.59,
+                "None": null, "U": 2.59,
                 "lat": 35.297,
                 "long": -110.805
             },
@@ -18304,7 +18305,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.0298507462686599,
+                "None": null, "U": 4.0298507462686599,
                 "lat": 35.3,
                 "long": -110.988
             },
@@ -18396,7 +18397,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.08955223880597,
+                "None": null, "U": 2.08955223880597,
                 "lat": 35.305,
                 "long": -110.844
             },
@@ -18488,7 +18489,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.1791044776119399,
+                "None": null, "U": 4.1791044776119399,
                 "lat": 35.307,
                 "long": -110.765
             },
@@ -18580,7 +18581,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.43283582089552203,
+                "None": null, "U": 0.43283582089552203,
                 "lat": 35.171,
                 "long": -110.708
             },
@@ -18672,7 +18673,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 6.03217715,
+                "None": null, "U": 6.03217715,
                 "lat": 36.344,
                 "long": -110.062
             },
@@ -18764,7 +18765,7 @@ var nvWells= {
                 "Temperature": 12.2,
                 "Tl": 4.8,
                 "Turbidity": null,
-                "U": 1.5865671641790999,
+                "None": null, "U": 1.5865671641790999,
                 "lat": 36.346,
                 "long": -110.065
             },
@@ -18856,7 +18857,7 @@ var nvWells= {
                 "Temperature": 14.1,
                 "Tl": 5.9,
                 "Turbidity": 28.0,
-                "U": 1.6776119402985099,
+                "None": null, "U": 1.6776119402985099,
                 "lat": 36.364,
                 "long": -109.989
             },
@@ -18948,7 +18949,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.737787977,
+                "None": null, "U": 0.737787977,
                 "lat": 36.282,
                 "long": -110.145
             },
@@ -19040,7 +19041,7 @@ var nvWells= {
                 "Temperature": 10.0,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 8.4970149253731293,
+                "None": null, "U": 8.4970149253731293,
                 "lat": 36.29,
                 "long": -110.153
             },
@@ -19132,7 +19133,7 @@ var nvWells= {
                 "Temperature": 19.8,
                 "Tl": null,
                 "Turbidity": 80.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.343,
                 "long": -109.934
             },
@@ -19224,7 +19225,7 @@ var nvWells= {
                 "Temperature": 11.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 1.48358208955224,
+                "None": null, "U": 1.48358208955224,
                 "lat": 36.303,
                 "long": -109.911
             },
@@ -19316,7 +19317,7 @@ var nvWells= {
                 "Temperature": 11.6,
                 "Tl": 5.1,
                 "Turbidity": null,
-                "U": 7.6537313432835798,
+                "None": null, "U": 7.6537313432835798,
                 "lat": 36.339,
                 "long": -109.897
             },
@@ -19408,7 +19409,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.19735617,
+                "None": null, "U": 0.19735617,
                 "lat": 36.348,
                 "long": -109.88
             },
@@ -19500,7 +19501,7 @@ var nvWells= {
                 "Temperature": 13.5,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 157.1843347,
+                "None": null, "U": 157.1843347,
                 "lat": 36.295,
                 "long": -109.831
             },
@@ -19592,7 +19593,7 @@ var nvWells= {
                 "Temperature": 12.7,
                 "Tl": 4.1,
                 "Turbidity": null,
-                "U": 3.78059701492537,
+                "None": null, "U": 3.78059701492537,
                 "lat": 36.444,
                 "long": -110.005
             },
@@ -19684,7 +19685,7 @@ var nvWells= {
                 "Temperature": 24.1,
                 "Tl": 3.0,
                 "Turbidity": null,
-                "U": 2.8985074626865699,
+                "None": null, "U": 2.8985074626865699,
                 "lat": 36.304,
                 "long": -111.458
             },
@@ -19776,7 +19777,7 @@ var nvWells= {
                 "Temperature": 26.4,
                 "Tl": 3.3,
                 "Turbidity": null,
-                "U": 55.18694266,
+                "None": null, "U": 55.18694266,
                 "lat": 36.034,
                 "long": -111.441
             },
@@ -19868,7 +19869,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 182.3732461,
+                "None": null, "U": 182.3732461,
                 "lat": 36.073,
                 "long": -111.39
             },
@@ -19960,7 +19961,7 @@ var nvWells= {
                 "Temperature": 22.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 24.80462351,
+                "None": null, "U": 24.80462351,
                 "lat": 36.606,
                 "long": -111.66
             },
@@ -20052,7 +20053,7 @@ var nvWells= {
                 "Temperature": 31.5,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 3.0074626865671599,
+                "None": null, "U": 3.0074626865671599,
                 "lat": 36.774,
                 "long": -111.622
             },
@@ -20144,7 +20145,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.564943877,
+                "None": null, "U": 1.564943877,
                 "lat": 36.277,
                 "long": -111.585
             },
@@ -20236,7 +20237,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.872997651,
+                "None": null, "U": 2.872997651,
                 "lat": 36.024,
                 "long": -111.4
             },
@@ -20328,7 +20329,7 @@ var nvWells= {
                 "Temperature": 30.5,
                 "Tl": 6.9,
                 "Turbidity": null,
-                "U": 11.2432835820896,
+                "None": null, "U": 11.2432835820896,
                 "lat": 36.19,
                 "long": -111.395
             },
@@ -20420,7 +20421,7 @@ var nvWells= {
                 "Temperature": 28.9,
                 "Tl": 3.3,
                 "Turbidity": null,
-                "U": 20.980597014925401,
+                "None": null, "U": 20.980597014925401,
                 "lat": 36.662,
                 "long": -111.646
             },
@@ -20512,7 +20513,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.257,
                 "long": -108.326
             },
@@ -20604,7 +20605,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.572,
                 "long": -108.007
             },
@@ -20696,7 +20697,7 @@ var nvWells= {
                 "Temperature": 8.2,
                 "Tl": 1.0,
                 "Turbidity": 36.7,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.488,
                 "long": -108.03
             },
@@ -20788,7 +20789,7 @@ var nvWells= {
                 "Temperature": 22.8,
                 "Tl": null,
                 "Turbidity": 9.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.666,
                 "long": -110.057
             },
@@ -20880,7 +20881,7 @@ var nvWells= {
                 "Temperature": 20.15,
                 "Tl": 10.0,
                 "Turbidity": 243.0,
-                "U": 3.6223880597014899,
+                "None": null, "U": 3.6223880597014899,
                 "lat": 36.547,
                 "long": -109.986
             },
@@ -20972,7 +20973,7 @@ var nvWells= {
                 "Temperature": 19.8,
                 "Tl": 6.1,
                 "Turbidity": null,
-                "U": 17.874626865671601,
+                "None": null, "U": 17.874626865671601,
                 "lat": 36.52,
                 "long": -109.904
             },
@@ -21064,7 +21065,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.316156765,
+                "None": null, "U": 2.316156765,
                 "lat": 36.503,
                 "long": -109.981
             },
@@ -21156,7 +21157,7 @@ var nvWells= {
                 "Temperature": 19.1,
                 "Tl": 4.9,
                 "Turbidity": null,
-                "U": 1.427623029,
+                "None": null, "U": 1.427623029,
                 "lat": 36.562,
                 "long": -110.022
             },
@@ -21248,7 +21249,7 @@ var nvWells= {
                 "Temperature": 24.4,
                 "Tl": null,
                 "Turbidity": 4.5,
-                "U": 2.0,
+                "None": null, "U": 2.0,
                 "lat": 36.635,
                 "long": -109.996
             },
@@ -21340,7 +21341,7 @@ var nvWells= {
                 "Temperature": 20.6,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 13.905970149253699,
+                "None": null, "U": 13.905970149253699,
                 "lat": 36.434,
                 "long": -109.906
             },
@@ -21432,7 +21433,7 @@ var nvWells= {
                 "Temperature": 19.1,
                 "Tl": 4.6,
                 "Turbidity": null,
-                "U": 59.583582089552202,
+                "None": null, "U": 59.583582089552202,
                 "lat": 36.448,
                 "long": -109.889
             },
@@ -21524,7 +21525,7 @@ var nvWells= {
                 "Temperature": 16.8,
                 "Tl": 4.8,
                 "Turbidity": null,
-                "U": 89.641791044776099,
+                "None": null, "U": 89.641791044776099,
                 "lat": 36.451,
                 "long": -109.901
             },
@@ -21616,7 +21617,7 @@ var nvWells= {
                 "Temperature": 18.5,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 70.337313432835799,
+                "None": null, "U": 70.337313432835799,
                 "lat": 36.479,
                 "long": -109.881
             },
@@ -21708,7 +21709,7 @@ var nvWells= {
                 "Temperature": 22.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 3.3940298507462701,
+                "None": null, "U": 3.3940298507462701,
                 "lat": 36.528,
                 "long": -110.081
             },
@@ -21800,7 +21801,7 @@ var nvWells= {
                 "Temperature": 21.7,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 6.0,
+                "None": null, "U": 6.0,
                 "lat": 36.09,
                 "long": -109.558
             },
@@ -21892,7 +21893,7 @@ var nvWells= {
                 "Temperature": 11.8,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.12089552238806001,
+                "None": null, "U": 0.12089552238806001,
                 "lat": 36.153,
                 "long": -109.559
             },
@@ -21984,7 +21985,7 @@ var nvWells= {
                 "Temperature": 10.2,
                 "Tl": 4.2,
                 "Turbidity": null,
-                "U": 7.46716417910448,
+                "None": null, "U": 7.46716417910448,
                 "lat": 36.126,
                 "long": -109.789
             },
@@ -22076,7 +22077,7 @@ var nvWells= {
                 "Temperature": 21.6,
                 "Tl": null,
                 "Turbidity": 3.0,
-                "U": 5.0,
+                "None": null, "U": 5.0,
                 "lat": 36.162,
                 "long": -109.571
             },
@@ -22168,7 +22169,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 7.203859346,
+                "None": null, "U": 7.203859346,
                 "lat": 36.163,
                 "long": -109.572
             },
@@ -22260,7 +22261,7 @@ var nvWells= {
                 "Temperature": 24.4,
                 "Tl": null,
                 "Turbidity": 1.8,
-                "U": 2.0,
+                "None": null, "U": 2.0,
                 "lat": 36.171,
                 "long": -109.583
             },
@@ -22352,7 +22353,7 @@ var nvWells= {
                 "Temperature": 22.8,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 2.148235412,
+                "None": null, "U": 2.148235412,
                 "lat": 36.119,
                 "long": -109.58
             },
@@ -22444,7 +22445,7 @@ var nvWells= {
                 "Temperature": 23.4,
                 "Tl": null,
                 "Turbidity": 0.0,
-                "U": 26.59304277,
+                "None": null, "U": 26.59304277,
                 "lat": 36.267,
                 "long": -109.601
             },
@@ -22536,7 +22537,7 @@ var nvWells= {
                 "Temperature": 12.4,
                 "Tl": 4.7,
                 "Turbidity": null,
-                "U": 14.1731343283582,
+                "None": null, "U": 14.1731343283582,
                 "lat": 36.198,
                 "long": -109.485
             },
@@ -22628,7 +22629,7 @@ var nvWells= {
                 "Temperature": 24.7,
                 "Tl": null,
                 "Turbidity": -10.0,
-                "U": 6.654371319,
+                "None": null, "U": 6.654371319,
                 "lat": 36.116,
                 "long": -109.629
             },
@@ -22720,7 +22721,7 @@ var nvWells= {
                 "Temperature": 24.8,
                 "Tl": null,
                 "Turbidity": 0.0,
-                "U": 9.0,
+                "None": null, "U": 9.0,
                 "lat": 36.245,
                 "long": -109.528
             },
@@ -22812,7 +22813,7 @@ var nvWells= {
                 "Temperature": 16.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 33.465671641790998,
+                "None": null, "U": 33.465671641790998,
                 "lat": 36.183,
                 "long": -109.463
             },
@@ -22904,7 +22905,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 18.767164179104501,
+                "None": null, "U": 18.767164179104501,
                 "lat": 36.28,
                 "long": -109.8
             },
@@ -22996,7 +22997,7 @@ var nvWells= {
                 "Temperature": 23.6,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": 17.0,
+                "None": null, "U": 17.0,
                 "lat": 36.113,
                 "long": -109.667
             },
@@ -23088,7 +23089,7 @@ var nvWells= {
                 "Temperature": 21.7,
                 "Tl": null,
                 "Turbidity": 7.0,
-                "U": 5.0,
+                "None": null, "U": 5.0,
                 "lat": 36.08,
                 "long": -109.572
             },
@@ -23180,7 +23181,7 @@ var nvWells= {
                 "Temperature": 15.3,
                 "Tl": 1.0,
                 "Turbidity": 2.1,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.597,
                 "long": -108.644
             },
@@ -23272,7 +23273,7 @@ var nvWells= {
                 "Temperature": 14.7,
                 "Tl": 1.0,
                 "Turbidity": 1.4,
-                "U": 110.0,
+                "None": null, "U": 110.0,
                 "lat": 35.601,
                 "long": -108.587
             },
@@ -23364,7 +23365,7 @@ var nvWells= {
                 "Temperature": 4.5,
                 "Tl": 1.0,
                 "Turbidity": 1.73,
-                "U": 0.59,
+                "None": null, "U": 0.59,
                 "lat": 35.619,
                 "long": -108.623
             },
@@ -23456,7 +23457,7 @@ var nvWells= {
                 "Temperature": 7.03,
                 "Tl": 1.0,
                 "Turbidity": 4.09,
-                "U": 260.0,
+                "None": null, "U": 260.0,
                 "lat": 35.572,
                 "long": -108.577
             },
@@ -23548,7 +23549,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 300.0,
+                "None": null, "U": 300.0,
                 "lat": 35.617,
                 "long": -108.554
             },
@@ -23640,7 +23641,7 @@ var nvWells= {
                 "Temperature": 16.8,
                 "Tl": 5.0,
                 "Turbidity": 3.2255,
-                "U": 2.2,
+                "None": null, "U": 2.2,
                 "lat": 35.573,
                 "long": -108.637
             },
@@ -23732,7 +23733,7 @@ var nvWells= {
                 "Temperature": 16.25,
                 "Tl": 5.0,
                 "Turbidity": 15.3705,
-                "U": 700.0,
+                "None": null, "U": 700.0,
                 "lat": 35.573,
                 "long": -108.637
             },
@@ -23824,7 +23825,7 @@ var nvWells= {
                 "Temperature": 12.7,
                 "Tl": 1.0,
                 "Turbidity": 2.795,
-                "U": 1.9,
+                "None": null, "U": 1.9,
                 "lat": 35.519,
                 "long": -108.639
             },
@@ -23916,7 +23917,7 @@ var nvWells= {
                 "Temperature": 22.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.563,
                 "long": -108.569
             },
@@ -24008,7 +24009,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.582,
                 "long": -108.578
             },
@@ -24100,7 +24101,7 @@ var nvWells= {
                 "Temperature": 15.4,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.597,
                 "long": -108.645
             },
@@ -24192,7 +24193,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.589,
                 "long": -108.578
             },
@@ -24284,7 +24285,7 @@ var nvWells= {
                 "Temperature": 24.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 187.9299094,
+                "None": null, "U": 187.9299094,
                 "lat": 35.687,
                 "long": -111.102
             },
@@ -24376,7 +24377,7 @@ var nvWells= {
                 "Temperature": 12.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 42.388059701492502,
+                "None": null, "U": 42.388059701492502,
                 "lat": 35.976,
                 "long": -111.324
             },
@@ -24468,7 +24469,7 @@ var nvWells= {
                 "Temperature": 7.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 28.0597014925373,
+                "None": null, "U": 28.0597014925373,
                 "lat": 36.1,
                 "long": -111.247
             },
@@ -24560,7 +24561,7 @@ var nvWells= {
                 "Temperature": 24.9,
                 "Tl": 3.1,
                 "Turbidity": null,
-                "U": 3.63283582089552,
+                "None": null, "U": 3.63283582089552,
                 "lat": 35.908,
                 "long": -111.147
             },
@@ -24652,7 +24653,7 @@ var nvWells= {
                 "Temperature": 13.05,
                 "Tl": 1.0,
                 "Turbidity": 0.288,
-                "U": 130.0,
+                "None": null, "U": 130.0,
                 "lat": 35.687,
                 "long": -111.102
             },
@@ -24744,7 +24745,7 @@ var nvWells= {
                 "Temperature": 26.3,
                 "Tl": 5.7,
                 "Turbidity": null,
-                "U": 34.820895522388099,
+                "None": null, "U": 34.820895522388099,
                 "lat": 35.689,
                 "long": -111.175
             },
@@ -24836,7 +24837,7 @@ var nvWells= {
                 "Temperature": 28.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 3.2761194029850702,
+                "None": null, "U": 3.2761194029850702,
                 "lat": 36.056,
                 "long": -111.083
             },
@@ -24928,7 +24929,7 @@ var nvWells= {
                 "Temperature": 20.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.323880597014925,
+                "None": null, "U": 0.323880597014925,
                 "lat": 35.856,
                 "long": -111.087
             },
@@ -25020,7 +25021,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 560.170256,
+                "None": null, "U": 560.170256,
                 "lat": 35.874,
                 "long": -111.339
             },
@@ -25112,7 +25113,7 @@ var nvWells= {
                 "Temperature": 3.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 1.1940298507462701,
+                "None": null, "U": 1.1940298507462701,
                 "lat": 35.949,
                 "long": -111.068
             },
@@ -25204,7 +25205,7 @@ var nvWells= {
                 "Temperature": 11.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 5.6716417910447801,
+                "None": null, "U": 5.6716417910447801,
                 "lat": 35.842,
                 "long": -111.034
             },
@@ -25296,7 +25297,7 @@ var nvWells= {
                 "Temperature": 24.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.34,
+                "None": null, "U": 0.34,
                 "lat": 35.92,
                 "long": -111.06
             },
@@ -25388,7 +25389,7 @@ var nvWells= {
                 "Temperature": 25.5,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.51567104,
+                "None": null, "U": 0.51567104,
                 "lat": 36.012,
                 "long": -111.049
             },
@@ -25480,7 +25481,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.22,
+                "None": null, "U": 3.22,
                 "lat": 35.908,
                 "long": -111.147
             },
@@ -25572,7 +25573,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.534255316,
+                "None": null, "U": 0.534255316,
                 "lat": 35.917,
                 "long": -111.019
             },
@@ -25664,7 +25665,7 @@ var nvWells= {
                 "Temperature": 15.8,
                 "Tl": 10.0,
                 "Turbidity": 0.496,
-                "U": 28.87163508,
+                "None": null, "U": 28.87163508,
                 "lat": 35.556,
                 "long": -111.188
             },
@@ -25756,7 +25757,7 @@ var nvWells= {
                 "Temperature": 24.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 1.0119402985074599,
+                "None": null, "U": 1.0119402985074599,
                 "lat": 36.125,
                 "long": -111.057
             },
@@ -25848,7 +25849,7 @@ var nvWells= {
                 "Temperature": 13.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 1.6417910447761199,
+                "None": null, "U": 1.6417910447761199,
                 "lat": 35.87,
                 "long": -111.127
             },
@@ -25940,7 +25941,7 @@ var nvWells= {
                 "Temperature": 4.6,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 2.3880597014925402,
+                "None": null, "U": 2.3880597014925402,
                 "lat": 35.789,
                 "long": -111.052
             },
@@ -26032,7 +26033,7 @@ var nvWells= {
                 "Temperature": 12.9,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 5.2238805970149196,
+                "None": null, "U": 5.2238805970149196,
                 "lat": 35.768,
                 "long": -111.075
             },
@@ -26124,7 +26125,7 @@ var nvWells= {
                 "Temperature": 23.2,
                 "Tl": 3.3,
                 "Turbidity": 0.0,
-                "U": 12.4671641791045,
+                "None": null, "U": 12.4671641791045,
                 "lat": 35.665,
                 "long": -111.298
             },
@@ -26216,7 +26217,7 @@ var nvWells= {
                 "Temperature": 23.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 12.7373134328358,
+                "None": null, "U": 12.7373134328358,
                 "lat": 35.752,
                 "long": -111.06
             },
@@ -26308,7 +26309,7 @@ var nvWells= {
                 "Temperature": 14.8,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 37.68,
+                "None": null, "U": 37.68,
                 "lat": 35.681,
                 "long": -111.28
             },
@@ -26400,7 +26401,7 @@ var nvWells= {
                 "Temperature": 19.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.9,
                 "long": -111.403
             },
@@ -26492,7 +26493,7 @@ var nvWells= {
                 "Temperature": 29.9,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 3.9358208955223901,
+                "None": null, "U": 3.9358208955223901,
                 "lat": 35.838,
                 "long": -111.356
             },
@@ -26584,7 +26585,7 @@ var nvWells= {
                 "Temperature": 12.9,
                 "Tl": 10.0,
                 "Turbidity": 1.86,
-                "U": 69.253731343283604,
+                "None": null, "U": 69.253731343283604,
                 "lat": 35.701,
                 "long": -111.26
             },
@@ -26676,7 +26677,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 6.67,
+                "None": null, "U": 6.67,
                 "lat": 35.838,
                 "long": -111.356
             },
@@ -26768,7 +26769,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.046829683,
+                "None": null, "U": 0.046829683,
                 "lat": 35.994,
                 "long": -111.033
             },
@@ -26860,7 +26861,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.22970081,
+                "None": null, "U": 0.22970081,
                 "lat": 35.851,
                 "long": -111.373
             },
@@ -26952,7 +26953,7 @@ var nvWells= {
                 "Temperature": 14.8,
                 "Tl": 2.9,
                 "Turbidity": 8.2,
-                "U": 47.42,
+                "None": null, "U": 47.42,
                 "lat": 35.641,
                 "long": -111.196
             },
@@ -27044,7 +27045,7 @@ var nvWells= {
                 "Temperature": 11.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 1.6417910447761199,
+                "None": null, "U": 1.6417910447761199,
                 "lat": 36.082,
                 "long": -111.004
             },
@@ -27136,7 +27137,7 @@ var nvWells= {
                 "Temperature": 22.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 4.1402985074626901,
+                "None": null, "U": 4.1402985074626901,
                 "lat": 35.965,
                 "long": -111.239
             },
@@ -27228,7 +27229,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.684491633,
+                "None": null, "U": 0.684491633,
                 "lat": 36.62,
                 "long": -111.452
             },
@@ -27320,7 +27321,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.766154807,
+                "None": null, "U": 0.766154807,
                 "lat": 36.475,
                 "long": -111.272
             },
@@ -27412,7 +27413,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.675030133,
+                "None": null, "U": 0.675030133,
                 "lat": 36.473,
                 "long": -111.415
             },
@@ -27504,7 +27505,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.603135354,
+                "None": null, "U": 1.603135354,
                 "lat": 36.394,
                 "long": -111.418
             },
@@ -27596,7 +27597,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.657208982,
+                "None": null, "U": 0.657208982,
                 "lat": 36.635,
                 "long": -111.532
             },
@@ -27688,7 +27689,7 @@ var nvWells= {
                 "Temperature": 23.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 2.1223880597014899,
+                "None": null, "U": 2.1223880597014899,
                 "lat": 36.553,
                 "long": -111.399
             },
@@ -27780,7 +27781,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.351586017,
+                "None": null, "U": 0.351586017,
                 "lat": 36.701,
                 "long": -111.565
             },
@@ -27872,7 +27873,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.518988065,
+                "None": null, "U": 3.518988065,
                 "lat": 36.301,
                 "long": -111.443
             },
@@ -27964,7 +27965,7 @@ var nvWells= {
                 "Temperature": 21.0,
                 "Tl": null,
                 "Turbidity": -10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.649,
                 "long": -109.684
             },
@@ -28056,7 +28057,7 @@ var nvWells= {
                 "Temperature": 23.0,
                 "Tl": null,
                 "Turbidity": 24.0,
-                "U": 100.0,
+                "None": null, "U": 100.0,
                 "lat": 35.697,
                 "long": -109.657
             },
@@ -28148,7 +28149,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.046829683,
+                "None": null, "U": 0.046829683,
                 "lat": 35.661,
                 "long": -109.691
             },
@@ -28240,7 +28241,7 @@ var nvWells= {
                 "Temperature": 21.2,
                 "Tl": null,
                 "Turbidity": 129.5,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.552,
                 "long": -109.726
             },
@@ -28332,7 +28333,7 @@ var nvWells= {
                 "Temperature": 23.55,
                 "Tl": null,
                 "Turbidity": 101.5,
-                "U": 3.0,
+                "None": null, "U": 3.0,
                 "lat": 35.522,
                 "long": -109.73
             },
@@ -28424,7 +28425,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 9.573121985,
+                "None": null, "U": 9.573121985,
                 "lat": 35.694,
                 "long": -109.713
             },
@@ -28516,7 +28517,7 @@ var nvWells= {
                 "Temperature": 22.85,
                 "Tl": 1.0,
                 "Turbidity": 2.0,
-                "U": 4.5,
+                "None": null, "U": 4.5,
                 "lat": 35.584,
                 "long": -109.766
             },
@@ -28608,7 +28609,7 @@ var nvWells= {
                 "Temperature": 23.2,
                 "Tl": null,
                 "Turbidity": 177.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.606,
                 "long": -109.746
             },
@@ -28700,7 +28701,7 @@ var nvWells= {
                 "Temperature": 19.0,
                 "Tl": null,
                 "Turbidity": 4.0,
-                "U": 12.0,
+                "None": null, "U": 12.0,
                 "lat": 35.604,
                 "long": -109.658
             },
@@ -28792,7 +28793,7 @@ var nvWells= {
                 "Temperature": 26.9,
                 "Tl": null,
                 "Turbidity": 3.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.679,
                 "long": -109.705
             },
@@ -28884,7 +28885,7 @@ var nvWells= {
                 "Temperature": 22.7,
                 "Tl": null,
                 "Turbidity": -10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.584,
                 "long": -109.641
             },
@@ -28976,7 +28977,7 @@ var nvWells= {
                 "Temperature": 7.13,
                 "Tl": 6.2,
                 "Turbidity": 2.2985,
-                "U": 61.0,
+                "None": null, "U": 61.0,
                 "lat": 36.579,
                 "long": -109.226
             },
@@ -29068,7 +29069,7 @@ var nvWells= {
                 "Temperature": 12.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 7.6402985074626901,
+                "None": null, "U": 7.6402985074626901,
                 "lat": 36.53,
                 "long": -109.203
             },
@@ -29160,7 +29161,7 @@ var nvWells= {
                 "Temperature": 13.2,
                 "Tl": 5.4,
                 "Turbidity": null,
-                "U": 124.935820895522,
+                "None": null, "U": 124.935820895522,
                 "lat": 36.561,
                 "long": -109.222
             },
@@ -29252,7 +29253,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": 1.0,
                 "Turbidity": null,
-                "U": 24.0,
+                "None": null, "U": 24.0,
                 "lat": 36.578,
                 "long": -109.209
             },
@@ -29344,7 +29345,7 @@ var nvWells= {
                 "Temperature": 12.6,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 5.4940298507462701,
+                "None": null, "U": 5.4940298507462701,
                 "lat": 36.526,
                 "long": -109.198
             },
@@ -29436,7 +29437,7 @@ var nvWells= {
                 "Temperature": 21.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.047761194029850698,
+                "None": null, "U": 0.047761194029850698,
                 "lat": 36.584,
                 "long": -109.191
             },
@@ -29528,7 +29529,7 @@ var nvWells= {
                 "Temperature": 17.0,
                 "Tl": 3.4,
                 "Turbidity": null,
-                "U": 6.6,
+                "None": null, "U": 6.6,
                 "lat": 36.532,
                 "long": -109.268
             },
@@ -29620,7 +29621,7 @@ var nvWells= {
                 "Temperature": 16.1,
                 "Tl": 4.0,
                 "Turbidity": null,
-                "U": 27.158208955223898,
+                "None": null, "U": 27.158208955223898,
                 "lat": 36.555,
                 "long": -109.275
             },
@@ -29712,7 +29713,7 @@ var nvWells= {
                 "Temperature": 13.4,
                 "Tl": 4.7,
                 "Turbidity": null,
-                "U": 10.880597014925399,
+                "None": null, "U": 10.880597014925399,
                 "lat": 36.532,
                 "long": -109.219
             },
@@ -29804,7 +29805,7 @@ var nvWells= {
                 "Temperature": 12.7,
                 "Tl": 3.4,
                 "Turbidity": null,
-                "U": 13.3044776119403,
+                "None": null, "U": 13.3044776119403,
                 "lat": 36.561,
                 "long": -109.158
             },
@@ -29896,7 +29897,7 @@ var nvWells= {
                 "Temperature": 14.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 34.925373134328403,
+                "None": null, "U": 34.925373134328403,
                 "lat": 36.579,
                 "long": -109.21
             },
@@ -29988,7 +29989,7 @@ var nvWells= {
                 "Temperature": 14.6,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 11.4850746268657,
+                "None": null, "U": 11.4850746268657,
                 "lat": 36.585,
                 "long": -109.241
             },
@@ -30080,7 +30081,7 @@ var nvWells= {
                 "Temperature": 21.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 21.6223880597015,
+                "None": null, "U": 21.6223880597015,
                 "lat": 36.579,
                 "long": -109.21
             },
@@ -30172,7 +30173,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": 3.8,
                 "Turbidity": null,
-                "U": 0.34477611940298503,
+                "None": null, "U": 0.34477611940298503,
                 "lat": 36.509,
                 "long": -109.201
             },
@@ -30264,7 +30265,7 @@ var nvWells= {
                 "Temperature": 13.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 14.3283582089552,
+                "None": null, "U": 14.3283582089552,
                 "lat": 36.572,
                 "long": -109.103
             },
@@ -30356,7 +30357,7 @@ var nvWells= {
                 "Temperature": 15.4,
                 "Tl": 1.0,
                 "Turbidity": 1.31,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.777,
                 "long": -108.619
             },
@@ -30448,7 +30449,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.22388059701492499,
+                "None": null, "U": 0.22388059701492499,
                 "lat": 35.82,
                 "long": -108.566
             },
@@ -30540,7 +30541,7 @@ var nvWells= {
                 "Temperature": 15.7,
                 "Tl": 1.0,
                 "Turbidity": 7.41,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.712,
                 "long": -108.568
             },
@@ -30632,7 +30633,7 @@ var nvWells= {
                 "Temperature": 4.56,
                 "Tl": 1.0,
                 "Turbidity": 4.7,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.666,
                 "long": -108.568
             },
@@ -30724,7 +30725,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.01,
+                "None": null, "U": 0.01,
                 "lat": 35.696,
                 "long": -108.144
             },
@@ -30816,7 +30817,7 @@ var nvWells= {
                 "Temperature": 7.6,
                 "Tl": 5.0,
                 "Turbidity": 10.1,
-                "U": 1.5,
+                "None": null, "U": 1.5,
                 "lat": 35.662,
                 "long": -108.515
             },
@@ -30908,7 +30909,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.63,
+                "None": null, "U": 0.63,
                 "lat": 35.672,
                 "long": -108.156
             },
@@ -31000,7 +31001,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": 1.0,
                 "Turbidity": 2.65,
-                "U": 4.1,
+                "None": null, "U": 4.1,
                 "lat": 35.61,
                 "long": -108.12
             },
@@ -31092,7 +31093,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.02,
+                "None": null, "U": 0.02,
                 "lat": 35.684,
                 "long": -108.146
             },
@@ -31184,7 +31185,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": 1.0,
                 "Turbidity": 9.67,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.68,
                 "long": -108.112
             },
@@ -31276,7 +31277,7 @@ var nvWells= {
                 "Temperature": 3.7,
                 "Tl": 1.0,
                 "Turbidity": 11.2,
-                "U": 0.38,
+                "None": null, "U": 0.38,
                 "lat": 35.677,
                 "long": -108.154
             },
@@ -31368,7 +31369,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": 1.0,
                 "Turbidity": 9.94,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.735,
                 "long": -108.248
             },
@@ -31460,7 +31461,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": 1.0,
                 "Turbidity": 18.5,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.696,
                 "long": -108.234
             },
@@ -31552,7 +31553,7 @@ var nvWells= {
                 "Temperature": 18.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.69104477611940296,
+                "None": null, "U": 0.69104477611940296,
                 "lat": 36.936,
                 "long": -109.865
             },
@@ -31644,7 +31645,7 @@ var nvWells= {
                 "Temperature": 18.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 5.5537313432835802,
+                "None": null, "U": 5.5537313432835802,
                 "lat": 36.926,
                 "long": -109.864
             },
@@ -31736,7 +31737,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.183,
                 "long": -109.851
             },
@@ -31828,7 +31829,7 @@ var nvWells= {
                 "Temperature": 19.1,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": 4.0,
+                "None": null, "U": 4.0,
                 "lat": 36.784,
                 "long": -109.992
             },
@@ -31920,7 +31921,7 @@ var nvWells= {
                 "Temperature": 20.0,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.899,
                 "long": -109.808
             },
@@ -32012,7 +32013,7 @@ var nvWells= {
                 "Temperature": 23.1,
                 "Tl": 3.6,
                 "Turbidity": null,
-                "U": 3.7358208955223899,
+                "None": null, "U": 3.7358208955223899,
                 "lat": 36.898,
                 "long": -109.808
             },
@@ -32104,7 +32105,7 @@ var nvWells= {
                 "Temperature": 11.2,
                 "Tl": 1.0,
                 "Turbidity": 0.223,
-                "U": 5.7,
+                "None": null, "U": 5.7,
                 "lat": 37.02,
                 "long": -109.845
             },
@@ -32196,7 +32197,7 @@ var nvWells= {
                 "Temperature": 13.71,
                 "Tl": 4.3,
                 "Turbidity": 0.336,
-                "U": 54.3865027,
+                "None": null, "U": 54.3865027,
                 "lat": 36.747,
                 "long": -110.054
             },
@@ -32288,7 +32289,7 @@ var nvWells= {
                 "Temperature": 21.0,
                 "Tl": null,
                 "Turbidity": 8.0,
-                "U": 6.0,
+                "None": null, "U": 6.0,
                 "lat": 36.735,
                 "long": -109.681
             },
@@ -32380,7 +32381,7 @@ var nvWells= {
                 "Temperature": 22.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 4.8044776119402997,
+                "None": null, "U": 4.8044776119402997,
                 "lat": 36.927,
                 "long": -109.866
             },
@@ -32472,7 +32473,7 @@ var nvWells= {
                 "Temperature": 20.2,
                 "Tl": null,
                 "Turbidity": 8.0,
-                "U": 1.299183469,
+                "None": null, "U": 1.299183469,
                 "lat": 37.004,
                 "long": -109.771
             },
@@ -32564,7 +32565,7 @@ var nvWells= {
                 "Temperature": 20.0,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 4.5910447761194,
+                "None": null, "U": 4.5910447761194,
                 "lat": 36.881,
                 "long": -109.915
             },
@@ -32656,7 +32657,7 @@ var nvWells= {
                 "Temperature": 20.5,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 16.0,
+                "None": null, "U": 16.0,
                 "lat": 36.817,
                 "long": -109.881
             },
@@ -32748,7 +32749,7 @@ var nvWells= {
                 "Temperature": 20.3,
                 "Tl": null,
                 "Turbidity": 6.0,
-                "U": 4.0,
+                "None": null, "U": 4.0,
                 "lat": 36.696,
                 "long": -109.973
             },
@@ -32840,7 +32841,7 @@ var nvWells= {
                 "Temperature": 20.2,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 1.142862707,
+                "None": null, "U": 1.142862707,
                 "lat": 36.983,
                 "long": -109.761
             },
@@ -32932,7 +32933,7 @@ var nvWells= {
                 "Temperature": 20.7,
                 "Tl": null,
                 "Turbidity": 34.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.851,
                 "long": -109.906
             },
@@ -33024,7 +33025,7 @@ var nvWells= {
                 "Temperature": 19.945,
                 "Tl": null,
                 "Turbidity": 15.0,
-                "U": 3.0,
+                "None": null, "U": 3.0,
                 "lat": 36.881,
                 "long": -109.915
             },
@@ -33116,7 +33117,7 @@ var nvWells= {
                 "Temperature": 19.5,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 6.0,
+                "None": null, "U": 6.0,
                 "lat": 36.844,
                 "long": -109.851
             },
@@ -33208,7 +33209,7 @@ var nvWells= {
                 "Temperature": 19.4,
                 "Tl": null,
                 "Turbidity": 8.0,
-                "U": 4.0,
+                "None": null, "U": 4.0,
                 "lat": 36.77,
                 "long": -109.853
             },
@@ -33300,7 +33301,7 @@ var nvWells= {
                 "Temperature": 24.0,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 1.3104477611940299,
+                "None": null, "U": 1.3104477611940299,
                 "lat": 36.921,
                 "long": -109.784
             },
@@ -33392,7 +33393,7 @@ var nvWells= {
                 "Temperature": 21.6,
                 "Tl": null,
                 "Turbidity": 3.0,
-                "U": 7.0,
+                "None": null, "U": 7.0,
                 "lat": 36.728,
                 "long": -109.95
             },
@@ -33484,7 +33485,7 @@ var nvWells= {
                 "Temperature": 23.7,
                 "Tl": null,
                 "Turbidity": 8.5,
-                "U": 2.0,
+                "None": null, "U": 2.0,
                 "lat": 36.704,
                 "long": -110.023
             },
@@ -33576,7 +33577,7 @@ var nvWells= {
                 "Temperature": 24.7,
                 "Tl": null,
                 "Turbidity": 0.0,
-                "U": 31.0,
+                "None": null, "U": 31.0,
                 "lat": 36.714,
                 "long": -109.863
             },
@@ -33668,7 +33669,7 @@ var nvWells= {
                 "Temperature": 24.0,
                 "Tl": null,
                 "Turbidity": 9.0,
-                "U": 10.46506682,
+                "None": null, "U": 10.46506682,
                 "lat": 36.814,
                 "long": -109.893
             },
@@ -33760,7 +33761,7 @@ var nvWells= {
                 "Temperature": 26.4,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 3.0,
+                "None": null, "U": 3.0,
                 "lat": 36.696,
                 "long": -109.974
             },
@@ -33852,7 +33853,7 @@ var nvWells= {
                 "Temperature": 22.9,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 15.0,
+                "None": null, "U": 15.0,
                 "lat": 36.674,
                 "long": -109.762
             },
@@ -33944,7 +33945,7 @@ var nvWells= {
                 "Temperature": 22.2,
                 "Tl": null,
                 "Turbidity": 4.0,
-                "U": 46.0,
+                "None": null, "U": 46.0,
                 "lat": 36.613,
                 "long": -109.839
             },
@@ -34036,7 +34037,7 @@ var nvWells= {
                 "Temperature": 13.2,
                 "Tl": 1.0,
                 "Turbidity": 1.58,
-                "U": 4.11,
+                "None": null, "U": 4.11,
                 "lat": 36.804,
                 "long": -110.021
             },
@@ -34128,7 +34129,7 @@ var nvWells= {
                 "Temperature": 12.1,
                 "Tl": 1.0,
                 "Turbidity": 19.0,
-                "U": 4.0,
+                "None": null, "U": 4.0,
                 "lat": 36.881,
                 "long": -109.915
             },
@@ -34220,7 +34221,7 @@ var nvWells= {
                 "Temperature": 10.1,
                 "Tl": 1.0,
                 "Turbidity": 1.12,
-                "U": 7.8,
+                "None": null, "U": 7.8,
                 "lat": 36.914,
                 "long": -109.869
             },
@@ -34312,7 +34313,7 @@ var nvWells= {
                 "Temperature": 25.3,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.972,
                 "long": -109.868
             },
@@ -34404,7 +34405,7 @@ var nvWells= {
                 "Temperature": 10.9,
                 "Tl": 1.0,
                 "Turbidity": 20.0,
-                "U": 5.2,
+                "None": null, "U": 5.2,
                 "lat": 36.927,
                 "long": -109.866
             },
@@ -34496,7 +34497,7 @@ var nvWells= {
                 "Temperature": 10.1,
                 "Tl": 1.0,
                 "Turbidity": 0.663,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 37.082,
                 "long": -109.759
             },
@@ -34588,7 +34589,7 @@ var nvWells= {
                 "Temperature": 27.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 8.0731343283582095,
+                "None": null, "U": 8.0731343283582095,
                 "lat": 37.02,
                 "long": -109.845
             },
@@ -34680,7 +34681,7 @@ var nvWells= {
                 "Temperature": 22.8,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 11.6711158,
+                "None": null, "U": 11.6711158,
                 "lat": 35.344,
                 "long": -110.466
             },
@@ -34772,7 +34773,7 @@ var nvWells= {
                 "Temperature": 18.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 12.16722106,
+                "None": null, "U": 12.16722106,
                 "lat": 35.322,
                 "long": -110.422
             },
@@ -34864,7 +34865,7 @@ var nvWells= {
                 "Temperature": 26.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 11.2820895522388,
+                "None": null, "U": 11.2820895522388,
                 "lat": 35.281,
                 "long": -110.276
             },
@@ -34956,7 +34957,7 @@ var nvWells= {
                 "Temperature": 22.05,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 4.8208955223880601,
+                "None": null, "U": 4.8208955223880601,
                 "lat": 35.377,
                 "long": -110.476
             },
@@ -35048,7 +35049,7 @@ var nvWells= {
                 "Temperature": 22.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 6.5164179104477604,
+                "None": null, "U": 6.5164179104477604,
                 "lat": 35.411,
                 "long": -110.381
             },
@@ -35140,7 +35141,7 @@ var nvWells= {
                 "Temperature": 13.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.386,
                 "long": -110.322
             },
@@ -35232,7 +35233,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 11.58092424,
+                "None": null, "U": 11.58092424,
                 "lat": 35.295,
                 "long": -110.493
             },
@@ -35324,7 +35325,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 8.836099278000001,
+                "None": null, "U": 8.836099278000001,
                 "lat": 35.321,
                 "long": -110.398
             },
@@ -35416,7 +35417,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 89.01771435000001,
+                "None": null, "U": 89.01771435000001,
                 "lat": 35.226,
                 "long": -110.297
             },
@@ -35508,7 +35509,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 9.472987608,
+                "None": null, "U": 9.472987608,
                 "lat": 35.386,
                 "long": -110.314
             },
@@ -35600,7 +35601,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 10.14925314,
+                "None": null, "U": 10.14925314,
                 "lat": 35.305,
                 "long": -110.458
             },
@@ -35692,7 +35693,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.748100164,
+                "None": null, "U": 0.748100164,
                 "lat": 35.33,
                 "long": -110.397
             },
@@ -35784,7 +35785,7 @@ var nvWells= {
                 "Temperature": 18.8,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 12.9417910447761,
+                "None": null, "U": 12.9417910447761,
                 "lat": 35.326,
                 "long": -110.325
             },
@@ -35876,7 +35877,7 @@ var nvWells= {
                 "Temperature": 19.5,
                 "Tl": null,
                 "Turbidity": 0.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.294,
                 "long": -110.302
             },
@@ -35968,7 +35969,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.57,
+                "None": null, "U": 0.57,
                 "lat": 36.225,
                 "long": -110.401
             },
@@ -36060,7 +36061,7 @@ var nvWells= {
                 "Temperature": 22.4,
                 "Tl": null,
                 "Turbidity": 3.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.295,
                 "long": -110.349
             },
@@ -36152,7 +36153,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.611464988,
+                "None": null, "U": 2.611464988,
                 "lat": 36.426,
                 "long": -110.392
             },
@@ -36244,7 +36245,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.645982965,
+                "None": null, "U": 0.645982965,
                 "lat": 36.272,
                 "long": -110.356
             },
@@ -36336,7 +36337,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.724106075,
+                "None": null, "U": 0.724106075,
                 "lat": 36.274,
                 "long": -110.397
             },
@@ -36428,7 +36429,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.318301552,
+                "None": null, "U": 0.318301552,
                 "lat": 36.295,
                 "long": -110.349
             },
@@ -36520,7 +36521,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.2045567,
+                "None": null, "U": 0.2045567,
                 "lat": 36.294,
                 "long": -110.302
             },
@@ -36612,7 +36613,7 @@ var nvWells= {
                 "Temperature": 6.4,
                 "Tl": 4.0,
                 "Turbidity": null,
-                "U": 24.74627833,
+                "None": null, "U": 24.74627833,
                 "lat": 36.215,
                 "long": -110.237
             },
@@ -36704,7 +36705,7 @@ var nvWells= {
                 "Temperature": 22.9,
                 "Tl": null,
                 "Turbidity": 6.0,
-                "U": 2.0,
+                "None": null, "U": 2.0,
                 "lat": 35.622,
                 "long": -109.541
             },
@@ -36796,7 +36797,7 @@ var nvWells= {
                 "Temperature": 20.9,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.685,
                 "long": -109.511
             },
@@ -36888,7 +36889,7 @@ var nvWells= {
                 "Temperature": 21.8,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.696,
                 "long": -109.455
             },
@@ -36980,7 +36981,7 @@ var nvWells= {
                 "Temperature": 17.5,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.603,
                 "long": -109.454
             },
@@ -37072,7 +37073,7 @@ var nvWells= {
                 "Temperature": 19.7,
                 "Tl": 10.0,
                 "Turbidity": 150.0,
-                "U": 1.185481457,
+                "None": null, "U": 1.185481457,
                 "lat": 35.531,
                 "long": -109.962
             },
@@ -37164,7 +37165,7 @@ var nvWells= {
                 "Temperature": 20.2,
                 "Tl": 3.3,
                 "Turbidity": null,
-                "U": 284.67164179104498,
+                "None": null, "U": 284.67164179104498,
                 "lat": 35.517,
                 "long": -109.859
             },
@@ -37256,7 +37257,7 @@ var nvWells= {
                 "Temperature": 14.6,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.33134328358208998,
+                "None": null, "U": 0.33134328358208998,
                 "lat": 35.529,
                 "long": -109.854
             },
@@ -37348,7 +37349,7 @@ var nvWells= {
                 "Temperature": 15.0,
                 "Tl": 10.0,
                 "Turbidity": 6.04,
-                "U": 13.4776119402985,
+                "None": null, "U": 13.4776119402985,
                 "lat": 35.608,
                 "long": -109.963
             },
@@ -37440,7 +37441,7 @@ var nvWells= {
                 "Temperature": 16.3,
                 "Tl": 10.0,
                 "Turbidity": 2.605,
-                "U": 50.346268656716397,
+                "None": null, "U": 50.346268656716397,
                 "lat": 35.613,
                 "long": -109.847
             },
@@ -37532,7 +37533,7 @@ var nvWells= {
                 "Temperature": 20.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 18.613432835820898,
+                "None": null, "U": 18.613432835820898,
                 "lat": 35.425,
                 "long": -109.911
             },
@@ -37624,7 +37625,7 @@ var nvWells= {
                 "Temperature": 15.6,
                 "Tl": 1.0,
                 "Turbidity": 0.31,
-                "U": 69.0,
+                "None": null, "U": 69.0,
                 "lat": 35.352,
                 "long": -109.893
             },
@@ -37716,7 +37717,7 @@ var nvWells= {
                 "Temperature": 22.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.086567164179104497,
+                "None": null, "U": 0.086567164179104497,
                 "lat": 35.441,
                 "long": -109.926
             },
@@ -37808,7 +37809,7 @@ var nvWells= {
                 "Temperature": 19.5,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 23.1835820895522,
+                "None": null, "U": 23.1835820895522,
                 "lat": 35.549,
                 "long": -109.922
             },
@@ -37900,7 +37901,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 21.42820064,
+                "None": null, "U": 21.42820064,
                 "lat": 35.518,
                 "long": -109.843
             },
@@ -37992,7 +37993,7 @@ var nvWells= {
                 "Temperature": 18.65,
                 "Tl": 10.0,
                 "Turbidity": 6.0,
-                "U": 5.7507462686567203,
+                "None": null, "U": 5.7507462686567203,
                 "lat": 35.466,
                 "long": -109.745
             },
@@ -38084,7 +38085,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 52.20423942,
+                "None": null, "U": 52.20423942,
                 "lat": 35.49,
                 "long": -109.87
             },
@@ -38176,7 +38177,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 32.68788139,
+                "None": null, "U": 32.68788139,
                 "lat": 36.033,
                 "long": -110.502
             },
@@ -38268,7 +38269,7 @@ var nvWells= {
                 "Temperature": 23.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.291,
                 "long": -109.215
             },
@@ -38360,7 +38361,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": 0.66,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.297,
                 "long": -109.224
             },
@@ -38452,7 +38453,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 5.5223880597014903,
+                "None": null, "U": 5.5223880597014903,
                 "lat": 35.239,
                 "long": -109.305
             },
@@ -38544,7 +38545,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.312,
                 "long": -109.307
             },
@@ -38636,7 +38637,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.5373134328358198,
+                "None": null, "U": 2.5373134328358198,
                 "lat": 35.31,
                 "long": -109.299
             },
@@ -38728,7 +38729,7 @@ var nvWells= {
                 "Temperature": 19.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 6.4179104477611899,
+                "None": null, "U": 6.4179104477611899,
                 "lat": 35.278,
                 "long": -109.217
             },
@@ -38820,7 +38821,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.26,
                 "long": -109.364
             },
@@ -38912,7 +38913,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.269,
                 "long": -109.236
             },
@@ -39004,7 +39005,7 @@ var nvWells= {
                 "Temperature": 22.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.5820895522388101,
+                "None": null, "U": 3.5820895522388101,
                 "lat": 35.291,
                 "long": -109.258
             },
@@ -39096,7 +39097,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.24,
                 "long": -109.323
             },
@@ -39188,7 +39189,7 @@ var nvWells= {
                 "Temperature": 22.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.251,
                 "long": -109.298
             },
@@ -39280,7 +39281,7 @@ var nvWells= {
                 "Temperature": 23.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.285,
                 "long": -109.27
             },
@@ -39372,7 +39373,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 10.4477611940298,
+                "None": null, "U": 10.4477611940298,
                 "lat": 35.234,
                 "long": -109.285
             },
@@ -39464,7 +39465,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 73.134328358208904,
+                "None": null, "U": 73.134328358208904,
                 "lat": 35.2,
                 "long": -109.421
             },
@@ -39556,7 +39557,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 55.223880597014897,
+                "None": null, "U": 55.223880597014897,
                 "lat": 35.2,
                 "long": -109.405
             },
@@ -39648,7 +39649,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 11.9402985074627,
+                "None": null, "U": 11.9402985074627,
                 "lat": 35.252,
                 "long": -109.266
             },
@@ -39740,7 +39741,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 17.910447761194,
+                "None": null, "U": 17.910447761194,
                 "lat": 35.326,
                 "long": -109.354
             },
@@ -39832,7 +39833,7 @@ var nvWells= {
                 "Temperature": 12.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.302,
                 "long": -109.225
             },
@@ -39924,7 +39925,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.2,
                 "long": -109.421
             },
@@ -40016,7 +40017,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.298,
                 "long": -109.219
             },
@@ -40108,7 +40109,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.0298507462686599,
+                "None": null, "U": 1.0298507462686599,
                 "lat": 35.255,
                 "long": -109.243
             },
@@ -40200,7 +40201,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 8.9552238805970106,
+                "None": null, "U": 8.9552238805970106,
                 "lat": 35.262,
                 "long": -109.23
             },
@@ -40292,7 +40293,7 @@ var nvWells= {
                 "Temperature": 15.0,
                 "Tl": null,
                 "Turbidity": 6.1,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.199,
                 "long": -109.405
             },
@@ -40384,7 +40385,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.37313432835821,
+                "None": null, "U": 1.37313432835821,
                 "lat": 35.265,
                 "long": -109.202
             },
@@ -40476,7 +40477,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.1791044776119399,
+                "None": null, "U": 1.1791044776119399,
                 "lat": 35.309,
                 "long": -109.229
             },
@@ -40568,7 +40569,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.08955223880597,
+                "None": null, "U": 2.08955223880597,
                 "lat": 35.287,
                 "long": -109.249
             },
@@ -40660,7 +40661,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 19.402985074626901,
+                "None": null, "U": 19.402985074626901,
                 "lat": 35.29,
                 "long": -109.199
             },
@@ -40752,7 +40753,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 5.3731343283582103,
+                "None": null, "U": 5.3731343283582103,
                 "lat": 35.275,
                 "long": -109.273
             },
@@ -40844,7 +40845,7 @@ var nvWells= {
                 "Temperature": 14.8,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 5.8208955223880601,
+                "None": null, "U": 5.8208955223880601,
                 "lat": 35.226,
                 "long": -109.342
             },
@@ -40936,7 +40937,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.334,
                 "long": -107.841
             },
@@ -41028,7 +41029,7 @@ var nvWells= {
                 "Temperature": 24.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 5.0940298507462698,
+                "None": null, "U": 5.0940298507462698,
                 "lat": 35.318,
                 "long": -110.241
             },
@@ -41120,7 +41121,7 @@ var nvWells= {
                 "Temperature": 19.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 2.2492537313432801,
+                "None": null, "U": 2.2492537313432801,
                 "lat": 35.402,
                 "long": -110.141
             },
@@ -41212,7 +41213,7 @@ var nvWells= {
                 "Temperature": 7.0,
                 "Tl": 10.0,
                 "Turbidity": 1.8,
-                "U": 10.6044776119403,
+                "None": null, "U": 10.6044776119403,
                 "lat": 35.404,
                 "long": -110.022
             },
@@ -41304,7 +41305,7 @@ var nvWells= {
                 "Temperature": 25.1,
                 "Tl": 6.4,
                 "Turbidity": null,
-                "U": 2.0223880597014898,
+                "None": null, "U": 2.0223880597014898,
                 "lat": 35.331,
                 "long": -110.121
             },
@@ -41396,7 +41397,7 @@ var nvWells= {
                 "Temperature": 21.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 1.27761194029851,
+                "None": null, "U": 1.27761194029851,
                 "lat": 35.37,
                 "long": -110.096
             },
@@ -41488,7 +41489,7 @@ var nvWells= {
                 "Temperature": 24.0,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 7.1328358208955196,
+                "None": null, "U": 7.1328358208955196,
                 "lat": 35.37,
                 "long": -110.084
             },
@@ -41580,7 +41581,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 34.95057041,
+                "None": null, "U": 34.95057041,
                 "lat": 35.389,
                 "long": -110.057
             },
@@ -41672,7 +41673,7 @@ var nvWells= {
                 "Temperature": 23.1,
                 "Tl": 3.2,
                 "Turbidity": null,
-                "U": 20.2716417910448,
+                "None": null, "U": 20.2716417910448,
                 "lat": 35.401,
                 "long": -110.087
             },
@@ -41764,7 +41765,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.71,
+                "None": null, "U": 0.71,
                 "lat": 35.394,
                 "long": -110.201
             },
@@ -41856,7 +41857,7 @@ var nvWells= {
                 "Temperature": 22.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 11.723880597014899,
+                "None": null, "U": 11.723880597014899,
                 "lat": 35.447,
                 "long": -110.031
             },
@@ -41948,7 +41949,7 @@ var nvWells= {
                 "Temperature": 20.0,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 10.4164179104478,
+                "None": null, "U": 10.4164179104478,
                 "lat": 35.456,
                 "long": -110.025
             },
@@ -42040,7 +42041,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 115.764751,
+                "None": null, "U": 115.764751,
                 "lat": 35.354,
                 "long": -109.893
             },
@@ -42132,7 +42133,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 6.358237025,
+                "None": null, "U": 6.358237025,
                 "lat": 35.376,
                 "long": -110.091
             },
@@ -42224,7 +42225,7 @@ var nvWells= {
                 "Temperature": 15.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.108955223880597,
+                "None": null, "U": 0.108955223880597,
                 "lat": 35.401,
                 "long": -110.084
             },
@@ -42316,7 +42317,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 5.298014335,
+                "None": null, "U": 5.298014335,
                 "lat": 35.404,
                 "long": -110.022
             },
@@ -42408,7 +42409,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 25.33134688,
+                "None": null, "U": 25.33134688,
                 "lat": 35.382,
                 "long": -110.175
             },
@@ -42500,7 +42501,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 73.5,
+                "None": null, "U": 73.5,
                 "lat": 35.303,
                 "long": -110.219
             },
@@ -42592,7 +42593,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 15.67488317,
+                "None": null, "U": 15.67488317,
                 "lat": 35.324,
                 "long": -110.005
             },
@@ -42684,7 +42685,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 42.54721253,
+                "None": null, "U": 42.54721253,
                 "lat": 35.326,
                 "long": -110.016
             },
@@ -42776,7 +42777,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 89.48983821,
+                "None": null, "U": 89.48983821,
                 "lat": 35.32,
                 "long": -110.249
             },
@@ -42868,7 +42869,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.973040302,
+                "None": null, "U": 0.973040302,
                 "lat": 36.517,
                 "long": -110.847
             },
@@ -42960,7 +42961,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.919071815,
+                "None": null, "U": 0.919071815,
                 "lat": 36.767,
                 "long": -110.678
             },
@@ -43052,7 +43053,7 @@ var nvWells= {
                 "Temperature": 15.3,
                 "Tl": 5.0,
                 "Turbidity": 4.615,
-                "U": 29.0,
+                "None": null, "U": 29.0,
                 "lat": 35.531,
                 "long": -108.464
             },
@@ -43144,7 +43145,7 @@ var nvWells= {
                 "Temperature": 15.0,
                 "Tl": 5.0,
                 "Turbidity": 2.167,
-                "U": 10.0,
+                "None": null, "U": 10.0,
                 "lat": 35.535,
                 "long": -108.451
             },
@@ -43236,7 +43237,7 @@ var nvWells= {
                 "Temperature": 6.9,
                 "Tl": 1.0,
                 "Turbidity": 1.04,
-                "U": 26.0,
+                "None": null, "U": 26.0,
                 "lat": 35.529,
                 "long": -108.49
             },
@@ -43328,7 +43329,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": 1.0,
                 "Turbidity": 0.411,
-                "U": 2.2,
+                "None": null, "U": 2.2,
                 "lat": 35.514,
                 "long": -108.452
             },
@@ -43420,7 +43421,7 @@ var nvWells= {
                 "Temperature": 22.3,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 7.686294178,
+                "None": null, "U": 7.686294178,
                 "lat": 35.781,
                 "long": -110.133
             },
@@ -43512,7 +43513,7 @@ var nvWells= {
                 "Temperature": 21.4,
                 "Tl": null,
                 "Turbidity": 7.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.733,
                 "long": -110.167
             },
@@ -43604,7 +43605,7 @@ var nvWells= {
                 "Temperature": 24.2,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.804,
                 "long": -109.987
             },
@@ -43696,7 +43697,7 @@ var nvWells= {
                 "Temperature": 24.7,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.752,
                 "long": -109.977
             },
@@ -43788,7 +43789,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.09,
+                "None": null, "U": 2.09,
                 "lat": 35.797,
                 "long": -110.13
             },
@@ -43880,7 +43881,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.554199503,
+                "None": null, "U": 0.554199503,
                 "lat": 35.773,
                 "long": -110.1
             },
@@ -43972,7 +43973,7 @@ var nvWells= {
                 "Temperature": 21.5,
                 "Tl": null,
                 "Turbidity": 6.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.77,
                 "long": -109.978
             },
@@ -44064,7 +44065,7 @@ var nvWells= {
                 "Temperature": 21.4,
                 "Tl": null,
                 "Turbidity": 9.0,
-                "U": 12.0,
+                "None": null, "U": 12.0,
                 "lat": 35.724,
                 "long": -109.972
             },
@@ -44156,7 +44157,7 @@ var nvWells= {
                 "Temperature": 17.0,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": 7.0,
+                "None": null, "U": 7.0,
                 "lat": 35.808,
                 "long": -109.965
             },
@@ -44248,7 +44249,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.357626908,
+                "None": null, "U": 0.357626908,
                 "lat": 36.494,
                 "long": -111.129
             },
@@ -44340,7 +44341,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.162752025,
+                "None": null, "U": 1.162752025,
                 "lat": 36.648,
                 "long": -110.981
             },
@@ -44432,7 +44433,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.630943085,
+                "None": null, "U": 0.630943085,
                 "lat": 36.447,
                 "long": -111.214
             },
@@ -44524,7 +44525,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.740680729,
+                "None": null, "U": 0.740680729,
                 "lat": 36.718,
                 "long": -110.977
             },
@@ -44616,7 +44617,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 6.59076635,
+                "None": null, "U": 6.59076635,
                 "lat": 36.67,
                 "long": -111.028
             },
@@ -44708,7 +44709,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.934678121,
+                "None": null, "U": 2.934678121,
                 "lat": 36.495,
                 "long": -111.037
             },
@@ -44800,7 +44801,7 @@ var nvWells= {
                 "Temperature": 17.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 6.3149253731343302,
+                "None": null, "U": 6.3149253731343302,
                 "lat": 36.724,
                 "long": -110.255
             },
@@ -44892,7 +44893,7 @@ var nvWells= {
                 "Temperature": 17.6,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 15.0925373134328,
+                "None": null, "U": 15.0925373134328,
                 "lat": 36.673,
                 "long": -110.184
             },
@@ -44984,7 +44985,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.629832028,
+                "None": null, "U": 1.629832028,
                 "lat": 36.641,
                 "long": -110.472
             },
@@ -45076,7 +45077,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.852098177,
+                "None": null, "U": 0.852098177,
                 "lat": 36.499,
                 "long": -110.408
             },
@@ -45168,7 +45169,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.65,
+                "None": null, "U": 3.65,
                 "lat": 36.64,
                 "long": -110.47
             },
@@ -45260,7 +45261,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.250135134,
+                "None": null, "U": 1.250135134,
                 "lat": 36.644,
                 "long": -110.479
             },
@@ -45352,7 +45353,7 @@ var nvWells= {
                 "Temperature": 14.4,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": 4.0,
+                "None": null, "U": 4.0,
                 "lat": 36.772,
                 "long": -110.362
             },
@@ -45444,7 +45445,7 @@ var nvWells= {
                 "Temperature": 21.8,
                 "Tl": null,
                 "Turbidity": 7.0,
-                "U": 3.0,
+                "None": null, "U": 3.0,
                 "lat": 36.729,
                 "long": -110.243
             },
@@ -45536,7 +45537,7 @@ var nvWells= {
                 "Temperature": 21.2,
                 "Tl": 10.0,
                 "Turbidity": 209.0,
-                "U": 2.8492537313432802,
+                "None": null, "U": 2.8492537313432802,
                 "lat": 36.651,
                 "long": -110.233
             },
@@ -45628,7 +45629,7 @@ var nvWells= {
                 "Temperature": 12.905,
                 "Tl": 1.0,
                 "Turbidity": 2.46,
-                "U": 25.71268263,
+                "None": null, "U": 25.71268263,
                 "lat": 36.676,
                 "long": -110.401
             },
@@ -45720,7 +45721,7 @@ var nvWells= {
                 "Temperature": 20.75,
                 "Tl": null,
                 "Turbidity": 4.0,
-                "U": 7.0,
+                "None": null, "U": 7.0,
                 "lat": 36.727,
                 "long": -110.381
             },
@@ -45812,7 +45813,7 @@ var nvWells= {
                 "Temperature": 17.4,
                 "Tl": 2.9,
                 "Turbidity": 217.0,
-                "U": 5.9805970149253698,
+                "None": null, "U": 5.9805970149253698,
                 "lat": 36.693,
                 "long": -110.152
             },
@@ -45904,7 +45905,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 9.449216359,
+                "None": null, "U": 9.449216359,
                 "lat": 36.707,
                 "long": -110.289
             },
@@ -45996,7 +45997,7 @@ var nvWells= {
                 "Temperature": 17.6,
                 "Tl": null,
                 "Turbidity": 157.0,
-                "U": 30.53656107,
+                "None": null, "U": 30.53656107,
                 "lat": 36.624,
                 "long": -110.463
             },
@@ -46088,7 +46089,7 @@ var nvWells= {
                 "Temperature": 20.6,
                 "Tl": 10.0,
                 "Turbidity": 6.0,
-                "U": 256.61194029850702,
+                "None": null, "U": 256.61194029850702,
                 "lat": 36.807,
                 "long": -110.335
             },
@@ -46180,7 +46181,7 @@ var nvWells= {
                 "Temperature": 23.0,
                 "Tl": null,
                 "Turbidity": 0.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.794,
                 "long": -110.258
             },
@@ -46272,7 +46273,7 @@ var nvWells= {
                 "Temperature": 20.1,
                 "Tl": null,
                 "Turbidity": 218.0,
-                "U": 22.0,
+                "None": null, "U": 22.0,
                 "lat": 36.778,
                 "long": -110.117
             },
@@ -46364,7 +46365,7 @@ var nvWells= {
                 "Temperature": 18.55,
                 "Tl": 1.0,
                 "Turbidity": 111.04,
-                "U": 4.639899244,
+                "None": null, "U": 4.639899244,
                 "lat": 36.785,
                 "long": -110.078
             },
@@ -46456,7 +46457,7 @@ var nvWells= {
                 "Temperature": 22.0,
                 "Tl": null,
                 "Turbidity": 8.0,
-                "U": 2.0,
+                "None": null, "U": 2.0,
                 "lat": 36.816,
                 "long": -110.365
             },
@@ -46548,7 +46549,7 @@ var nvWells= {
                 "Temperature": 21.0,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 5.4970149253731302,
+                "None": null, "U": 5.4970149253731302,
                 "lat": 36.855,
                 "long": -110.265
             },
@@ -46640,7 +46641,7 @@ var nvWells= {
                 "Temperature": 24.8,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 15.0,
+                "None": null, "U": 15.0,
                 "lat": 35.769,
                 "long": -109.496
             },
@@ -46732,7 +46733,7 @@ var nvWells= {
                 "Temperature": 23.3,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 2.0,
+                "None": null, "U": 2.0,
                 "lat": 35.788,
                 "long": -109.487
             },
@@ -46824,7 +46825,7 @@ var nvWells= {
                 "Temperature": 0.0,
                 "Tl": null,
                 "Turbidity": 0.0,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.631,
                 "long": -109.438
             },
@@ -46916,7 +46917,7 @@ var nvWells= {
                 "Temperature": 19.5,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.667,
                 "long": -109.329
             },
@@ -47008,7 +47009,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 8.6567164179104505,
+                "None": null, "U": 8.6567164179104505,
                 "lat": 35.625,
                 "long": -109.337
             },
@@ -47100,7 +47101,7 @@ var nvWells= {
                 "Temperature": 16.9,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.783,
                 "long": -109.36
             },
@@ -47192,7 +47193,7 @@ var nvWells= {
                 "Temperature": 19.4,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.676,
                 "long": -109.441
             },
@@ -47284,7 +47285,7 @@ var nvWells= {
                 "Temperature": 13.8,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.774,
                 "long": -109.331
             },
@@ -47376,7 +47377,7 @@ var nvWells= {
                 "Temperature": 23.7,
                 "Tl": null,
                 "Turbidity": 194.0,
-                "U": 4.0,
+                "None": null, "U": 4.0,
                 "lat": 35.456,
                 "long": -109.689
             },
@@ -47468,7 +47469,7 @@ var nvWells= {
                 "Temperature": 20.3,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": 2.0,
+                "None": null, "U": 2.0,
                 "lat": 35.464,
                 "long": -109.488
             },
@@ -47560,7 +47561,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.578,
                 "long": -109.275
             },
@@ -47652,7 +47653,7 @@ var nvWells= {
                 "Temperature": 32.8,
                 "Tl": 0.24,
                 "Turbidity": 0.55,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.031,
                 "long": -107.905
             },
@@ -47744,7 +47745,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 133.0560562,
+                "None": null, "U": 133.0560562,
                 "lat": 36.85,
                 "long": -111.331
             },
@@ -47836,7 +47837,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.726565038,
+                "None": null, "U": 0.726565038,
                 "lat": 36.614,
                 "long": -111.185
             },
@@ -47928,7 +47929,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.913671368,
+                "None": null, "U": 0.913671368,
                 "lat": 36.885,
                 "long": -111.357
             },
@@ -48020,7 +48021,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.481906077,
+                "None": null, "U": 0.481906077,
                 "lat": 36.577,
                 "long": -111.208
             },
@@ -48112,7 +48113,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.3283582089552199,
+                "None": null, "U": 4.3283582089552199,
                 "lat": 35.294,
                 "long": -111.154
             },
@@ -48204,7 +48205,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.7761194029850698,
+                "None": null, "U": 4.7761194029850698,
                 "lat": 35.374,
                 "long": -111.138
             },
@@ -48296,7 +48297,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.3283582089552199,
+                "None": null, "U": 4.3283582089552199,
                 "lat": 35.432,
                 "long": -111.114
             },
@@ -48388,7 +48389,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 5.0746268656716396,
+                "None": null, "U": 5.0746268656716396,
                 "lat": 35.247,
                 "long": -111.025
             },
@@ -48480,7 +48481,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.8805970149253701,
+                "None": null, "U": 3.8805970149253701,
                 "lat": 35.308,
                 "long": -111.0
             },
@@ -48572,7 +48573,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.007808241,
+                "None": null, "U": 2.007808241,
                 "lat": 35.493,
                 "long": -111.159
             },
@@ -48664,7 +48665,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 5.399374111,
+                "None": null, "U": 5.399374111,
                 "lat": 35.318,
                 "long": -111.217
             },
@@ -48756,7 +48757,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.489554425,
+                "None": null, "U": 4.489554425,
                 "lat": 35.329,
                 "long": -111.008
             },
@@ -48848,7 +48849,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.3283582089552199,
+                "None": null, "U": 4.3283582089552199,
                 "lat": 35.309,
                 "long": -111.097
             },
@@ -48940,7 +48941,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.4776119402985097,
+                "None": null, "U": 4.4776119402985097,
                 "lat": 35.257,
                 "long": -111.067
             },
@@ -49032,7 +49033,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.3283582089552199,
+                "None": null, "U": 4.3283582089552199,
                 "lat": 35.348,
                 "long": -111.095
             },
@@ -49124,7 +49125,7 @@ var nvWells= {
                 "Temperature": 13.2,
                 "Tl": 1.0,
                 "Turbidity": null,
-                "U": 35.0,
+                "None": null, "U": 35.0,
                 "lat": 35.503,
                 "long": -111.24
             },
@@ -49216,7 +49217,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.617574003,
+                "None": null, "U": 4.617574003,
                 "lat": 35.301,
                 "long": -111.102
             },
@@ -49308,7 +49309,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 5.18435294,
+                "None": null, "U": 5.18435294,
                 "lat": 35.355,
                 "long": -111.225
             },
@@ -49400,7 +49401,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.592795775,
+                "None": null, "U": 3.592795775,
                 "lat": 35.243,
                 "long": -110.977
             },
@@ -49492,7 +49493,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.9253731343283604,
+                "None": null, "U": 4.9253731343283604,
                 "lat": 35.245,
                 "long": -110.972
             },
@@ -49584,7 +49585,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.7313432835820901,
+                "None": null, "U": 3.7313432835820901,
                 "lat": 35.67,
                 "long": -108.046
             },
@@ -49676,7 +49677,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.664,
                 "long": -107.971
             },
@@ -49768,7 +49769,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.613,
                 "long": -108.021
             },
@@ -49860,7 +49861,7 @@ var nvWells= {
                 "Temperature": 21.5,
                 "Tl": null,
                 "Turbidity": 16.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.87,
                 "long": -109.96
             },
@@ -49952,7 +49953,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.403,
                 "long": -109.181
             },
@@ -50044,7 +50045,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.402,
                 "long": -109.184
             },
@@ -50136,7 +50137,7 @@ var nvWells= {
                 "Temperature": 22.9,
                 "Tl": null,
                 "Turbidity": 7.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.412,
                 "long": -109.244
             },
@@ -50228,7 +50229,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.537863544,
+                "None": null, "U": 3.537863544,
                 "lat": 36.453,
                 "long": -109.17
             },
@@ -50320,7 +50321,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 400.0,
+                "None": null, "U": 400.0,
                 "lat": 35.442,
                 "long": -109.011
             },
@@ -50412,7 +50413,7 @@ var nvWells= {
                 "Temperature": 12.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 1.1940298507462701,
+                "None": null, "U": 1.1940298507462701,
                 "lat": 36.46,
                 "long": -109.107
             },
@@ -50504,7 +50505,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.449,
                 "long": -109.36
             },
@@ -50596,7 +50597,7 @@ var nvWells= {
                 "Temperature": 14.52,
                 "Tl": 10.0,
                 "Turbidity": 5.7,
-                "U": 30.298507462686601,
+                "None": null, "U": 30.298507462686601,
                 "lat": 36.414,
                 "long": -109.319
             },
@@ -50688,7 +50689,7 @@ var nvWells= {
                 "Temperature": 14.0,
                 "Tl": null,
                 "Turbidity": 0.3,
-                "U": 38.0,
+                "None": null, "U": 38.0,
                 "lat": 35.316,
                 "long": -109.055
             },
@@ -50780,7 +50781,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.334,
                 "long": -109.071
             },
@@ -50872,7 +50873,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.08955223880597,
+                "None": null, "U": 2.08955223880597,
                 "lat": 35.191,
                 "long": -109.188
             },
@@ -50964,7 +50965,7 @@ var nvWells= {
                 "Temperature": 23.2,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.329,
                 "long": -109.071
             },
@@ -51056,7 +51057,7 @@ var nvWells= {
                 "Temperature": 13.7,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 19.402985074626901,
+                "None": null, "U": 19.402985074626901,
                 "lat": 35.249,
                 "long": -109.086
             },
@@ -51148,7 +51149,7 @@ var nvWells= {
                 "Temperature": 15.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.194,
                 "long": -109.205
             },
@@ -51240,7 +51241,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 53.731343283582099,
+                "None": null, "U": 53.731343283582099,
                 "lat": 35.244,
                 "long": -109.152
             },
@@ -51332,7 +51333,7 @@ var nvWells= {
                 "Temperature": 11.5,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.303,
                 "long": -109.099
             },
@@ -51424,7 +51425,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.341,
                 "long": -109.073
             },
@@ -51516,7 +51517,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.186,
                 "long": -109.095
             },
@@ -51608,7 +51609,7 @@ var nvWells= {
                 "Temperature": 13.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 12.9850746268657,
+                "None": null, "U": 12.9850746268657,
                 "lat": 35.347,
                 "long": -109.06
             },
@@ -51700,7 +51701,7 @@ var nvWells= {
                 "Temperature": 22.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.318,
                 "long": -109.101
             },
@@ -51792,7 +51793,7 @@ var nvWells= {
                 "Temperature": 22.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.318,
                 "long": -109.1
             },
@@ -51884,7 +51885,7 @@ var nvWells= {
                 "Temperature": 12.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 300.0,
+                "None": null, "U": 300.0,
                 "lat": 35.279,
                 "long": -109.156
             },
@@ -51976,7 +51977,7 @@ var nvWells= {
                 "Temperature": 20.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.352,
                 "long": -109.065
             },
@@ -52068,7 +52069,7 @@ var nvWells= {
                 "Temperature": 22.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.353,
                 "long": -109.071
             },
@@ -52160,7 +52161,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.323,
                 "long": -109.111
             },
@@ -52252,7 +52253,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 29.8507462686567,
+                "None": null, "U": 29.8507462686567,
                 "lat": 35.191,
                 "long": -109.197
             },
@@ -52344,7 +52345,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.35,
                 "long": -109.05
             },
@@ -52436,7 +52437,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.316,
                 "long": -109.055
             },
@@ -52528,7 +52529,7 @@ var nvWells= {
                 "Temperature": 24.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.385,
                 "long": -109.031
             },
@@ -52620,7 +52621,7 @@ var nvWells= {
                 "Temperature": 24.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.378,
                 "long": -109.042
             },
@@ -52712,7 +52713,7 @@ var nvWells= {
                 "Temperature": 23.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.416,
                 "long": -109.004
             },
@@ -52804,7 +52805,7 @@ var nvWells= {
                 "Temperature": 21.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.385,
                 "long": -109.033
             },
@@ -52896,7 +52897,7 @@ var nvWells= {
                 "Temperature": 23.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.396,
                 "long": -109.02
             },
@@ -52988,7 +52989,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.14925373134328401,
+                "None": null, "U": 0.14925373134328401,
                 "lat": 35.451,
                 "long": -108.97
             },
@@ -53080,7 +53081,7 @@ var nvWells= {
                 "Temperature": 10.25,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.462,
                 "long": -108.943
             },
@@ -53172,7 +53173,7 @@ var nvWells= {
                 "Temperature": 9.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.462,
                 "long": -108.943
             },
@@ -53264,7 +53265,7 @@ var nvWells= {
                 "Temperature": 23.8,
                 "Tl": null,
                 "Turbidity": 6.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.35,
                 "long": -109.48
             },
@@ -53356,7 +53357,7 @@ var nvWells= {
                 "Temperature": 22.4,
                 "Tl": null,
                 "Turbidity": 3.0,
-                "U": 2.061797502,
+                "None": null, "U": 2.061797502,
                 "lat": 36.294,
                 "long": -109.5
             },
@@ -53448,7 +53449,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.29,
                 "long": -109.418
             },
@@ -53540,7 +53541,7 @@ var nvWells= {
                 "Temperature": 15.25,
                 "Tl": 1.0,
                 "Turbidity": 7.45,
-                "U": 44.0,
+                "None": null, "U": 44.0,
                 "lat": 36.39,
                 "long": -109.604
             },
@@ -53632,7 +53633,7 @@ var nvWells= {
                 "Temperature": 22.9,
                 "Tl": null,
                 "Turbidity": 15.0,
-                "U": 1.322689458,
+                "None": null, "U": 1.322689458,
                 "lat": 36.351,
                 "long": -109.429
             },
@@ -53724,7 +53725,7 @@ var nvWells= {
                 "Temperature": 25.7,
                 "Tl": null,
                 "Turbidity": 11.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.402,
                 "long": -109.474
             },
@@ -53816,7 +53817,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.670034649,
+                "None": null, "U": 0.670034649,
                 "lat": 36.382,
                 "long": -109.401
             },
@@ -53908,7 +53909,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.327,
                 "long": -109.382
             },
@@ -54000,7 +54001,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.28294013,
+                "None": null, "U": 1.28294013,
                 "lat": 36.942,
                 "long": -109.705
             },
@@ -54092,7 +54093,7 @@ var nvWells= {
                 "Temperature": 6.5,
                 "Tl": 1.0,
                 "Turbidity": 13.8,
-                "U": 25.0,
+                "None": null, "U": 25.0,
                 "lat": 35.577,
                 "long": -108.325
             },
@@ -54184,7 +54185,7 @@ var nvWells= {
                 "Temperature": 17.4,
                 "Tl": 1.0,
                 "Turbidity": 51.9,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.619,
                 "long": -108.314
             },
@@ -54276,7 +54277,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.128,
                 "long": -109.574
             },
@@ -54368,7 +54369,7 @@ var nvWells= {
                 "Temperature": 18.7,
                 "Tl": 1.0,
                 "Turbidity": 3.56,
-                "U": 700.0,
+                "None": null, "U": 700.0,
                 "lat": 36.987,
                 "long": -109.528
             },
@@ -54460,7 +54461,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.203,
                 "long": -109.597
             },
@@ -54552,7 +54553,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.186,
                 "long": -109.566
             },
@@ -54644,7 +54645,7 @@ var nvWells= {
                 "Temperature": 20.8,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.953,
                 "long": -109.653
             },
@@ -54736,7 +54737,7 @@ var nvWells= {
                 "Temperature": 23.6,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 3.0,
+                "None": null, "U": 3.0,
                 "lat": 36.964,
                 "long": -109.637
             },
@@ -54828,7 +54829,7 @@ var nvWells= {
                 "Temperature": 21.5,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 2.0,
+                "None": null, "U": 2.0,
                 "lat": 36.877,
                 "long": -109.68
             },
@@ -54920,7 +54921,7 @@ var nvWells= {
                 "Temperature": 20.4,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 3.0,
+                "None": null, "U": 3.0,
                 "lat": 36.856,
                 "long": -109.56
             },
@@ -55012,7 +55013,7 @@ var nvWells= {
                 "Temperature": 18.8,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.861,
                 "long": -109.695
             },
@@ -55104,7 +55105,7 @@ var nvWells= {
                 "Temperature": 8.31,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.95,
                 "long": -109.551
             },
@@ -55196,7 +55197,7 @@ var nvWells= {
                 "Temperature": 18.5,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.933,
                 "long": -109.662
             },
@@ -55288,7 +55289,7 @@ var nvWells= {
                 "Temperature": 20.8,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.871,
                 "long": -109.653
             },
@@ -55380,7 +55381,7 @@ var nvWells= {
                 "Temperature": 22.5,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.925,
                 "long": -109.623
             },
@@ -55472,7 +55473,7 @@ var nvWells= {
                 "Temperature": 17.4,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.87,
                 "long": -109.631
             },
@@ -55564,7 +55565,7 @@ var nvWells= {
                 "Temperature": 23.6,
                 "Tl": null,
                 "Turbidity": 9.0,
-                "U": 4.0,
+                "None": null, "U": 4.0,
                 "lat": 36.99,
                 "long": -109.61
             },
@@ -55656,7 +55657,7 @@ var nvWells= {
                 "Temperature": 21.0,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.908,
                 "long": -109.701
             },
@@ -55748,7 +55749,7 @@ var nvWells= {
                 "Temperature": 2.06,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.908,
                 "long": -109.67
             },
@@ -55840,7 +55841,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.196,
                 "long": -107.749
             },
@@ -55932,7 +55933,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.103,
                 "long": -107.814
             },
@@ -56024,7 +56025,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": 0.16,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.06,
                 "long": -107.839
             },
@@ -56116,7 +56117,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.4179104477611899,
+                "None": null, "U": 1.4179104477611899,
                 "lat": 35.047,
                 "long": -109.287
             },
@@ -56208,7 +56209,7 @@ var nvWells= {
                 "Temperature": 20.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.56716417910447803,
+                "None": null, "U": 0.56716417910447803,
                 "lat": 35.064,
                 "long": -109.265
             },
@@ -56300,7 +56301,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.7910447761193999,
+                "None": null, "U": 1.7910447761193999,
                 "lat": 35.003,
                 "long": -109.12
             },
@@ -56392,7 +56393,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.08955223880597,
+                "None": null, "U": 2.08955223880597,
                 "lat": 35.056,
                 "long": -109.059
             },
@@ -56484,7 +56485,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.83582089552239,
+                "None": null, "U": 2.83582089552239,
                 "lat": 35.0,
                 "long": -109.24
             },
@@ -56576,7 +56577,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.111,
                 "long": -109.693
             },
@@ -56668,7 +56669,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.13,
                 "long": -109.526
             },
@@ -56760,7 +56761,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.3283582089552199,
+                "None": null, "U": 1.3283582089552199,
                 "lat": 35.05,
                 "long": -109.095
             },
@@ -56852,7 +56853,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.134,
                 "long": -109.678
             },
@@ -56944,7 +56945,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.8805970149253701,
+                "None": null, "U": 3.8805970149253701,
                 "lat": 35.12,
                 "long": -109.551
             },
@@ -57036,7 +57037,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 94.029850746268707,
+                "None": null, "U": 94.029850746268707,
                 "lat": 35.154,
                 "long": -109.504
             },
@@ -57128,7 +57129,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.70149253731343297,
+                "None": null, "U": 0.70149253731343297,
                 "lat": 35.106,
                 "long": -109.072
             },
@@ -57220,7 +57221,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.7910447761193999,
+                "None": null, "U": 1.7910447761193999,
                 "lat": 35.095,
                 "long": -109.314
             },
@@ -57312,7 +57313,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.3432835820895499,
+                "None": null, "U": 1.3432835820895499,
                 "lat": 35.144,
                 "long": -109.289
             },
@@ -57404,7 +57405,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.5373134328358198,
+                "None": null, "U": 2.5373134328358198,
                 "lat": 35.085,
                 "long": -109.23
             },
@@ -57496,7 +57497,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.096,
                 "long": -109.313
             },
@@ -57588,7 +57589,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.025,
                 "long": -109.336
             },
@@ -57680,7 +57681,7 @@ var nvWells= {
                 "Temperature": 13.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.196,
                 "long": -109.331
             },
@@ -57772,7 +57773,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 19.402985074626901,
+                "None": null, "U": 19.402985074626901,
                 "lat": 35.019,
                 "long": -109.379
             },
@@ -57864,7 +57865,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.82089552238805996,
+                "None": null, "U": 0.82089552238805996,
                 "lat": 34.958,
                 "long": -109.062
             },
@@ -57956,7 +57957,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.07462686567164,
+                "None": null, "U": 1.07462686567164,
                 "lat": 35.036,
                 "long": -109.08
             },
@@ -58048,7 +58049,7 @@ var nvWells= {
                 "Temperature": 16.25,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.149,
                 "long": -109.11
             },
@@ -58140,7 +58141,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.23880597014925,
+                "None": null, "U": 2.23880597014925,
                 "lat": 35.091,
                 "long": -109.368
             },
@@ -58232,7 +58233,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.7761194029850698,
+                "None": null, "U": 4.7761194029850698,
                 "lat": 35.157,
                 "long": -109.429
             },
@@ -58324,7 +58325,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.8805970149253701,
+                "None": null, "U": 3.8805970149253701,
                 "lat": 35.168,
                 "long": -109.313
             },
@@ -58416,7 +58417,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.23880597014925,
+                "None": null, "U": 2.23880597014925,
                 "lat": 35.174,
                 "long": -109.202
             },
@@ -58508,7 +58509,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.7910447761193999,
+                "None": null, "U": 1.7910447761193999,
                 "lat": 35.162,
                 "long": -109.149
             },
@@ -58600,7 +58601,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.49253731343283602,
+                "None": null, "U": 0.49253731343283602,
                 "lat": 35.15,
                 "long": -109.108
             },
@@ -58692,7 +58693,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.6417910447761199,
+                "None": null, "U": 1.6417910447761199,
                 "lat": 35.103,
                 "long": -109.148
             },
@@ -58784,7 +58785,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.95522388059701502,
+                "None": null, "U": 0.95522388059701502,
                 "lat": 35.009,
                 "long": -109.085
             },
@@ -58876,7 +58877,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.14925373134328,
+                "None": null, "U": 1.14925373134328,
                 "lat": 35.048,
                 "long": -109.229
             },
@@ -58968,7 +58969,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.98507462686567,
+                "None": null, "U": 2.98507462686567,
                 "lat": 35.12,
                 "long": -109.427
             },
@@ -59060,7 +59061,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.3880597014925402,
+                "None": null, "U": 2.3880597014925402,
                 "lat": 35.044,
                 "long": -109.203
             },
@@ -59152,7 +59153,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.084,
                 "long": -109.71
             },
@@ -59244,7 +59245,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 19.402985074626901,
+                "None": null, "U": 19.402985074626901,
                 "lat": 35.228,
                 "long": -109.461
             },
@@ -59336,7 +59337,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.6268656716417897,
+                "None": null, "U": 4.6268656716417897,
                 "lat": 34.936,
                 "long": -109.24
             },
@@ -59428,7 +59429,7 @@ var nvWells= {
                 "Temperature": 17.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 34.992,
                 "long": -109.523
             },
@@ -59520,7 +59521,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.1343283582089598,
+                "None": null, "U": 3.1343283582089598,
                 "lat": 34.978,
                 "long": -109.267
             },
@@ -59612,7 +59613,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.5820895522388101,
+                "None": null, "U": 3.5820895522388101,
                 "lat": 34.937,
                 "long": -109.183
             },
@@ -59704,7 +59705,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.8805970149253701,
+                "None": null, "U": 3.8805970149253701,
                 "lat": 34.931,
                 "long": -109.295
             },
@@ -59796,7 +59797,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.5373134328358198,
+                "None": null, "U": 2.5373134328358198,
                 "lat": 34.986,
                 "long": -109.17
             },
@@ -59888,7 +59889,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.5373134328358198,
+                "None": null, "U": 2.5373134328358198,
                 "lat": 34.931,
                 "long": -109.073
             },
@@ -59980,7 +59981,7 @@ var nvWells= {
                 "Temperature": 17.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.081,
                 "long": -109.709
             },
@@ -60072,7 +60073,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.83582089552239,
+                "None": null, "U": 2.83582089552239,
                 "lat": 34.919,
                 "long": -109.109
             },
@@ -60164,7 +60165,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 5.9701492537313401,
+                "None": null, "U": 5.9701492537313401,
                 "lat": 35.027,
                 "long": -109.449
             },
@@ -60256,7 +60257,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.8805970149253701,
+                "None": null, "U": 3.8805970149253701,
                 "lat": 34.976,
                 "long": -109.467
             },
@@ -60348,7 +60349,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.1343283582089598,
+                "None": null, "U": 3.1343283582089598,
                 "lat": 34.976,
                 "long": -109.44
             },
@@ -60440,7 +60441,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.6268656716417897,
+                "None": null, "U": 4.6268656716417897,
                 "lat": 34.991,
                 "long": -109.354
             },
@@ -60532,7 +60533,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 34.914,
                 "long": -109.523
             },
@@ -60624,7 +60625,7 @@ var nvWells= {
                 "Temperature": 19.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.096,
                 "long": -109.434
             },
@@ -60716,7 +60717,7 @@ var nvWells= {
                 "Temperature": 15.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.121,
                 "long": -109.427
             },
@@ -60808,7 +60809,7 @@ var nvWells= {
                 "Temperature": 17.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.145,
                 "long": -109.479
             },
@@ -60900,7 +60901,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.102,
                 "long": -109.146
             },
@@ -60992,7 +60993,7 @@ var nvWells= {
                 "Temperature": 21.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.111,
                 "long": -109.285
             },
@@ -61084,7 +61085,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.177,
                 "long": -109.453
             },
@@ -61176,7 +61177,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.177,
                 "long": -109.453
             },
@@ -61268,7 +61269,7 @@ var nvWells= {
                 "Temperature": 22.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.166,
                 "long": -109.156
             },
@@ -61360,7 +61361,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.177,
                 "long": -109.453
             },
@@ -61452,7 +61453,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": 1.2,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.178,
                 "long": -109.451
             },
@@ -61544,7 +61545,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.179,
                 "long": -109.452
             },
@@ -61636,7 +61637,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": 1.4,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.178,
                 "long": -109.451
             },
@@ -61728,7 +61729,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.199,
                 "long": -109.258
             },
@@ -61820,7 +61821,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.179,
                 "long": -109.452
             },
@@ -61912,7 +61913,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.198,
                 "long": -109.217
             },
@@ -62004,7 +62005,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.4328358208955199,
+                "None": null, "U": 3.4328358208955199,
                 "lat": 35.159,
                 "long": -109.385
             },
@@ -62096,7 +62097,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 52.238805970149301,
+                "None": null, "U": 52.238805970149301,
                 "lat": 35.178,
                 "long": -109.421
             },
@@ -62188,7 +62189,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 16.417910447761201,
+                "None": null, "U": 16.417910447761201,
                 "lat": 35.032,
                 "long": -109.485
             },
@@ -62280,7 +62281,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 5.5223880597014903,
+                "None": null, "U": 5.5223880597014903,
                 "lat": 35.1,
                 "long": -109.449
             },
@@ -62372,7 +62373,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 16.417910447761201,
+                "None": null, "U": 16.417910447761201,
                 "lat": 35.11,
                 "long": -109.486
             },
@@ -62464,7 +62465,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 25.373134328358201,
+                "None": null, "U": 25.373134328358201,
                 "lat": 35.179,
                 "long": -109.449
             },
@@ -62556,7 +62557,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.5373134328358198,
+                "None": null, "U": 2.5373134328358198,
                 "lat": 35.14,
                 "long": -109.428
             },
@@ -62648,7 +62649,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.74626865671641796,
+                "None": null, "U": 0.74626865671641796,
                 "lat": 35.198,
                 "long": -109.217
             },
@@ -62740,7 +62741,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.08955223880597,
+                "None": null, "U": 2.08955223880597,
                 "lat": 35.117,
                 "long": -109.256
             },
@@ -62832,7 +62833,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 11.194029850746301,
+                "None": null, "U": 11.194029850746301,
                 "lat": 35.099,
                 "long": -109.494
             },
@@ -62924,7 +62925,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.9402985074626899,
+                "None": null, "U": 1.9402985074626899,
                 "lat": 35.194,
                 "long": -109.25
             },
@@ -63016,7 +63017,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.8805970149253701,
+                "None": null, "U": 3.8805970149253701,
                 "lat": 35.066,
                 "long": -109.33
             },
@@ -63108,7 +63109,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.6865671641790998,
+                "None": null, "U": 2.6865671641790998,
                 "lat": 35.125,
                 "long": -109.216
             },
@@ -63200,7 +63201,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 12.238805970149301,
+                "None": null, "U": 12.238805970149301,
                 "lat": 35.1,
                 "long": -109.408
             },
@@ -63292,7 +63293,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.20895522388059701,
+                "None": null, "U": 0.20895522388059701,
                 "lat": 35.197,
                 "long": -109.261
             },
@@ -63384,7 +63385,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.6865671641790998,
+                "None": null, "U": 2.6865671641790998,
                 "lat": 35.217,
                 "long": -109.287
             },
@@ -63476,7 +63477,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.4925373134328399,
+                "None": null, "U": 1.4925373134328399,
                 "lat": 35.163,
                 "long": -109.26
             },
@@ -63568,7 +63569,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.6865671641790998,
+                "None": null, "U": 2.6865671641790998,
                 "lat": 35.126,
                 "long": -109.375
             },
@@ -63660,7 +63661,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 17.910447761194,
+                "None": null, "U": 17.910447761194,
                 "lat": 35.013,
                 "long": -109.484
             },
@@ -63752,7 +63753,7 @@ var nvWells= {
                 "Temperature": 5.2,
                 "Tl": 1.0,
                 "Turbidity": 12.4,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.726,
                 "long": -108.283
             },
@@ -63844,7 +63845,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": 5.0,
                 "Turbidity": 17.85,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.754,
                 "long": -108.319
             },
@@ -63936,7 +63937,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.981,
                 "long": -110.881
             },
@@ -64028,7 +64029,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.876226017,
+                "None": null, "U": 0.876226017,
                 "lat": 36.952,
                 "long": -110.812
             },
@@ -64120,7 +64121,7 @@ var nvWells= {
                 "Temperature": 17.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.128,
                 "long": -110.62
             },
@@ -64212,7 +64213,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.83,
+                "None": null, "U": 1.83,
                 "lat": 37.119,
                 "long": -110.618
             },
@@ -64304,7 +64305,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.776388052,
+                "None": null, "U": 0.776388052,
                 "lat": 36.979,
                 "long": -110.833
             },
@@ -64396,7 +64397,7 @@ var nvWells= {
                 "Temperature": 15.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.112,
                 "long": -110.77
             },
@@ -64488,7 +64489,7 @@ var nvWells= {
                 "Temperature": 15.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.114,
                 "long": -110.768
             },
@@ -64580,7 +64581,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.824263815,
+                "None": null, "U": 0.824263815,
                 "lat": 36.945,
                 "long": -110.791
             },
@@ -64672,7 +64673,7 @@ var nvWells= {
                 "Temperature": 13.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.109,
                 "long": -110.762
             },
@@ -64764,7 +64765,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.113701249,
+                "None": null, "U": 2.113701249,
                 "lat": 37.146,
                 "long": -110.7
             },
@@ -64856,7 +64857,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.122,
                 "long": -110.566
             },
@@ -64948,7 +64949,7 @@ var nvWells= {
                 "Temperature": 15.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 11.131343283582099,
+                "None": null, "U": 11.131343283582099,
                 "lat": 35.921,
                 "long": -109.392
             },
@@ -65040,7 +65041,7 @@ var nvWells= {
                 "Temperature": 9.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 15.016417910447799,
+                "None": null, "U": 15.016417910447799,
                 "lat": 35.904,
                 "long": -109.276
             },
@@ -65132,7 +65133,7 @@ var nvWells= {
                 "Temperature": 16.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 14.676119402985099,
+                "None": null, "U": 14.676119402985099,
                 "lat": 35.992,
                 "long": -109.452
             },
@@ -65224,7 +65225,7 @@ var nvWells= {
                 "Temperature": 15.8,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 11.5835820895522,
+                "None": null, "U": 11.5835820895522,
                 "lat": 35.935,
                 "long": -109.466
             },
@@ -65316,7 +65317,7 @@ var nvWells= {
                 "Temperature": 11.3,
                 "Tl": 4.1,
                 "Turbidity": null,
-                "U": 13.3164179104478,
+                "None": null, "U": 13.3164179104478,
                 "lat": 35.982,
                 "long": -109.317
             },
@@ -65408,7 +65409,7 @@ var nvWells= {
                 "Temperature": 19.1,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": 4.0,
+                "None": null, "U": 4.0,
                 "lat": 35.944,
                 "long": -109.245
             },
@@ -65500,7 +65501,7 @@ var nvWells= {
                 "Temperature": 21.5,
                 "Tl": null,
                 "Turbidity": 5.0,
-                "U": 12.0,
+                "None": null, "U": 12.0,
                 "lat": 35.903,
                 "long": -109.489
             },
@@ -65592,7 +65593,7 @@ var nvWells= {
                 "Temperature": 20.5,
                 "Tl": null,
                 "Turbidity": 11.0,
-                "U": 10.0,
+                "None": null, "U": 10.0,
                 "lat": 35.959,
                 "long": -109.428
             },
@@ -65684,7 +65685,7 @@ var nvWells= {
                 "Temperature": 19.8,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 6.0,
+                "None": null, "U": 6.0,
                 "lat": 36.037,
                 "long": -109.33
             },
@@ -65776,7 +65777,7 @@ var nvWells= {
                 "Temperature": 22.2,
                 "Tl": null,
                 "Turbidity": 5.0,
-                "U": 12.0,
+                "None": null, "U": 12.0,
                 "lat": 35.9,
                 "long": -109.549
             },
@@ -65868,7 +65869,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": -10.0,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.99,
                 "long": -109.304
             },
@@ -65960,7 +65961,7 @@ var nvWells= {
                 "Temperature": 23.4,
                 "Tl": null,
                 "Turbidity": 5.0,
-                "U": 4.0,
+                "None": null, "U": 4.0,
                 "lat": 35.898,
                 "long": -109.442
             },
@@ -66052,7 +66053,7 @@ var nvWells= {
                 "Temperature": 24.3,
                 "Tl": null,
                 "Turbidity": 5.0,
-                "U": 3.0,
+                "None": null, "U": 3.0,
                 "lat": 35.898,
                 "long": -109.442
             },
@@ -66144,7 +66145,7 @@ var nvWells= {
                 "Temperature": 25.3,
                 "Tl": null,
                 "Turbidity": 2.5,
-                "U": 26.0,
+                "None": null, "U": 26.0,
                 "lat": 36.003,
                 "long": -109.554
             },
@@ -66236,7 +66237,7 @@ var nvWells= {
                 "Temperature": 23.5,
                 "Tl": null,
                 "Turbidity": -10.0,
-                "U": 32.0,
+                "None": null, "U": 32.0,
                 "lat": 35.974,
                 "long": -109.612
             },
@@ -66328,7 +66329,7 @@ var nvWells= {
                 "Temperature": 12.2,
                 "Tl": 4.0,
                 "Turbidity": null,
-                "U": 12.5820895522388,
+                "None": null, "U": 12.5820895522388,
                 "lat": 35.899,
                 "long": -109.445
             },
@@ -66420,7 +66421,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.509,
                 "long": -109.091
             },
@@ -66512,7 +66513,7 @@ var nvWells= {
                 "Temperature": 21.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 6.7164179104477597,
+                "None": null, "U": 6.7164179104477597,
                 "lat": 35.364,
                 "long": -109.057
             },
@@ -66604,7 +66605,7 @@ var nvWells= {
                 "Temperature": 14.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.524,
                 "long": -109.25
             },
@@ -66696,7 +66697,7 @@ var nvWells= {
                 "Temperature": 23.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.365,
                 "long": -109.056
             },
@@ -66788,7 +66789,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.481,
                 "long": -109.229
             },
@@ -66880,7 +66881,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.477245704,
+                "None": null, "U": 2.477245704,
                 "lat": 35.461,
                 "long": -109.145
             },
@@ -66972,7 +66973,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.889,
                 "long": -107.32
             },
@@ -67064,7 +67065,7 @@ var nvWells= {
                 "Temperature": 16.6,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 5.6179104477611901,
+                "None": null, "U": 5.6179104477611901,
                 "lat": 36.932,
                 "long": -110.056
             },
@@ -67156,7 +67157,7 @@ var nvWells= {
                 "Temperature": 21.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 5.6522388059701498,
+                "None": null, "U": 5.6522388059701498,
                 "lat": 36.928,
                 "long": -110.134
             },
@@ -67248,7 +67249,7 @@ var nvWells= {
                 "Temperature": 19.25,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.138,
                 "long": -110.027
             },
@@ -67340,7 +67341,7 @@ var nvWells= {
                 "Temperature": 12.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.143,
                 "long": -110.016
             },
@@ -67432,7 +67433,7 @@ var nvWells= {
                 "Temperature": 25.75,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.143,
                 "long": -110.017
             },
@@ -67524,7 +67525,7 @@ var nvWells= {
                 "Temperature": 23.5,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 2.3626865671641801,
+                "None": null, "U": 2.3626865671641801,
                 "lat": 37.006,
                 "long": -110.178
             },
@@ -67616,7 +67617,7 @@ var nvWells= {
                 "Temperature": 21.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 2.7298507462686601,
+                "None": null, "U": 2.7298507462686601,
                 "lat": 36.982,
                 "long": -110.113
             },
@@ -67708,7 +67709,7 @@ var nvWells= {
                 "Temperature": 9.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 4.7761194029850698,
+                "None": null, "U": 4.7761194029850698,
                 "lat": 37.005,
                 "long": -110.218
             },
@@ -67800,7 +67801,7 @@ var nvWells= {
                 "Temperature": 15.5,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 2.5089552238806001,
+                "None": null, "U": 2.5089552238806001,
                 "lat": 36.96,
                 "long": -110.318
             },
@@ -67892,7 +67893,7 @@ var nvWells= {
                 "Temperature": 23.6,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 7.6238805970149199,
+                "None": null, "U": 7.6238805970149199,
                 "lat": 36.948,
                 "long": -110.369
             },
@@ -67984,7 +67985,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.77,
+                "None": null, "U": 0.77,
                 "lat": 37.133,
                 "long": -110.101
             },
@@ -68076,7 +68077,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 29.76,
+                "None": null, "U": 29.76,
                 "lat": 37.028,
                 "long": -110.101
             },
@@ -68168,7 +68169,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.52,
+                "None": null, "U": 3.52,
                 "lat": 37.024,
                 "long": -110.304
             },
@@ -68260,7 +68261,7 @@ var nvWells= {
                 "Temperature": 21.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 9.74,
+                "None": null, "U": 9.74,
                 "lat": 37.021,
                 "long": -110.31
             },
@@ -68352,7 +68353,7 @@ var nvWells= {
                 "Temperature": 10.75,
                 "Tl": 10.0,
                 "Turbidity": 11.0,
-                "U": 59.701492537313399,
+                "None": null, "U": 59.701492537313399,
                 "lat": 37.035,
                 "long": -110.117
             },
@@ -68444,7 +68445,7 @@ var nvWells= {
                 "Temperature": 21.6,
                 "Tl": 4.0,
                 "Turbidity": null,
-                "U": 22.6970149253731,
+                "None": null, "U": 22.6970149253731,
                 "lat": 37.042,
                 "long": -110.231
             },
@@ -68536,7 +68537,7 @@ var nvWells= {
                 "Temperature": 21.1,
                 "Tl": 3.1,
                 "Turbidity": null,
-                "U": 27.871641791044802,
+                "None": null, "U": 27.871641791044802,
                 "lat": 37.005,
                 "long": -110.327
             },
@@ -68628,7 +68629,7 @@ var nvWells= {
                 "Temperature": 22.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 9.8,
+                "None": null, "U": 9.8,
                 "lat": 37.023,
                 "long": -110.309
             },
@@ -68720,7 +68721,7 @@ var nvWells= {
                 "Temperature": 20.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.133,
                 "long": -110.118
             },
@@ -68812,7 +68813,7 @@ var nvWells= {
                 "Temperature": 25.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.121,
                 "long": -110.199
             },
@@ -68904,7 +68905,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.203,
                 "long": -110.505
             },
@@ -68996,7 +68997,7 @@ var nvWells= {
                 "Temperature": 23.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 15.8283582089552,
+                "None": null, "U": 15.8283582089552,
                 "lat": 36.971,
                 "long": -110.33
             },
@@ -69088,7 +69089,7 @@ var nvWells= {
                 "Temperature": 28.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 17.69661026,
+                "None": null, "U": 17.69661026,
                 "lat": 36.955,
                 "long": -110.208
             },
@@ -69180,7 +69181,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 7.438173657,
+                "None": null, "U": 7.438173657,
                 "lat": 36.926,
                 "long": -110.336
             },
@@ -69272,7 +69273,7 @@ var nvWells= {
                 "Temperature": 15.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.141,
                 "long": -110.091
             },
@@ -69364,7 +69365,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 17.96005889,
+                "None": null, "U": 17.96005889,
                 "lat": 37.082,
                 "long": -110.287
             },
@@ -69456,7 +69457,7 @@ var nvWells= {
                 "Temperature": 19.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.168,
                 "long": -110.053
             },
@@ -69548,7 +69549,7 @@ var nvWells= {
                 "Temperature": 19.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.179,
                 "long": -110.048
             },
@@ -69640,7 +69641,7 @@ var nvWells= {
                 "Temperature": 8.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.169,
                 "long": -110.052
             },
@@ -69732,7 +69733,7 @@ var nvWells= {
                 "Temperature": 9.25,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.168,
                 "long": -110.053
             },
@@ -69824,7 +69825,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.662346944,
+                "None": null, "U": 1.662346944,
                 "lat": 37.053,
                 "long": -110.342
             },
@@ -69916,7 +69917,7 @@ var nvWells= {
                 "Temperature": 17.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.112,
                 "long": -110.296
             },
@@ -70008,7 +70009,7 @@ var nvWells= {
                 "Temperature": 17.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.163,
                 "long": -110.293
             },
@@ -70100,7 +70101,7 @@ var nvWells= {
                 "Temperature": 18.25,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.103,
                 "long": -110.187
             },
@@ -70192,7 +70193,7 @@ var nvWells= {
                 "Temperature": 25.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.225,
                 "long": -110.251
             },
@@ -70284,7 +70285,7 @@ var nvWells= {
                 "Temperature": 25.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.226,
                 "long": -110.253
             },
@@ -70376,7 +70377,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.79,
+                "None": null, "U": 1.79,
                 "lat": 37.051,
                 "long": -110.347
             },
@@ -70468,7 +70469,7 @@ var nvWells= {
                 "Temperature": 18.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.105,
                 "long": -110.303
             },
@@ -70560,7 +70561,7 @@ var nvWells= {
                 "Temperature": 26.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.226,
                 "long": -110.253
             },
@@ -70652,7 +70653,7 @@ var nvWells= {
                 "Temperature": 21.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.106,
                 "long": -110.302
             },
@@ -70744,7 +70745,7 @@ var nvWells= {
                 "Temperature": 16.25,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.177,
                 "long": -110.164
             },
@@ -70836,7 +70837,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 16.92304265,
+                "None": null, "U": 16.92304265,
                 "lat": 37.043,
                 "long": -110.355
             },
@@ -70928,7 +70929,7 @@ var nvWells= {
                 "Temperature": 20.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.259,
                 "long": -110.166
             },
@@ -71020,7 +71021,7 @@ var nvWells= {
                 "Temperature": 8.21,
                 "Tl": 1.0,
                 "Turbidity": 1.31,
-                "U": 130.0,
+                "None": null, "U": 130.0,
                 "lat": 36.947,
                 "long": -110.292
             },
@@ -71112,7 +71113,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": 1.0,
                 "Turbidity": 0.741,
-                "U": 2.4,
+                "None": null, "U": 2.4,
                 "lat": 35.589,
                 "long": -108.481
             },
@@ -71204,7 +71205,7 @@ var nvWells= {
                 "Temperature": 6.46,
                 "Tl": 1.0,
                 "Turbidity": 22.7,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.614,
                 "long": -108.517
             },
@@ -71296,7 +71297,7 @@ var nvWells= {
                 "Temperature": 7.12,
                 "Tl": 1.0,
                 "Turbidity": 11.0,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.61,
                 "long": -108.45
             },
@@ -71388,7 +71389,7 @@ var nvWells= {
                 "Temperature": 6.82,
                 "Tl": 1.0,
                 "Turbidity": 22.4,
-                "U": 5.2,
+                "None": null, "U": 5.2,
                 "lat": 35.624,
                 "long": -108.511
             },
@@ -71480,7 +71481,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.604,
                 "long": -108.45
             },
@@ -71572,7 +71573,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.604,
                 "long": -108.452
             },
@@ -71664,7 +71665,7 @@ var nvWells= {
                 "Temperature": 1.35,
                 "Tl": 1.0,
                 "Turbidity": 2.06,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.62,
                 "long": -108.495
             },
@@ -71756,7 +71757,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.589,
                 "long": -108.481
             },
@@ -71848,7 +71849,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.621,
                 "long": -108.525
             },
@@ -71940,7 +71941,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.605,
                 "long": -108.448
             },
@@ -72032,7 +72033,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.607,
                 "long": -108.457
             },
@@ -72124,7 +72125,7 @@ var nvWells= {
                 "Temperature": 20.3,
                 "Tl": null,
                 "Turbidity": 153.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.123,
                 "long": -110.163
             },
@@ -72216,7 +72217,7 @@ var nvWells= {
                 "Temperature": 23.0,
                 "Tl": null,
                 "Turbidity": 0.0,
-                "U": 7.0,
+                "None": null, "U": 7.0,
                 "lat": 36.202,
                 "long": -110.113
             },
@@ -72308,7 +72309,7 @@ var nvWells= {
                 "Temperature": 21.2,
                 "Tl": null,
                 "Turbidity": 22.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.107,
                 "long": -110.201
             },
@@ -72400,7 +72401,7 @@ var nvWells= {
                 "Temperature": 21.6,
                 "Tl": null,
                 "Turbidity": 3.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.063,
                 "long": -110.196
             },
@@ -72492,7 +72493,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.923,
                 "long": -107.476
             },
@@ -72584,7 +72585,7 @@ var nvWells= {
                 "Temperature": 19.3,
                 "Tl": null,
                 "Turbidity": 14.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 37.038,
                 "long": -109.413
             },
@@ -72676,7 +72677,7 @@ var nvWells= {
                 "Temperature": 20.8,
                 "Tl": null,
                 "Turbidity": 4.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 37.008,
                 "long": -109.455
             },
@@ -72768,7 +72769,7 @@ var nvWells= {
                 "Temperature": 22.9,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": 3.0,
+                "None": null, "U": 3.0,
                 "lat": 37.111,
                 "long": -109.431
             },
@@ -72860,7 +72861,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": null,
                 "Turbidity": 11.0,
-                "U": 9.0,
+                "None": null, "U": 9.0,
                 "lat": 37.048,
                 "long": -109.377
             },
@@ -72952,7 +72953,7 @@ var nvWells= {
                 "Temperature": 19.0,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.207,
                 "long": -109.299
             },
@@ -73044,7 +73045,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.01,
                 "long": -109.453
             },
@@ -73136,7 +73137,7 @@ var nvWells= {
                 "Temperature": 17.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.181,
                 "long": -109.511
             },
@@ -73228,7 +73229,7 @@ var nvWells= {
                 "Temperature": 22.2,
                 "Tl": null,
                 "Turbidity": 50.0,
-                "U": 51.0,
+                "None": null, "U": 51.0,
                 "lat": 37.056,
                 "long": -109.317
             },
@@ -73320,7 +73321,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.169,
                 "long": -109.361
             },
@@ -73412,7 +73413,7 @@ var nvWells= {
                 "Temperature": 17.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.217,
                 "long": -109.318
             },
@@ -73504,7 +73505,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.231,
                 "long": -109.39
             },
@@ -73596,7 +73597,7 @@ var nvWells= {
                 "Temperature": 20.5,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 15.0,
+                "None": null, "U": 15.0,
                 "lat": 37.074,
                 "long": -109.319
             },
@@ -73688,7 +73689,7 @@ var nvWells= {
                 "Temperature": 16.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.142,
                 "long": -109.479
             },
@@ -73780,7 +73781,7 @@ var nvWells= {
                 "Temperature": 15.75,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.193,
                 "long": -109.33
             },
@@ -73872,7 +73873,7 @@ var nvWells= {
                 "Temperature": 18.25,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.242,
                 "long": -109.341
             },
@@ -73964,7 +73965,7 @@ var nvWells= {
                 "Temperature": 16.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.215,
                 "long": -109.356
             },
@@ -74056,7 +74057,7 @@ var nvWells= {
                 "Temperature": 17.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.183,
                 "long": -109.317
             },
@@ -74148,7 +74149,7 @@ var nvWells= {
                 "Temperature": 18.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.267,
                 "long": -109.567
             },
@@ -74240,7 +74241,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.113,
                 "long": -109.523
             },
@@ -74332,7 +74333,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.247,
                 "long": -109.468
             },
@@ -74424,7 +74425,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.183,
                 "long": -109.334
             },
@@ -74516,7 +74517,7 @@ var nvWells= {
                 "Temperature": 19.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.233,
                 "long": -109.467
             },
@@ -74608,7 +74609,7 @@ var nvWells= {
                 "Temperature": 17.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.212,
                 "long": -109.217
             },
@@ -74700,7 +74701,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.214,
                 "long": -109.186
             },
@@ -74792,7 +74793,7 @@ var nvWells= {
                 "Temperature": 21.7,
                 "Tl": null,
                 "Turbidity": 20.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 37.195,
                 "long": -109.33
             },
@@ -74884,7 +74885,7 @@ var nvWells= {
                 "Temperature": 18.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 13.0,
+                "None": null, "U": 13.0,
                 "lat": 37.213,
                 "long": -109.191
             },
@@ -74976,7 +74977,7 @@ var nvWells= {
                 "Temperature": 23.2,
                 "Tl": null,
                 "Turbidity": 5.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 37.181,
                 "long": -109.51
             },
@@ -75068,7 +75069,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.281,
                 "long": -109.524
             },
@@ -75160,7 +75161,7 @@ var nvWells= {
                 "Temperature": 15.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.449,
                 "long": -108.745
             },
@@ -75252,7 +75253,7 @@ var nvWells= {
                 "Temperature": 11.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 13.5820895522388,
+                "None": null, "U": 13.5820895522388,
                 "lat": 36.46,
                 "long": -109.092
             },
@@ -75344,7 +75345,7 @@ var nvWells= {
                 "Temperature": 14.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 1.7910447761193999,
+                "None": null, "U": 1.7910447761193999,
                 "lat": 36.596,
                 "long": -109.097
             },
@@ -75436,7 +75437,7 @@ var nvWells= {
                 "Temperature": 19.7,
                 "Tl": 4.1,
                 "Turbidity": 3.0,
-                "U": 25.9567164179104,
+                "None": null, "U": 25.9567164179104,
                 "lat": 36.649,
                 "long": -109.206
             },
@@ -75528,7 +75529,7 @@ var nvWells= {
                 "Temperature": 11.2,
                 "Tl": 2.7,
                 "Turbidity": null,
-                "U": 0.20895522388059701,
+                "None": null, "U": 0.20895522388059701,
                 "lat": 36.598,
                 "long": -109.059
             },
@@ -75620,7 +75621,7 @@ var nvWells= {
                 "Temperature": 18.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.88805970149253699,
+                "None": null, "U": 0.88805970149253699,
                 "lat": 36.643,
                 "long": -109.262
             },
@@ -75712,7 +75713,7 @@ var nvWells= {
                 "Temperature": 24.7,
                 "Tl": 3.8,
                 "Turbidity": null,
-                "U": 4.7194029850746304,
+                "None": null, "U": 4.7194029850746304,
                 "lat": 36.746,
                 "long": -109.053
             },
@@ -75804,7 +75805,7 @@ var nvWells= {
                 "Temperature": 18.8,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 9.3731343283582103,
+                "None": null, "U": 9.3731343283582103,
                 "lat": 36.707,
                 "long": -109.01
             },
@@ -75896,7 +75897,7 @@ var nvWells= {
                 "Temperature": 14.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 13.0746268656716,
+                "None": null, "U": 13.0746268656716,
                 "lat": 36.637,
                 "long": -109.167
             },
@@ -75988,7 +75989,7 @@ var nvWells= {
                 "Temperature": 12.6,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 3.6820895522388102,
+                "None": null, "U": 3.6820895522388102,
                 "lat": 36.745,
                 "long": -109.066
             },
@@ -76080,7 +76081,7 @@ var nvWells= {
                 "Temperature": 15.9,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 4.3641791044776097,
+                "None": null, "U": 4.3641791044776097,
                 "lat": 36.722,
                 "long": -109.051
             },
@@ -76172,7 +76173,7 @@ var nvWells= {
                 "Temperature": 12.0,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 5.8238805970149299,
+                "None": null, "U": 5.8238805970149299,
                 "lat": 36.703,
                 "long": -109.044
             },
@@ -76264,7 +76265,7 @@ var nvWells= {
                 "Temperature": 13.4,
                 "Tl": 4.0,
                 "Turbidity": null,
-                "U": 15.095522388059701,
+                "None": null, "U": 15.095522388059701,
                 "lat": 36.662,
                 "long": -109.232
             },
@@ -76356,7 +76357,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.616488574,
+                "None": null, "U": 0.616488574,
                 "lat": 36.607,
                 "long": -109.02
             },
@@ -76448,7 +76449,7 @@ var nvWells= {
                 "Temperature": 15.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 2.7298507462686601,
+                "None": null, "U": 2.7298507462686601,
                 "lat": 36.732,
                 "long": -109.063
             },
@@ -76540,7 +76541,7 @@ var nvWells= {
                 "Temperature": 23.5,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 10.8955223880597,
+                "None": null, "U": 10.8955223880597,
                 "lat": 36.563,
                 "long": -109.02
             },
@@ -76632,7 +76633,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 13.85473589,
+                "None": null, "U": 13.85473589,
                 "lat": 36.663,
                 "long": -109.004
             },
@@ -76724,7 +76725,7 @@ var nvWells= {
                 "Temperature": 12.0,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 3.64477611940299,
+                "None": null, "U": 3.64477611940299,
                 "lat": 36.731,
                 "long": -109.06
             },
@@ -76816,7 +76817,7 @@ var nvWells= {
                 "Temperature": 10.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 22.919402985074601,
+                "None": null, "U": 22.919402985074601,
                 "lat": 36.681,
                 "long": -109.052
             },
@@ -76908,7 +76909,7 @@ var nvWells= {
                 "Temperature": 14.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 3.6,
+                "None": null, "U": 3.6,
                 "lat": 36.748,
                 "long": -109.052
             },
@@ -77000,7 +77001,7 @@ var nvWells= {
                 "Temperature": 14.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 48.955223880597003,
+                "None": null, "U": 48.955223880597003,
                 "lat": 36.594,
                 "long": -109.05
             },
@@ -77092,7 +77093,7 @@ var nvWells= {
                 "Temperature": 14.35,
                 "Tl": 10.0,
                 "Turbidity": 0.154,
-                "U": 4.5940298507462698,
+                "None": null, "U": 4.5940298507462698,
                 "lat": 36.681,
                 "long": -109.159
             },
@@ -77184,7 +77185,7 @@ var nvWells= {
                 "Temperature": 15.0,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 45.320895522388099,
+                "None": null, "U": 45.320895522388099,
                 "lat": 36.602,
                 "long": -109.036
             },
@@ -77276,7 +77277,7 @@ var nvWells= {
                 "Temperature": 10.08,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 24.101492537313401,
+                "None": null, "U": 24.101492537313401,
                 "lat": 36.528,
                 "long": -109.051
             },
@@ -77368,7 +77369,7 @@ var nvWells= {
                 "Temperature": 20.7,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 5.0,
+                "None": null, "U": 5.0,
                 "lat": 36.806,
                 "long": -109.65
             },
@@ -77460,7 +77461,7 @@ var nvWells= {
                 "Temperature": 20.6,
                 "Tl": null,
                 "Turbidity": 181.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.764,
                 "long": -109.534
             },
@@ -77552,7 +77553,7 @@ var nvWells= {
                 "Temperature": 20.4,
                 "Tl": null,
                 "Turbidity": 3.0,
-                "U": 9.0,
+                "None": null, "U": 9.0,
                 "lat": 36.728,
                 "long": -109.423
             },
@@ -77644,7 +77645,7 @@ var nvWells= {
                 "Temperature": 20.6,
                 "Tl": null,
                 "Turbidity": 197.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.758,
                 "long": -109.492
             },
@@ -77736,7 +77737,7 @@ var nvWells= {
                 "Temperature": 23.7,
                 "Tl": null,
                 "Turbidity": 0.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.622,
                 "long": -109.515
             },
@@ -77828,7 +77829,7 @@ var nvWells= {
                 "Temperature": 5.23,
                 "Tl": 1.0,
                 "Turbidity": 3.67,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.647,
                 "long": -108.836
             },
@@ -77920,7 +77921,7 @@ var nvWells= {
                 "Temperature": 23.2,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.452,
                 "long": -109.832
             },
@@ -78012,7 +78013,7 @@ var nvWells= {
                 "Temperature": 21.9,
                 "Tl": null,
                 "Turbidity": 3.0,
-                "U": 21.0,
+                "None": null, "U": 21.0,
                 "lat": 36.473,
                 "long": -109.777
             },
@@ -78104,7 +78105,7 @@ var nvWells= {
                 "Temperature": 11.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 20.311940298507501,
+                "None": null, "U": 20.311940298507501,
                 "lat": 36.345,
                 "long": -109.784
             },
@@ -78196,7 +78197,7 @@ var nvWells= {
                 "Temperature": 11.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 13.8626865671642,
+                "None": null, "U": 13.8626865671642,
                 "lat": 36.345,
                 "long": -109.784
             },
@@ -78288,7 +78289,7 @@ var nvWells= {
                 "Temperature": 26.5,
                 "Tl": null,
                 "Turbidity": 0.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.407,
                 "long": -109.792
             },
@@ -78380,7 +78381,7 @@ var nvWells= {
                 "Temperature": 12.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 25.365671641791,
+                "None": null, "U": 25.365671641791,
                 "lat": 36.412,
                 "long": -109.861
             },
@@ -78472,7 +78473,7 @@ var nvWells= {
                 "Temperature": 9.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 8.4358208955223901,
+                "None": null, "U": 8.4358208955223901,
                 "lat": 36.403,
                 "long": -109.871
             },
@@ -78564,7 +78565,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 12.23151026,
+                "None": null, "U": 12.23151026,
                 "lat": 36.415,
                 "long": -109.728
             },
@@ -78656,7 +78657,7 @@ var nvWells= {
                 "Temperature": 25.4,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.561,
                 "long": -109.443
             },
@@ -78748,7 +78749,7 @@ var nvWells= {
                 "Temperature": 26.5,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.531,
                 "long": -109.496
             },
@@ -78840,7 +78841,7 @@ var nvWells= {
                 "Temperature": 21.5,
                 "Tl": null,
                 "Turbidity": 3.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.6,
                 "long": -109.465
             },
@@ -78932,7 +78933,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.49,
                 "long": -109.45
             },
@@ -79024,7 +79025,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.447,
                 "long": -109.561
             },
@@ -79116,7 +79117,7 @@ var nvWells= {
                 "Temperature": 19.5,
                 "Tl": null,
                 "Turbidity": 14.5,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.462,
                 "long": -109.407
             },
@@ -79208,7 +79209,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 5.0,
+                "None": null, "U": 5.0,
                 "lat": 36.532,
                 "long": -109.35
             },
@@ -79300,7 +79301,7 @@ var nvWells= {
                 "Temperature": 25.5,
                 "Tl": null,
                 "Turbidity": 4.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.577,
                 "long": -109.377
             },
@@ -79392,7 +79393,7 @@ var nvWells= {
                 "Temperature": 23.1,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.443,
                 "long": -109.54
             },
@@ -79484,7 +79485,7 @@ var nvWells= {
                 "Temperature": 25.1,
                 "Tl": null,
                 "Turbidity": 3.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.601,
                 "long": -109.377
             },
@@ -79576,7 +79577,7 @@ var nvWells= {
                 "Temperature": 13.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.659,
                 "long": -109.062
             },
@@ -79668,7 +79669,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.27,
+                "None": null, "U": 2.27,
                 "lat": 35.582,
                 "long": -109.199
             },
@@ -79760,7 +79761,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.27,
+                "None": null, "U": 2.27,
                 "lat": 35.582,
                 "long": -109.199
             },
@@ -79852,7 +79853,7 @@ var nvWells= {
                 "Temperature": 14.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.65,
                 "long": -109.08
             },
@@ -79944,7 +79945,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.658,
                 "long": -109.08
             },
@@ -80036,7 +80037,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.589,
                 "long": -109.1
             },
@@ -80128,7 +80129,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.65,
                 "long": -109.07
             },
@@ -80220,7 +80221,7 @@ var nvWells= {
                 "Temperature": 17.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.662,
                 "long": -109.076
             },
@@ -80312,7 +80313,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.673,
                 "long": -109.074
             },
@@ -80404,7 +80405,7 @@ var nvWells= {
                 "Temperature": 8.09,
                 "Tl": 1.0,
                 "Turbidity": 0.72,
-                "U": 3.6,
+                "None": null, "U": 3.6,
                 "lat": 35.646,
                 "long": -109.109
             },
@@ -80496,7 +80497,7 @@ var nvWells= {
                 "Temperature": 14.4,
                 "Tl": 1.0,
                 "Turbidity": 107.0,
-                "U": 8.6,
+                "None": null, "U": 8.6,
                 "lat": 35.658,
                 "long": -109.08
             },
@@ -80588,7 +80589,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.647,
                 "long": -109.096
             },
@@ -80680,7 +80681,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.588,
                 "long": -109.111
             },
@@ -80772,7 +80773,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.656,
                 "long": -109.098
             },
@@ -80864,7 +80865,7 @@ var nvWells= {
                 "Temperature": 25.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.661,
                 "long": -109.074
             },
@@ -80956,7 +80957,7 @@ var nvWells= {
                 "Temperature": 11.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.655,
                 "long": -109.097
             },
@@ -81048,7 +81049,7 @@ var nvWells= {
                 "Temperature": 13.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.68,
                 "long": -109.096
             },
@@ -81140,7 +81141,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.651,
                 "long": -109.106
             },
@@ -81232,7 +81233,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.577,
                 "long": -109.098
             },
@@ -81324,7 +81325,7 @@ var nvWells= {
                 "Temperature": 20.8,
                 "Tl": null,
                 "Turbidity": 3.0,
-                "U": 26.0,
+                "None": null, "U": 26.0,
                 "lat": 36.844,
                 "long": -109.368
             },
@@ -81416,7 +81417,7 @@ var nvWells= {
                 "Temperature": 6.0,
                 "Tl": 1.0,
                 "Turbidity": 0.123,
-                "U": 11.0,
+                "None": null, "U": 11.0,
                 "lat": 36.188,
                 "long": -108.708
             },
@@ -81508,7 +81509,7 @@ var nvWells= {
                 "Temperature": 27.5,
                 "Tl": 1.0,
                 "Turbidity": 0.656,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 36.777,
                 "long": -108.694
             },
@@ -81600,7 +81601,7 @@ var nvWells= {
                 "Temperature": 16.8,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 3.85373134328358,
+                "None": null, "U": 3.85373134328358,
                 "lat": 36.594,
                 "long": -110.645
             },
@@ -81692,7 +81693,7 @@ var nvWells= {
                 "Temperature": 17.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.0074626865671641798,
+                "None": null, "U": 0.0074626865671641798,
                 "lat": 36.807,
                 "long": -110.519
             },
@@ -81784,7 +81785,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.67,
+                "None": null, "U": 0.67,
                 "lat": 36.552,
                 "long": -110.702
             },
@@ -81876,7 +81877,7 @@ var nvWells= {
                 "Temperature": 20.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.72089552238805998,
+                "None": null, "U": 0.72089552238805998,
                 "lat": 36.778,
                 "long": -110.575
             },
@@ -81968,7 +81969,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.77,
+                "None": null, "U": 0.77,
                 "lat": 36.587,
                 "long": -110.58
             },
@@ -82060,7 +82061,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.55,
+                "None": null, "U": 0.55,
                 "lat": 36.537,
                 "long": -110.573
             },
@@ -82152,7 +82153,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.174826485,
+                "None": null, "U": 1.174826485,
                 "lat": 36.573,
                 "long": -110.516
             },
@@ -82244,7 +82245,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.378649224,
+                "None": null, "U": 0.378649224,
                 "lat": 36.505,
                 "long": -110.722
             },
@@ -82336,7 +82337,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.556620528,
+                "None": null, "U": 2.556620528,
                 "lat": 36.491,
                 "long": -110.654
             },
@@ -82428,7 +82429,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.026990244,
+                "None": null, "U": 1.026990244,
                 "lat": 36.825,
                 "long": -110.615
             },
@@ -82520,7 +82521,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.16,
+                "None": null, "U": 1.16,
                 "lat": 36.481,
                 "long": -110.709
             },
@@ -82612,7 +82613,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.562451007,
+                "None": null, "U": 0.562451007,
                 "lat": 36.863,
                 "long": -110.609
             },
@@ -82704,7 +82705,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.522,
                 "long": -108.142
             },
@@ -82796,7 +82797,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.521,
                 "long": -108.143
             },
@@ -82888,7 +82889,7 @@ var nvWells= {
                 "Temperature": 19.0,
                 "Tl": null,
                 "Turbidity": 39.0,
-                "U": 0.04,
+                "None": null, "U": 0.04,
                 "lat": 35.504,
                 "long": -108.168
             },
@@ -82980,7 +82981,7 @@ var nvWells= {
                 "Temperature": 11.185,
                 "Tl": 1.0,
                 "Turbidity": 7.955,
-                "U": 34.0,
+                "None": null, "U": 34.0,
                 "lat": 35.524,
                 "long": -108.212
             },
@@ -83072,7 +83073,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": 1.0,
                 "Turbidity": 0.363,
-                "U": 11.0,
+                "None": null, "U": 11.0,
                 "lat": 35.506,
                 "long": -108.125
             },
@@ -83164,7 +83165,7 @@ var nvWells= {
                 "Temperature": 8.3,
                 "Tl": 1.0,
                 "Turbidity": 9.43,
-                "U": 3.3,
+                "None": null, "U": 3.3,
                 "lat": 35.493,
                 "long": -108.074
             },
@@ -83256,7 +83257,7 @@ var nvWells= {
                 "Temperature": 12.1,
                 "Tl": 8.9,
                 "Turbidity": 10.1,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.671,
                 "long": -108.478
             },
@@ -83348,7 +83349,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 7.509089128,
+                "None": null, "U": 7.509089128,
                 "lat": 35.834,
                 "long": -109.704
             },
@@ -83440,7 +83441,7 @@ var nvWells= {
                 "Temperature": 21.4,
                 "Tl": null,
                 "Turbidity": 178.0,
-                "U": 26.79608293,
+                "None": null, "U": 26.79608293,
                 "lat": 35.674,
                 "long": -109.891
             },
@@ -83532,7 +83533,7 @@ var nvWells= {
                 "Temperature": 12.0,
                 "Tl": 5.0,
                 "Turbidity": 3.202,
-                "U": 26.58356165,
+                "None": null, "U": 26.58356165,
                 "lat": 35.744,
                 "long": -109.742
             },
@@ -83624,7 +83625,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 6.0,
+                "None": null, "U": 6.0,
                 "lat": 35.756,
                 "long": -109.846
             },
@@ -83716,7 +83717,7 @@ var nvWells= {
                 "Temperature": 14.85,
                 "Tl": 5.0,
                 "Turbidity": 5.635,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.777,
                 "long": -109.89
             },
@@ -83808,7 +83809,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.762,
                 "long": -109.937
             },
@@ -83900,7 +83901,7 @@ var nvWells= {
                 "Temperature": 22.3,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.807,
                 "long": -109.873
             },
@@ -83992,7 +83993,7 @@ var nvWells= {
                 "Temperature": 22.33,
                 "Tl": null,
                 "Turbidity": 80.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.746,
                 "long": -109.877
             },
@@ -84084,7 +84085,7 @@ var nvWells= {
                 "Temperature": 15.65,
                 "Tl": 5.0,
                 "Turbidity": 2.165,
-                "U": 3.3,
+                "None": null, "U": 3.3,
                 "lat": 35.666,
                 "long": -109.946
             },
@@ -84176,7 +84177,7 @@ var nvWells= {
                 "Temperature": 21.3,
                 "Tl": null,
                 "Turbidity": 171.0,
-                "U": 9.434892715,
+                "None": null, "U": 9.434892715,
                 "lat": 35.626,
                 "long": -109.793
             },
@@ -84268,7 +84269,7 @@ var nvWells= {
                 "Temperature": 15.2,
                 "Tl": 1.0,
                 "Turbidity": 0.659,
-                "U": 17.36957554,
+                "None": null, "U": 17.36957554,
                 "lat": 35.673,
                 "long": -109.812
             },
@@ -84360,7 +84361,7 @@ var nvWells= {
                 "Temperature": 18.8,
                 "Tl": null,
                 "Turbidity": 11.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.766,
                 "long": -109.932
             },
@@ -84452,7 +84453,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.75,
+                "None": null, "U": 1.75,
                 "lat": 35.793,
                 "long": -109.825
             },
@@ -84544,7 +84545,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": 1.0,
                 "Turbidity": 0.489,
-                "U": 19.0,
+                "None": null, "U": 19.0,
                 "lat": 35.805,
                 "long": -109.74
             },
@@ -84636,7 +84637,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 41.71467051,
+                "None": null, "U": 41.71467051,
                 "lat": 35.844,
                 "long": -109.802
             },
@@ -84728,7 +84729,7 @@ var nvWells= {
                 "Temperature": 19.7,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.736,
                 "long": -109.935
             },
@@ -84820,7 +84821,7 @@ var nvWells= {
                 "Temperature": 20.4,
                 "Tl": null,
                 "Turbidity": 5.0,
-                "U": 11.34,
+                "None": null, "U": 11.34,
                 "lat": 35.752,
                 "long": -109.816
             },
@@ -84912,7 +84913,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 7.992445351,
+                "None": null, "U": 7.992445351,
                 "lat": 36.794,
                 "long": -109.391
             },
@@ -85004,7 +85005,7 @@ var nvWells= {
                 "Temperature": 15.085,
                 "Tl": 10.0,
                 "Turbidity": 1.02,
-                "U": 48.208955223880601,
+                "None": null, "U": 48.208955223880601,
                 "lat": 36.874,
                 "long": -109.39
             },
@@ -85096,7 +85097,7 @@ var nvWells= {
                 "Temperature": 15.015,
                 "Tl": 10.0,
                 "Turbidity": 1.12,
-                "U": 40.597014925373102,
+                "None": null, "U": 40.597014925373102,
                 "lat": 36.844,
                 "long": -109.368
             },
@@ -85188,7 +85189,7 @@ var nvWells= {
                 "Temperature": 18.9,
                 "Tl": null,
                 "Turbidity": 10.0,
-                "U": 14.0,
+                "None": null, "U": 14.0,
                 "lat": 36.767,
                 "long": -109.378
             },
@@ -85280,7 +85281,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 17.46483313,
+                "None": null, "U": 17.46483313,
                 "lat": 36.864,
                 "long": -109.31
             },
@@ -85372,7 +85373,7 @@ var nvWells= {
                 "Temperature": 15.9,
                 "Tl": null,
                 "Turbidity": 6.0,
-                "U": 27.0,
+                "None": null, "U": 27.0,
                 "lat": 36.814,
                 "long": -109.369
             },
@@ -85464,7 +85465,7 @@ var nvWells= {
                 "Temperature": 12.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 68.395522388059703,
+                "None": null, "U": 68.395522388059703,
                 "lat": 36.875,
                 "long": -109.292
             },
@@ -85556,7 +85557,7 @@ var nvWells= {
                 "Temperature": 11.5,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 13.5537313432836,
+                "None": null, "U": 13.5537313432836,
                 "lat": 36.904,
                 "long": -109.295
             },
@@ -85648,7 +85649,7 @@ var nvWells= {
                 "Temperature": 21.2,
                 "Tl": null,
                 "Turbidity": 11.0,
-                "U": 28.0,
+                "None": null, "U": 28.0,
                 "lat": 36.874,
                 "long": -109.39
             },
@@ -85740,7 +85741,7 @@ var nvWells= {
                 "Temperature": 20.2,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": 3.0,
+                "None": null, "U": 3.0,
                 "lat": 36.791,
                 "long": -109.431
             },
@@ -85832,7 +85833,7 @@ var nvWells= {
                 "Temperature": 22.8,
                 "Tl": 10.0,
                 "Turbidity": 221.0,
-                "U": 13.5820895522388,
+                "None": null, "U": 13.5820895522388,
                 "lat": 36.858,
                 "long": -109.45
             },
@@ -85924,7 +85925,7 @@ var nvWells= {
                 "Temperature": 22.0,
                 "Tl": null,
                 "Turbidity": 21.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.996,
                 "long": -109.367
             },
@@ -86016,7 +86017,7 @@ var nvWells= {
                 "Temperature": 22.9,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 11.1530006,
+                "None": null, "U": 11.1530006,
                 "lat": 36.947,
                 "long": -109.4
             },
@@ -86108,7 +86109,7 @@ var nvWells= {
                 "Temperature": 19.8,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 113.432835820896,
+                "None": null, "U": 113.432835820896,
                 "lat": 36.869,
                 "long": -109.416
             },
@@ -86200,7 +86201,7 @@ var nvWells= {
                 "Temperature": 14.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 187.074626865672,
+                "None": null, "U": 187.074626865672,
                 "lat": 36.645,
                 "long": -109.284
             },
@@ -86292,7 +86293,7 @@ var nvWells= {
                 "Temperature": 21.0,
                 "Tl": null,
                 "Turbidity": 0.0,
-                "U": 14.0,
+                "None": null, "U": 14.0,
                 "lat": 36.731,
                 "long": -109.336
             },
@@ -86384,7 +86385,7 @@ var nvWells= {
                 "Temperature": 23.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 27.611940298507498,
+                "None": null, "U": 27.611940298507498,
                 "lat": 36.852,
                 "long": -109.425
             },
@@ -86476,7 +86477,7 @@ var nvWells= {
                 "Temperature": 21.9,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 16.567164179104498,
+                "None": null, "U": 16.567164179104498,
                 "lat": 36.803,
                 "long": -109.397
             },
@@ -86568,7 +86569,7 @@ var nvWells= {
                 "Temperature": 11.6,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.48805970149253702,
+                "None": null, "U": 0.48805970149253702,
                 "lat": 36.172,
                 "long": -109.946
             },
@@ -86660,7 +86661,7 @@ var nvWells= {
                 "Temperature": 15.15,
                 "Tl": 6.3,
                 "Turbidity": 4.0,
-                "U": 11.0537313432836,
+                "None": null, "U": 11.0537313432836,
                 "lat": 36.23,
                 "long": -109.892
             },
@@ -86752,7 +86753,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.640153819,
+                "None": null, "U": 0.640153819,
                 "lat": 36.172,
                 "long": -109.946
             },
@@ -86844,7 +86845,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.97138588,
+                "None": null, "U": 0.97138588,
                 "lat": 36.061,
                 "long": -109.959
             },
@@ -86936,7 +86937,7 @@ var nvWells= {
                 "Temperature": 15.3,
                 "Tl": 1.0,
                 "Turbidity": 2.08,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.097,
                 "long": -109.98
             },
@@ -87028,7 +87029,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.72501757,
+                "None": null, "U": 0.72501757,
                 "lat": 36.141,
                 "long": -109.978
             },
@@ -87120,7 +87121,7 @@ var nvWells= {
                 "Temperature": 27.3,
                 "Tl": null,
                 "Turbidity": 3.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.158,
                 "long": -110.067
             },
@@ -87212,7 +87213,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 641.79104477611895,
+                "None": null, "U": 641.79104477611895,
                 "lat": 36.245,
                 "long": -109.891
             },
@@ -87304,7 +87305,7 @@ var nvWells= {
                 "Temperature": 9.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 98.507462686567195,
+                "None": null, "U": 98.507462686567195,
                 "lat": 36.217,
                 "long": -109.882
             },
@@ -87396,7 +87397,7 @@ var nvWells= {
                 "Temperature": 21.8,
                 "Tl": null,
                 "Turbidity": 5.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.172,
                 "long": -109.946
             },
@@ -87488,7 +87489,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.50746268656716398,
+                "None": null, "U": 0.50746268656716398,
                 "lat": 36.104,
                 "long": -109.985
             },
@@ -87580,7 +87581,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.7761194029850698,
+                "None": null, "U": 4.7761194029850698,
                 "lat": 36.173,
                 "long": -109.953
             },
@@ -87672,7 +87673,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.587988878,
+                "None": null, "U": 0.587988878,
                 "lat": 36.11,
                 "long": -110.015
             },
@@ -87764,7 +87765,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.7761194029850698,
+                "None": null, "U": 4.7761194029850698,
                 "lat": 36.244,
                 "long": -109.891
             },
@@ -87856,7 +87857,7 @@ var nvWells= {
                 "Temperature": 17.1,
                 "Tl": 6.2,
                 "Turbidity": null,
-                "U": 10.6358208955224,
+                "None": null, "U": 10.6358208955224,
                 "lat": 36.911,
                 "long": -109.105
             },
@@ -87948,7 +87949,7 @@ var nvWells= {
                 "Temperature": 10.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 9.9223880597014897,
+                "None": null, "U": 9.9223880597014897,
                 "lat": 36.917,
                 "long": -109.251
             },
@@ -88040,7 +88041,7 @@ var nvWells= {
                 "Temperature": 12.8,
                 "Tl": 4.4,
                 "Turbidity": null,
-                "U": 0.67761194029850702,
+                "None": null, "U": 0.67761194029850702,
                 "lat": 36.956,
                 "long": -109.197
             },
@@ -88132,7 +88133,7 @@ var nvWells= {
                 "Temperature": 8.8,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 4.4776119402985097,
+                "None": null, "U": 4.4776119402985097,
                 "lat": 36.876,
                 "long": -109.119
             },
@@ -88224,7 +88225,7 @@ var nvWells= {
                 "Temperature": 11.5,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.416417910447761,
+                "None": null, "U": 0.416417910447761,
                 "lat": 36.91,
                 "long": -109.088
             },
@@ -88316,7 +88317,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.1,
+                "None": null, "U": 3.1,
                 "lat": 36.947,
                 "long": -109.322
             },
@@ -88408,7 +88409,7 @@ var nvWells= {
                 "Temperature": 20.75,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 37.068,
                 "long": -109.227
             },
@@ -88500,7 +88501,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.4,
+                "None": null, "U": 0.4,
                 "lat": 36.974,
                 "long": -109.247
             },
@@ -88592,7 +88593,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.169014634,
+                "None": null, "U": 3.169014634,
                 "lat": 36.88,
                 "long": -109.037
             },
@@ -88684,7 +88685,7 @@ var nvWells= {
                 "Temperature": 12.6,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 4.7701492537313399,
+                "None": null, "U": 4.7701492537313399,
                 "lat": 36.898,
                 "long": -109.109
             },
@@ -88776,7 +88777,7 @@ var nvWells= {
                 "Temperature": 21.25,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 11.194029850746301,
+                "None": null, "U": 11.194029850746301,
                 "lat": 36.926,
                 "long": -109.182
             },
@@ -88868,7 +88869,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.331897296,
+                "None": null, "U": 0.331897296,
                 "lat": 36.919,
                 "long": -109.084
             },
@@ -88960,7 +88961,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.76,
+                "None": null, "U": 0.76,
                 "lat": 36.923,
                 "long": -109.181
             },
@@ -89052,7 +89053,7 @@ var nvWells= {
                 "Temperature": 35.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 3.1805970149253699,
+                "None": null, "U": 3.1805970149253699,
                 "lat": 35.472,
                 "long": -110.373
             },
@@ -89144,7 +89145,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 9.98,
+                "None": null, "U": 9.98,
                 "lat": 35.452,
                 "long": -110.363
             },
@@ -89236,7 +89237,7 @@ var nvWells= {
                 "Temperature": 18.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.27462686567164202,
+                "None": null, "U": 0.27462686567164202,
                 "lat": 35.566,
                 "long": -110.262
             },
@@ -89328,7 +89329,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.36,
+                "None": null, "U": 1.36,
                 "lat": 35.499,
                 "long": -110.465
             },
@@ -89420,7 +89421,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.58871969,
+                "None": null, "U": 0.58871969,
                 "lat": 35.566,
                 "long": -110.262
             },
@@ -89512,7 +89513,7 @@ var nvWells= {
                 "Temperature": 17.2,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 4.5940298507462698,
+                "None": null, "U": 4.5940298507462698,
                 "lat": 35.499,
                 "long": -110.405
             },
@@ -89604,7 +89605,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 10.37051669,
+                "None": null, "U": 10.37051669,
                 "lat": 35.455,
                 "long": -110.368
             },
@@ -89696,7 +89697,7 @@ var nvWells= {
                 "Temperature": 28.5,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 3.0820895522388101,
+                "None": null, "U": 3.0820895522388101,
                 "lat": 35.496,
                 "long": -110.305
             },
@@ -89788,7 +89789,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 5.3731343283582103,
+                "None": null, "U": 5.3731343283582103,
                 "lat": 35.51,
                 "long": -110.365
             },
@@ -89880,7 +89881,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.383092343,
+                "None": null, "U": 4.383092343,
                 "lat": 35.497,
                 "long": -110.445
             },
@@ -89972,7 +89973,7 @@ var nvWells= {
                 "Temperature": 25.9,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 1.9119402985074601,
+                "None": null, "U": 1.9119402985074601,
                 "lat": 35.451,
                 "long": -110.365
             },
@@ -90064,7 +90065,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.546767655,
+                "None": null, "U": 0.546767655,
                 "lat": 35.496,
                 "long": -110.404
             },
@@ -90156,7 +90157,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.426,
                 "long": -108.234
             },
@@ -90248,7 +90249,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.424,
                 "long": -108.236
             },
@@ -90340,7 +90341,7 @@ var nvWells= {
                 "Temperature": 18.1,
                 "Tl": 1.0,
                 "Turbidity": 0.85,
-                "U": 2.5,
+                "None": null, "U": 2.5,
                 "lat": 35.773,
                 "long": -108.693
             },
@@ -90432,7 +90433,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.435049095,
+                "None": null, "U": 0.435049095,
                 "lat": 36.437,
                 "long": -111.155
             },
@@ -90524,7 +90525,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.475382268,
+                "None": null, "U": 1.475382268,
                 "lat": 36.274,
                 "long": -111.015
             },
@@ -90616,7 +90617,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.64507327,
+                "None": null, "U": 2.64507327,
                 "lat": 36.42,
                 "long": -111.097
             },
@@ -90708,7 +90709,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 5.066758241,
+                "None": null, "U": 5.066758241,
                 "lat": 36.323,
                 "long": -111.081
             },
@@ -90800,7 +90801,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.639583568,
+                "None": null, "U": 0.639583568,
                 "lat": 36.374,
                 "long": -111.114
             },
@@ -90892,7 +90893,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.989007961,
+                "None": null, "U": 0.989007961,
                 "lat": 36.416,
                 "long": -110.842
             },
@@ -90984,7 +90985,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.824615822,
+                "None": null, "U": 0.824615822,
                 "lat": 36.467,
                 "long": -110.94
             },
@@ -91076,7 +91077,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.444993021,
+                "None": null, "U": 1.444993021,
                 "lat": 36.482,
                 "long": -110.895
             },
@@ -91168,7 +91169,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.71,
+                "None": null, "U": 0.71,
                 "lat": 36.359,
                 "long": -111.005
             },
@@ -91260,7 +91261,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.878894566,
+                "None": null, "U": 0.878894566,
                 "lat": 36.487,
                 "long": -110.832
             },
@@ -91352,7 +91353,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.912084521,
+                "None": null, "U": 1.912084521,
                 "lat": 36.325,
                 "long": -110.987
             },
@@ -91444,7 +91445,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.82,
                 "long": -107.322
             },
@@ -91536,7 +91537,7 @@ var nvWells= {
                 "Temperature": 21.6,
                 "Tl": null,
                 "Turbidity": 4.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.405,
                 "long": -109.386
             },
@@ -91628,7 +91629,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.312,
                 "long": -109.229
             },
@@ -91720,7 +91721,7 @@ var nvWells= {
                 "Temperature": 20.1,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.355,
                 "long": -109.328
             },
@@ -91812,7 +91813,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.284,
                 "long": -109.145
             },
@@ -91904,7 +91905,7 @@ var nvWells= {
                 "Temperature": 26.3,
                 "Tl": null,
                 "Turbidity": 0.0,
-                "U": 4.0,
+                "None": null, "U": 4.0,
                 "lat": 36.239,
                 "long": -109.332
             },
@@ -91996,7 +91997,7 @@ var nvWells= {
                 "Temperature": 21.6,
                 "Tl": null,
                 "Turbidity": 24.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.18,
                 "long": -109.134
             },
@@ -92088,7 +92089,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.480079533,
+                "None": null, "U": 2.480079533,
                 "lat": 36.289,
                 "long": -109.343
             },
@@ -92180,7 +92181,7 @@ var nvWells= {
                 "Temperature": 19.4,
                 "Tl": null,
                 "Turbidity": 20.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.179,
                 "long": -109.286
             },
@@ -92272,7 +92273,7 @@ var nvWells= {
                 "Temperature": 21.5,
                 "Tl": null,
                 "Turbidity": 9.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.203,
                 "long": -109.265
             },
@@ -92364,7 +92365,7 @@ var nvWells= {
                 "Temperature": 12.2,
                 "Tl": null,
                 "Turbidity": 2.0,
-                "U": 1.526464908,
+                "None": null, "U": 1.526464908,
                 "lat": 36.286,
                 "long": -109.125
             },
@@ -92456,7 +92457,7 @@ var nvWells= {
                 "Temperature": 20.0,
                 "Tl": null,
                 "Turbidity": 0.0,
-                "U": 3.0,
+                "None": null, "U": 3.0,
                 "lat": 36.306,
                 "long": -109.201
             },
@@ -92548,7 +92549,7 @@ var nvWells= {
                 "Temperature": 16.8,
                 "Tl": null,
                 "Turbidity": 12.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 36.179,
                 "long": -109.248
             },
@@ -92640,7 +92641,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.9402985074626899,
+                "None": null, "U": 1.9402985074626899,
                 "lat": 35.956,
                 "long": -109.129
             },
@@ -92732,7 +92733,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.115,
                 "long": -109.851
             },
@@ -92824,7 +92825,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 17.31846557,
+                "None": null, "U": 17.31846557,
                 "lat": 36.075,
                 "long": -109.889
             },
@@ -92916,7 +92917,7 @@ var nvWells= {
                 "Temperature": 10.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 33.311940298507501,
+                "None": null, "U": 33.311940298507501,
                 "lat": 36.075,
                 "long": -109.884
             },
@@ -93008,7 +93009,7 @@ var nvWells= {
                 "Temperature": 21.7,
                 "Tl": null,
                 "Turbidity": 17.0,
-                "U": 9.0,
+                "None": null, "U": 9.0,
                 "lat": 35.93,
                 "long": -109.781
             },
@@ -93100,7 +93101,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.045,
                 "long": -109.874
             },
@@ -93192,7 +93193,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.058,
                 "long": -109.876
             },
@@ -93284,7 +93285,7 @@ var nvWells= {
                 "Temperature": 24.7,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 36.07,
                 "long": -109.929
             },
@@ -93376,7 +93377,7 @@ var nvWells= {
                 "Temperature": 21.6,
                 "Tl": null,
                 "Turbidity": 6.0,
-                "U": 3.0,
+                "None": null, "U": 3.0,
                 "lat": 35.992,
                 "long": -109.83
             },
@@ -93468,7 +93469,7 @@ var nvWells= {
                 "Temperature": 10.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 16.1044776119403,
+                "None": null, "U": 16.1044776119403,
                 "lat": 36.129,
                 "long": -109.881
             },
@@ -93560,7 +93561,7 @@ var nvWells= {
                 "Temperature": 12.5,
                 "Tl": 6.2,
                 "Turbidity": null,
-                "U": 24.464179104477601,
+                "None": null, "U": 24.464179104477601,
                 "lat": 36.071,
                 "long": -109.889
             },
@@ -93652,7 +93653,7 @@ var nvWells= {
                 "Temperature": 7.4,
                 "Tl": 4.6,
                 "Turbidity": null,
-                "U": 16.5298507462687,
+                "None": null, "U": 16.5298507462687,
                 "lat": 36.131,
                 "long": -109.881
             },
@@ -93744,7 +93745,7 @@ var nvWells= {
                 "Temperature": 11.3,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 12.155223880596999,
+                "None": null, "U": 12.155223880596999,
                 "lat": 36.124,
                 "long": -109.801
             },
@@ -93836,7 +93837,7 @@ var nvWells= {
                 "Temperature": 15.4,
                 "Tl": 1.0,
                 "Turbidity": 3.86,
-                "U": 31.0,
+                "None": null, "U": 31.0,
                 "lat": 36.077,
                 "long": -109.879
             },
@@ -93928,7 +93929,7 @@ var nvWells= {
                 "Temperature": 21.1,
                 "Tl": null,
                 "Turbidity": -10.0,
-                "U": 11.0,
+                "None": null, "U": 11.0,
                 "lat": 35.898,
                 "long": -109.653
             },
@@ -94020,7 +94021,7 @@ var nvWells= {
                 "Temperature": 22.9,
                 "Tl": null,
                 "Turbidity": 7.0,
-                "U": 1.0,
+                "None": null, "U": 1.0,
                 "lat": 35.988,
                 "long": -109.747
             },
@@ -94112,7 +94113,7 @@ var nvWells= {
                 "Temperature": 9.1,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 108.97014925373099,
+                "None": null, "U": 108.97014925373099,
                 "lat": 36.165,
                 "long": -109.87
             },
@@ -94204,7 +94205,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 6.01,
+                "None": null, "U": 6.01,
                 "lat": 36.156,
                 "long": -111.24
             },
@@ -94296,7 +94297,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.093630159,
+                "None": null, "U": 3.093630159,
                 "lat": 36.145,
                 "long": -111.335
             },
@@ -94388,7 +94389,7 @@ var nvWells= {
                 "Temperature": 23.9,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 4.5214925373134296,
+                "None": null, "U": 4.5214925373134296,
                 "lat": 36.135,
                 "long": -111.112
             },
@@ -94480,7 +94481,7 @@ var nvWells= {
                 "Temperature": 23.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 1.892289662,
+                "None": null, "U": 1.892289662,
                 "lat": 36.186,
                 "long": -111.218
             },
@@ -94572,7 +94573,7 @@ var nvWells= {
                 "Temperature": 18.7,
                 "Tl": 3.2,
                 "Turbidity": null,
-                "U": 1.4940298507462699,
+                "None": null, "U": 1.4940298507462699,
                 "lat": 36.126,
                 "long": -111.236
             },
@@ -94664,7 +94665,7 @@ var nvWells= {
                 "Temperature": 22.4,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.21044776119403,
+                "None": null, "U": 0.21044776119403,
                 "lat": 36.239,
                 "long": -111.228
             },
@@ -94756,7 +94757,7 @@ var nvWells= {
                 "Temperature": 24.4,
                 "Tl": 5.4,
                 "Turbidity": null,
-                "U": 19.050746268656699,
+                "None": null, "U": 19.050746268656699,
                 "lat": 36.21,
                 "long": -111.191
             },
@@ -94848,7 +94849,7 @@ var nvWells= {
                 "Temperature": 21.0,
                 "Tl": 3.0,
                 "Turbidity": null,
-                "U": 31.049253731343299,
+                "None": null, "U": 31.049253731343299,
                 "lat": 36.148,
                 "long": -111.08
             },
@@ -94940,7 +94941,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.614704286,
+                "None": null, "U": 0.614704286,
                 "lat": 36.405,
                 "long": -111.277
             },
@@ -95032,7 +95033,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.758738913,
+                "None": null, "U": 0.758738913,
                 "lat": 36.194,
                 "long": -111.027
             },
@@ -95124,7 +95125,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.679147293,
+                "None": null, "U": 0.679147293,
                 "lat": 36.269,
                 "long": -111.108
             },
@@ -95216,7 +95217,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.997810191,
+                "None": null, "U": 4.997810191,
                 "lat": 36.21,
                 "long": -111.192
             },
@@ -95308,7 +95309,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.157639328,
+                "None": null, "U": 1.157639328,
                 "lat": 36.235,
                 "long": -111.332
             },
@@ -95400,7 +95401,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.584880714,
+                "None": null, "U": 3.584880714,
                 "lat": 36.242,
                 "long": -111.03
             },
@@ -95492,7 +95493,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.604548004,
+                "None": null, "U": 1.604548004,
                 "lat": 36.404,
                 "long": -111.165
             },
@@ -95584,7 +95585,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.778705846,
+                "None": null, "U": 0.778705846,
                 "lat": 36.332,
                 "long": -111.132
             },
@@ -95676,7 +95677,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 20.9942577,
+                "None": null, "U": 20.9942577,
                 "lat": 36.174,
                 "long": -111.288
             },
@@ -95768,7 +95769,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 10.31408321,
+                "None": null, "U": 10.31408321,
                 "lat": 36.23,
                 "long": -111.179
             },
@@ -95860,7 +95861,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.1,
+                "None": null, "U": 1.1,
                 "lat": 36.127,
                 "long": -111.256
             },
@@ -95952,7 +95953,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.788970409,
+                "None": null, "U": 0.788970409,
                 "lat": 36.129,
                 "long": -111.264
             },
@@ -96044,7 +96045,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 7.890746968,
+                "None": null, "U": 7.890746968,
                 "lat": 36.185,
                 "long": -111.104
             },
@@ -96136,7 +96137,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.25,
+                "None": null, "U": 1.25,
                 "lat": 36.14,
                 "long": -111.244
             },
@@ -96228,7 +96229,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.733,
                 "long": -108.775
             },
@@ -96320,7 +96321,7 @@ var nvWells= {
                 "Temperature": 15.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.671,
                 "long": -108.748
             },
@@ -96412,7 +96413,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.57074669,
+                "None": null, "U": 0.57074669,
                 "lat": 36.064,
                 "long": -110.129
             },
@@ -96504,7 +96505,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.861248291,
+                "None": null, "U": 0.861248291,
                 "lat": 36.051,
                 "long": -110.037
             },
@@ -96596,7 +96597,7 @@ var nvWells= {
                 "Temperature": 20.3,
                 "Tl": null,
                 "Turbidity": 6.0,
-                "U": 6.0,
+                "None": null, "U": 6.0,
                 "lat": 36.03,
                 "long": -110.085
             },
@@ -96688,7 +96689,7 @@ var nvWells= {
                 "Temperature": 20.35,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 10.937313432835801,
+                "None": null, "U": 10.937313432835801,
                 "lat": 35.487,
                 "long": -110.151
             },
@@ -96780,7 +96781,7 @@ var nvWells= {
                 "Temperature": 24.35,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 6.6402985074626901,
+                "None": null, "U": 6.6402985074626901,
                 "lat": 35.496,
                 "long": -110.171
             },
@@ -96872,7 +96873,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.94,
+                "None": null, "U": 0.94,
                 "lat": 35.598,
                 "long": -110.097
             },
@@ -96964,7 +96965,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 11.0743819,
+                "None": null, "U": 11.0743819,
                 "lat": 35.484,
                 "long": -110.164
             },
@@ -97056,7 +97057,7 @@ var nvWells= {
                 "Temperature": 13.4,
                 "Tl": 3.2,
                 "Turbidity": null,
-                "U": 0.029850746268656699,
+                "None": null, "U": 0.029850746268656699,
                 "lat": 35.562,
                 "long": -110.08
             },
@@ -97148,7 +97149,7 @@ var nvWells= {
                 "Temperature": 23.8,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 6.8492537313432802,
+                "None": null, "U": 6.8492537313432802,
                 "lat": 35.634,
                 "long": -110.123
             },
@@ -97240,7 +97241,7 @@ var nvWells= {
                 "Temperature": 23.6,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 179.10447761194001,
+                "None": null, "U": 179.10447761194001,
                 "lat": 35.551,
                 "long": -110.135
             },
@@ -97332,7 +97333,7 @@ var nvWells= {
                 "Temperature": 26.7,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 8.2850746268656703,
+                "None": null, "U": 8.2850746268656703,
                 "lat": 35.519,
                 "long": -110.189
             },
@@ -97424,7 +97425,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.928749494,
+                "None": null, "U": 0.928749494,
                 "lat": 35.613,
                 "long": -110.025
             },
@@ -97516,7 +97517,7 @@ var nvWells= {
                 "Temperature": 0.0,
                 "Tl": 3.1,
                 "Turbidity": null,
-                "U": 10.7718739,
+                "None": null, "U": 10.7718739,
                 "lat": 35.593,
                 "long": -110.037
             },
@@ -97608,7 +97609,7 @@ var nvWells= {
                 "Temperature": 21.05,
                 "Tl": 10.0,
                 "Turbidity": null,
-                "U": 0.125373134328358,
+                "None": null, "U": 0.125373134328358,
                 "lat": 35.56,
                 "long": -110.187
             },
@@ -97700,7 +97701,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.32,
+                "None": null, "U": 0.32,
                 "lat": 35.561,
                 "long": -110.187
             },
@@ -97792,7 +97793,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.829300248,
+                "None": null, "U": 0.829300248,
                 "lat": 35.583,
                 "long": -110.222
             },
@@ -97884,7 +97885,7 @@ var nvWells= {
                 "Temperature": 39.8,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.01,
+                "None": null, "U": 0.01,
                 "lat": 35.959,
                 "long": -107.899
             },
@@ -97976,7 +97977,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.22,
                 "long": -109.649
             },
@@ -98068,7 +98069,7 @@ var nvWells= {
                 "Temperature": 21.6,
                 "Tl": null,
                 "Turbidity": 1.0,
-                "U": 6.0,
+                "None": null, "U": 6.0,
                 "lat": 35.472,
                 "long": -109.462
             },
@@ -98160,7 +98161,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.409,
                 "long": -109.291
             },
@@ -98252,7 +98253,7 @@ var nvWells= {
                 "Temperature": 14.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.381,
                 "long": -109.352
             },
@@ -98344,7 +98345,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.77611940298507498,
+                "None": null, "U": 0.77611940298507498,
                 "lat": 35.308,
                 "long": -109.409
             },
@@ -98436,7 +98437,7 @@ var nvWells= {
                 "Temperature": 12.0,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 1.7910447761193999,
+                "None": null, "U": 1.7910447761193999,
                 "lat": 35.414,
                 "long": -109.284
             },
@@ -98528,7 +98529,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.667252442,
+                "None": null, "U": 4.667252442,
                 "lat": 35.419,
                 "long": -109.508
             },
@@ -98620,7 +98621,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.405,
                 "long": -109.283
             },
@@ -98712,7 +98713,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.409,
                 "long": -109.286
             },
@@ -98804,7 +98805,7 @@ var nvWells= {
                 "Temperature": 13.5,
                 "Tl": null,
                 "Turbidity": null,
-                "U": null,
+                "None": null, "U": null,
                 "lat": 35.406,
                 "long": -109.281
             },
@@ -98896,7 +98897,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 35.820895522388099,
+                "None": null, "U": 35.820895522388099,
                 "lat": 35.198,
                 "long": -109.378
             },
@@ -98988,7 +98989,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 4.9253731343283604,
+                "None": null, "U": 4.9253731343283604,
                 "lat": 35.216,
                 "long": -109.358
             },
@@ -99080,7 +99081,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 64.179104477611901,
+                "None": null, "U": 64.179104477611901,
                 "lat": 35.222,
                 "long": -109.341
             },
@@ -99172,7 +99173,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 71.641791044776099,
+                "None": null, "U": 71.641791044776099,
                 "lat": 35.19,
                 "long": -109.434
             },
@@ -99264,7 +99265,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 13.880597014925399,
+                "None": null, "U": 13.880597014925399,
                 "lat": 35.217,
                 "long": -109.354
             },
@@ -99356,7 +99357,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 268.65671641790999,
+                "None": null, "U": 268.65671641790999,
                 "lat": 35.17,
                 "long": -109.486
             },
@@ -99448,7 +99449,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 7.76119402985075,
+                "None": null, "U": 7.76119402985075,
                 "lat": 35.166,
                 "long": -109.485
             },
@@ -99540,7 +99541,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 12.5373134328358,
+                "None": null, "U": 12.5373134328358,
                 "lat": 35.066,
                 "long": -109.782
             },
@@ -99632,7 +99633,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 6.1194029850746299,
+                "None": null, "U": 6.1194029850746299,
                 "lat": 35.111,
                 "long": -109.535
             },
@@ -99724,7 +99725,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 8.2089552238806007,
+                "None": null, "U": 8.2089552238806007,
                 "lat": 35.02,
                 "long": -109.73
             },
@@ -99816,7 +99817,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 35.820895522388099,
+                "None": null, "U": 35.820895522388099,
                 "lat": 35.015,
                 "long": -109.775
             },
@@ -99908,7 +99909,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.5373134328358198,
+                "None": null, "U": 2.5373134328358198,
                 "lat": 35.081,
                 "long": -109.643
             },
@@ -100000,7 +100001,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 16.417910447761201,
+                "None": null, "U": 16.417910447761201,
                 "lat": 35.042,
                 "long": -109.698
             },
@@ -100092,7 +100093,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 11.044776119403,
+                "None": null, "U": 11.044776119403,
                 "lat": 34.987,
                 "long": -109.561
             },
@@ -100184,7 +100185,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 8.0597014925373092,
+                "None": null, "U": 8.0597014925373092,
                 "lat": 35.021,
                 "long": -109.531
             },
@@ -100276,7 +100277,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 8.8059701492537297,
+                "None": null, "U": 8.8059701492537297,
                 "lat": 34.962,
                 "long": -109.525
             },
@@ -100368,7 +100369,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.8805970149253701,
+                "None": null, "U": 3.8805970149253701,
                 "lat": 35.327,
                 "long": -111.024
             },
@@ -100460,7 +100461,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 23.880597014925399,
+                "None": null, "U": 23.880597014925399,
                 "lat": 35.119,
                 "long": -109.524
             },
@@ -100552,7 +100553,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 12.835820895522399,
+                "None": null, "U": 12.835820895522399,
                 "lat": 35.125,
                 "long": -109.539
             },
@@ -100644,7 +100645,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.14925373134328401,
+                "None": null, "U": 0.14925373134328401,
                 "lat": 35.22,
                 "long": -109.564
             },
@@ -100736,7 +100737,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 3.8805970149253701,
+                "None": null, "U": 3.8805970149253701,
                 "lat": 35.195,
                 "long": -109.466
             },
@@ -100828,7 +100829,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 98.507462686567195,
+                "None": null, "U": 98.507462686567195,
                 "lat": 35.128,
                 "long": -109.631
             },
@@ -100920,7 +100921,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 16.417910447761201,
+                "None": null, "U": 16.417910447761201,
                 "lat": 35.128,
                 "long": -109.533
             },
@@ -101012,7 +101013,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 105.97014925373099,
+                "None": null, "U": 105.97014925373099,
                 "lat": 35.083,
                 "long": -109.678
             },
@@ -101104,7 +101105,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.83582089552239,
+                "None": null, "U": 2.83582089552239,
                 "lat": 34.984,
                 "long": -109.277
             },
@@ -101196,7 +101197,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 0.14925373134328401,
+                "None": null, "U": 0.14925373134328401,
                 "lat": 35.254,
                 "long": -109.523
             },
@@ -101288,7 +101289,7 @@ var nvWells= {
                 "Temperature": null,
                 "Tl": null,
                 "Turbidity": null,
-                "U": 2.98507462686567,
+                "None": null, "U": 2.98507462686567,
                 "lat": 35.058,
                 "long": -109.214
             },

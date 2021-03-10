@@ -28,8 +28,6 @@
     <script type="text/javascript" src="JS_CSS_downladed_libraries/dc.js"></script>
     <script type="text/javascript" src="JS_CSS_downladed_libraries/underscore-min.js"></script>
     <script type="text/javascript" src="JS_CSS_downladed_libraries/require.js"></script>
-
-
 </head>
 
 <body>
@@ -41,16 +39,16 @@
                 <a href="https://hsc.unm.edu/pharmacy/research/areas/metals/" target="_blank">
                     <img src="myCSS_styleFiles/images/metals-logo.png" width="65px" height="65px">
             </div>
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-                        aria-expanded="false" aria-controls="navbar">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="#">Unregulated Wells on the Navajo Nation</a>
-                </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Unregulated Wells on the Navajo Nation</a>
+            </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <!-- <ul class="nav navbar-nav">
                     <li><a href="https://hsc.unm.edu/pharmacy/research/areas/metals/" target="_blank">METALS Home</a>
@@ -144,24 +142,13 @@
                                 </div>
                                 <div class="modal-body">
                                     <p>
+                                        Much of the data visualization used in this app is based on the examples linked below.<br>
                                         <a href="https://github.com/austinlyons/dcjs-leaflet-untappd"
                                             target="_blank">Austin Lyons - Dc.js Leaflet Untapped</a><br>
-                                        <a href="" target="_blank">ref 2</a><br>
-                                        <a href="" target="_blank">ref 3</a><br>
-                                        <a href="" target="_blank">ref 4</a><br>
-                                        <a href="" target="_blank">ref 5</a><br>
-                                        <a href="" target="_blank">ref 6</a><br>
-                                        <a href="" target="_blank">ref 7</a>
+                                        <a href="https://dc-js.github.io/dc.js/examples/splom.html" 
+                                            target="_blank">Scatterplot Matrix Brushing in dc.js</a><br>
                                     </p>
-                                </div>
-                                <div class="modal-header">
-                                    <h2>References:</h2>
-                                </div>
-                                <div class="modal-body">
-                                    <p>
-                                        List scholarly references here. Consider sorting by topic.
-                                    </p>
-                                </div>
+                                </div>                                
                                 <div class="modal-footer">
                                     <h3><a href="https://hsc.unm.edu/pharmacy/research/areas/metals/"
                                             target="_blank">UNM METALS Superfund Research Program Center
@@ -174,13 +161,7 @@
                         </div>
                     </div>
                 </ul>
-                <!--Data Counter-->
-                <ul class="nav navbar-nav navbar-right">
-                    <span class="filter-count">1101</span> selected out of <span class="total-count">1101</span> wells
-                    <a id="all" href="#">Reset All</a>
-                </ul>
             </div>
-
         </div>
     </nav>
 
@@ -216,16 +197,15 @@
     </div>
     <!--Plots-->
     <div class="container-fluid">
-        <!-- <span class="filter-count">1101</span> selected out of <span class="total-count">1101</span> wells
-        <a id="all" href="#">Reset All</a> -->
-
         <div class="row dashboard">
-                <div class="col text-center update-button">
-                    <h3><strong>Data Dashboard</strong></h3>
-                    <button onclick="selectAnalyte()"
-                        style="font-weight: bold; text-align: center; padding-left: 10px; padding-right: 10px;">Update
-                        Plots</button>
-                </div>
+            <div class="col text-center update-button">
+                <h3><strong>Data Dashboard</strong></h3>
+                <!--Update plots button-->
+                <button onclick="selectAnalyte()"
+                    style="font-weight: bold; text-align: center; padding-left: 10px; padding-right: 10px;">Update
+                    Plots</button>
+            </div>
+
             <div class="col-xs-6">
                 <div class="col-xs-6">
                     <div class="dc-chart" id="histogram1"></div>
@@ -310,7 +290,6 @@
                     </select>
 
                 </div>
-                <!--We need to make histograms 3 and 4 default to blank-->
                 <div class="col-xs-6">
                     <div class="dc-chart" id="histogram3"></div>
                     <select class="col-md-12 text-center" id="selectbox3">
@@ -397,32 +376,49 @@
                 </div>
             </div>
             <!--Scatterplots-->
-            <div class="col-xs-6" id="scatterplot"></div>
+            <div class="col-xs-6" id="scatterplot">
+                <table id="content"></table>
+            </div>
+            <!--Record counter-->
+            <div class="col-xs-6"></div>
+            <div class="col-xs-6">
+                <div class="col-xs-6"></div>
+                <div class="col-xs-3">
+                    <ul class="nav navbar-nav navbar-right" id="data-count">
+                        <h1><b><span class="filter-count"></b></span></h1> <p style="text-align: center"><i>records selected</p></i>
+                    </ul>
+                </div>
+                <div class="col-xs-3">
+                    <ul class="nav navbar-nav navbar-right" id="data-count">
+                        <h1><b>1,101</b></h1> <p style="text-align: center"><i>total records</p></i>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
     <!--Data table-->
 
     <div class="row dashboard">
-    <div class="col text-center update-button">
-        <h3><strong>Data Table</strong></h3>
-    </div>
-    <div class="container-fluid">
-        <div class="row dashboard">
-            <div class="col-md-12">
-                <table class="table table-bordered table-striped" id="data-table">
-                    <thead>
-                        <tr class="header">
-                            <th>Well_ID</th>
-                            <th>Analyte1</th>
-                            <th>Analyte2</th>
-                            <th>Analyte3</th>
-                            <th>Analyte4</th>
-                        </tr>
-                    </thead>
-                </table>
+        <div class="col text-center update-button">
+            <h3><strong>Data Table</strong></h3>
+        </div>
+        <div class="container-fluid">
+            <div class="row dashboard">
+                <div class="col-md-12">
+                    <table class="table table-bordered table-striped" id="data-table">
+                        <thead>
+                            <tr class="header">
+                                <th>Well_ID</th>
+                                <th>Analyte1</th>
+                                <th>Analyte2</th>
+                                <th>Analyte3</th>
+                                <th>Analyte4</th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
             </div>
         </div>
-    </div>
 </body>
 
 </html>

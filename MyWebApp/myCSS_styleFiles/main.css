@@ -70,7 +70,8 @@ text {
  opacity: 90%;
  border-radius: 16px;
  border: 2px solid #535353;
- box-shadow: 0px 8px 18px #3f474d
+ box-shadow: 0px 8px 18px #3f474d;
+ max-width: 250px;
  }
 /* custom scrollable popup styles*/
 .leaflet-popup {
@@ -244,7 +245,9 @@ text {
 
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  
-
 }
 
+dd {
+  display: block;
+  margin-left: 15px;
+}
