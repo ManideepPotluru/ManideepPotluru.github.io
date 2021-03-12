@@ -251,3 +251,17 @@ dd {
   display: block;
   margin-left: 15px;
 }
+
+.scroller {
+  padding-top: 8px;
+  font-size: larger;
+}
+
+header {
+  padding: 130px 0 70px;
+}
+
+section {
+  padding: 50px 0;
+}
+
